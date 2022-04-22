@@ -1,4 +1,3 @@
-
 # About the Authors {-}
 
 These credits are based on our [course contributors table guidelines](https://github.com/jhudsl/OTTR_Template/wiki/How-to-give-credits).
