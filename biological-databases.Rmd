@@ -12,9 +12,13 @@ In this activity, students  will learn to search the same online databases used 
 
 Estimated time: 15 min
 
+### Instructions
+
 1. Follow [these directions](https://docs.google.com/document/d/1nQ-wd4hX0Xtd4mfloXcpbbtK_CqDzY874oqmBYql1M8){target="_blank"} to launch your first LearnR tutorial: Biological Databases Tutorial.
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 1. As you complete the tutorial, fill in the table below. This will help you know which database to go back to later on.
+
+### Questions
 
 Table 1. Databases 
 
@@ -29,49 +33,65 @@ Table 1. Databases
 
 Estimated time: 15 min
 
+### Instructions
+
 1. Work through the FlyBase Tutorial in SciServer.
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 
-::: {.reflection}
-Observations
+### Questions
 
-1. What is one question you have about using FlyBase?
-1. What is something that surprised you or that you found interesting about using FlyBase?
-:::
+| 2A. What is one question you have about using FlyBase? |
+|:-|
+| <br> |
+
+<br>
+
+| 2B. What is something that surprised you or that you found interesting about using FlyBase? |
+|:-|
+| <br> |
 
 ## Activity 3 - Human Protein Atlas
 
 Estimated time: 15 min
 
+### Instructions
+
 1. Work through the Human Protein Atlas in SciServer.
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 
-::: {.reflection}
-Observations
+### Questions
 
-1. What is one question you have about using HPA?
-1. What is something that surprised you or that you found interesting about using HPA?
-:::
+| 3A. What is one question you have about using HPA? |
+|:-|
+| <br> |
+
+<br>
+
+| 3B. What is something that surprised you or that you found interesting about using HPA? |
+|:-|
+| <br> |
 
 ## Activity 4 - Research a Gene!
 
 Estimated time: 45  min
 
+### Instructions
+
 1. Before getting started on this activity, your instructor will assign your group a letter that corresponds to a group of  4 genes.
 
-::: {.notice}
-Group Assigned Letter
-:::
+| Group Assigned Letter |
+|:-|
+| <br> |
 
-2. [Look up your letter here](#table-of-genes-for-activity-4) and write the names of the four genes your group is assigned at the top of each column in the table below.
+2. [Look up your letter here](https://docs.google.com/spreadsheets/d/1GZtHz2GU3B4KMOd9yuKrcQLJJLn7qlnZgPN5c6SNqGg) and write the names of the four genes your group is assigned at the top of each column in the table below.
 3. In your group, assign each student one of the four genes to research.
 
-::: {.notice}
-Individual Assigned Gene
-:::
+| Individual Assigned Gene |
+|:-|
+| <br> |
 
-4. Use FlyBase to look up the information in Table 3 below.
-5. Use HPA to look up the information in Table 4 below.
+4. Use FlyBase to look up the information in Table 2 below.
+5. Use HPA to look up the information in Table 3 below.
 
 Table 2. FlyBase Information
 
@@ -103,12 +123,16 @@ Table 3. Human Protein Atlas
 
 Estimated time: 15 min
 
+### Instructions
+
 1. Present your gene to your group.
-1. Take turns presenting your genes amongst your group and decide on one gene that you think is the most interesting.
+1. Take turns presenting your genes among your group and decide on one gene that you think is the most interesting.
 
 ## Activity 6 - Class Presentation
 
-Estimated time:30 mins
+Estimated time: 30 min
+
+### Instructions
 
 1. With your group, create a short presentation to present your chosen gene to the class. 
 1. Your presentation should have about four slides and be thorough:
@@ -116,44 +140,13 @@ Estimated time:30 mins
     1. Slide 2 - 4: Present the information you collected about the gene.  For full credit, include relevant images/ diagrams on your slides. 
 1. One student in the group should post  your slides on Canvas to the discussion board. Make sure you mention everyone in your group by name so they also get credit for the presentation.
 
-## Table of Genes for Activity 4
+## Footnotes
 
-| Group | Pathway | Gene -if there is "()" use the name in "()" to search |
-|--|--|--|
-| A | Insulin signaling | DILP2 (search for ILP2) |
-| A | Insulin signaling | DILP3 (search for ILP3) |
-| A | glycolysis | hexokinase C |
-| A | glycolysis | hexokinase A |
-| B | glycolysis | GAPDH (CG9042) |
-| B | FOXO targets | hydroxyphenylpyruvate dehydrogenase |
-| B | FOXO targets | carnitine palmitoyl transferase (CG12428) |
-| B | FOXO targets | pantothenate kinase acyl coA dehydrogenase (CG9547) |
-| C | FOXO targets | TAG lipase 4 |
-| C | FOXO targets | 4EBP |
-| C | fat synthesis | fatty acid synthases |
-| C | fat synthesis | acetyl coA carboxylase |
-| D | fat synthesis | ChREBP |
-| D | fat synthesis | stearoyl coA desaturases (CG5887) |
-| D | fat synthesis | stearoyl coA desaturases (CG9743) |
-| D | fat storage | TAG lipases (CG8093) |
-| E | fat storage | TAG lipases (CG6277) |
-| E | fat storage | perilipin Lsd-1 |
-| E | lipid mobilization | AKHR |
-| E | lipid mobilization | carnitine palmitoyl transferase (CG 12891) |
-| F | lipid mobilization | carnitine palmitoyl transferase (CG12428) |
-| F | lipid mobilization | acyl coA dehydrogenases (CG7461) |
-| F | lipid mobilization | acyl coA dehydrogenases (CG12262) |
-| F | lipid mobilization | y-butyrobetaine dioxygenases (CG5321) |
-| G | lipid mobilization | y-butyrobetaine dioxygenases (CG14630 |
-| G | glycogenolysis | amyloglucosidase |
-| G | glycogenolysis | glycogen phosphorylase |
-| G | gluconeogenesis | PEPCK |
-| H | gluconeogenesis | fructose-1,6-bisphosphatase |
-| H | trehalose synthesis | trehalose-6-phosphate synthase |
-| H | trehalose synthesis | trehalose transporter 1 |
-| H | trehalose synthesis | trehalase |
+### Resources
 
-## Contributions and Affiliations
+- [Google Doc](https://docs.google.com/document/d/1M7rtDzyGVUxO2GVBp09bTBu4fMDxocTs)
+
+### Contributions and Affiliations
 
 - Rosa Alcazar, Ph.D., Clovis Community College
 - Katherine Cox, Ph.D., John Hopkins
