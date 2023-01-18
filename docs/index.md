@@ -1,6 +1,6 @@
 ---
 title: "C-MOOR miniCURE: RNA-seq"
-date: "April, 2022"
+date: "January, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]

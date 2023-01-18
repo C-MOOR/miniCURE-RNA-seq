@@ -26,36 +26,71 @@ The fruit fly (Drosophila melanogaster) is a popular model organism used to stud
 
 Estimated time: 15 min
 
+### Instructions
+
 1. [Click here to open the Model Organisms Tutorial.](https://clovis.shinyapps.io/BIOL11A_Model_Organisms){target="_blank"}
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 1. As you complete the tutorial, answer the questions below.
 
-::: {.reflection}
-Questions 
+### Questions
 
-1. Explain what a “model organism” is and why they are useful.
-1. Define ortholog and explain how model organisms can be used to understand human genes.
-1. Name 4 commonly used model organisms
-:::
+| 1A. Explain what a “model organism” is and why they are useful. |
+|:-|
+| <br> |
+
+<br>
+
+| 1B. Define ortholog and explain how model organisms can be used to understand human genes.
+|:-|
+| <br> |
+
+<br>
+
+| 1C. Name 4 commonly used model organisms |
+|:-|
+| <br> |
 
 ## Activity 2 - Drosophila melanogaster
 
 Estimated time: 15 min
 
+### Instructions
+
 1. [Click here to open the Drosophila melanogaster Tutorial.](https://clovis.shinyapps.io/BIOL11A_Drosophila/){target="_blank"}
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 1. As you complete the tutorial, answer the questions below.
 
-::: {.reflection}
-Questions
+### Questions
 
-1. Provide 3 reasons why fruit flies are useful for scientific research.
-1. List 3 ways in which fruit flies are similar to humans.
-1. Compare and contrast the fruit fly genome to the human genome.
-1. Briefly describe the fruit fly life cycle.
-:::
+| 2A. Provide 3 reasons why fruit flies are useful for scientific research. |
+|:-|
+| <br> |
 
-## Contributions and Affiliations
+<br>
+
+| 2B. List 3 ways in which fruit flies are similar to humans. |
+|:-|
+| <br> |
+
+<br>
+
+| 2C. Compare and contrast the fruit fly genome to the human genome. |
+|:-|
+| <br> |
+
+<br>
+
+| 2D. Briefly describe the fruit fly life cycle. |
+|:-|
+| <br> |
+
+## Footnotes
+
+### Resources
+
+- [Google Doc](https://docs.google.com/document/d/1vFhm2XLMO9vjMDNT6CxZJ4VJuinw0BEo)
+
+### Contributions and Affiliations
 
 - Stephanie R. Coffman, Ph.D.
 
