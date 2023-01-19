@@ -1,5 +1,5 @@
 ---
-title: "C-MOOR miniCURE: RNA-seq"
+title: "RNA-seq miniCURE"
 date: "January, 2023"
 site: bookdown::bookdown_site
 documentclass: book
@@ -15,12 +15,26 @@ output:
 
 # About this Course {-}
 
+This miniCURE allows students to develop a project using RNA-seq datasets to introduce how model organisms, high-throughput sequencing, and the scientific process are used in both basic and clinical research.
 
-## Available course formats
+![](index_files/figure-docx//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f734f625ef_0_30.png)
 
-This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
+<h1>Skills Level</h1>
 
-- The material for this course can be viewed without login requirement on this [Bookdown website](LINK HERE). This format might be most appropriate for you if you rely on screen-reader technology.
-- This course can be taken for [free certification through Leanpub](LINK HERE).
-- This course can be taken on [Coursera for certification here](LINK HERE) (but it is not available for free on Coursera).
-- Our courses are open source, you can find the [source material for this course on GitHub](LINK HERE).
+::: {.notice}
+_Genetics_  
+**Novice**: Introduction to [central dogma of molecular biology](https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology)
+
+_Programming skills_  
+**Novice**: No programming experience needed
+:::
+
+<h1>Learning Objectives</h1>
+
+- Learn about model organisms
+- Explore high-throughput sequencing datasets
+- Practice the [scientific process](https://www.biointeractive.org/classroom-resources/how-science-works)
+
+<h1>C-MOOR Collection</h1>
+
+More coming soon!
