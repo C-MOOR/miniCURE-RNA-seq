@@ -2,17 +2,17 @@ book_filename: "Course_Name"
 chapter_name: "Chapter "
 repo: https://github.com/jhudsl/OTTR_Template/
 rmd_files: ["index.Rmd",
-            "01-intro.Rmd",
-            "sciserver.Rmd",
-            "discourse.Rmd",
-            "literature.Rmd",
-            "posters.Rmd",
-            "model-organisms.Rmd",
-            "biological-databases.Rmd",
-            "intro-to-rna-seq.Rmd",
+            "join-sciserver.Rmd",
+            "first-learnr.Rmd",
+            "scientific-literature.Rmd",
+            "model-organisms-and-databases.Rmd",
             "rna-seq-analysis.Rmd",
             "differential-gene-expression.Rmd",
-            "References.Rmd",
+            "project-work.Rmd",
+            "scientific-communication.Rmd",
+            "example-minicure-projects.Rmd",
+            "c-moor-scholars.Rmd",
+            "online-community.Rmd",
             "About.Rmd"]
 new_session: yes
 bibliography: [book.bib]
