@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>RNA-seq miniCURE</title>
+  <title>0.2 First LearnR | RNA-seq miniCURE</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="RNA-seq miniCURE" />
+  <meta property="og:title" content="0.2 First LearnR | RNA-seq miniCURE" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="RNA-seq miniCURE" />
+  <meta name="twitter:title" content="0.2 First LearnR | RNA-seq miniCURE" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-
-<link rel="next" href="onboarding.html"/>
+<link rel="prev" href="0.1-join-sciserver.html"/>
+<link rel="next" href="1-scientific-literature.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -162,37 +162,159 @@
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/jhudsl/OTTR_Template/raw/main/assets/dasl_thin_main_image.png">
 </div>
-<div id="header">
-<h1 class="title">RNA-seq miniCURE</h1>
-<p class="date"><em>January, 2023</em></p>
+<div id="first-learnr" class="section level2" number="0.2">
+<h2><span class="header-section-number">0.2</span> First LearnR</h2>
+<p><em>Interactive tutorials introducing various data science concepts</em></p>
+<div id="purpose-1" class="section level3" number="0.2.1">
+<h3><span class="header-section-number">0.2.1</span> Purpose</h3>
+<p>The purpose of this assignment is to (1) join the class SciServer group so you can access course materials, and (2) learn how to access the tutorials for this course on SciServer.</p>
+<p><img src="onboarding_files/figure-html/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f83ffdfb86_0_9.png" width="480" /></p>
 </div>
-<div id="about-this-course" class="section level1 unnumbered">
-<h1>About this Course</h1>
-<p>This miniCURE allows students to develop a project using RNA-seq datasets to introduce how model organisms, high-throughput sequencing, and the scientific process are used in both basic and clinical research.</p>
-<p><img src="index_files/figure-html/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f734f625ef_0_30.png" width="480" /></p>
-<h1>
-Skills Level
-</h1>
-<div class="notice">
-<p><em>Genetics</em><br />
-<strong>Novice</strong>: Introduction to <a href="https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology">central dogma of molecular biology</a></p>
-<p><em>Programming skills</em><br />
-<strong>Novice</strong>: No programming experience needed</p>
+<div id="learning-objectives-1" class="section level3" number="0.2.2">
+<h3><span class="header-section-number">0.2.2</span> Learning Objectives</h3>
+<ol style="list-style-type: decimal">
+<li>Accept invitation to join class SciServer Group</li>
+<li>Start up a <strong>C-MOOR LearnR</strong> compute container</li>
+<li>Complete your first LearnR tutorial</li>
+<li>Delete your C-MOOR LearnR compute container</li>
+</ol>
 </div>
-<h1>
-Learning Objectives
-</h1>
+<div id="introduction-1" class="section level3" number="0.2.3">
+<h3><span class="header-section-number">0.2.3</span> Introduction</h3>
+<p>Before beginning this assignment, you should have already created a SciServer account and submitted your SciServer username to your instructor. In this assignment you will learn how to set up a “compute container” on SciServer. Compute containers are how you use programs on SciServer. In this course you will use two compute containers: “C-MOOR LearnR” has tutorials that will teach you how to run data analyses, and “C-MOOR R-Studio” is where you will work on your own data analysis projects. This assignment shows you how to set up the C-MOOR LearnR compute container and start up your first tutorial.</p>
+</div>
+<div id="instructions-1" class="section level3" number="0.2.4">
+<h3><span class="header-section-number">0.2.4</span> Instructions</h3>
+<div id="accept-invitation-to-join-class-sciserver-group" class="section level4" number="0.2.4.1">
+<h4><span class="header-section-number">0.2.4.1</span> Accept invitation to join class SciServer group</h4>
+<p>This video (<a href="https://link.c-moor.org/video-join-sciserver-group">video</a>)(<a href="https://docs.google.com/presentation/d/1codot9UeUO7l0EDcEre7dJgyXurD_xyxpw6IJL_aEjM">slides</a>) shows you how to join a SciServer group. You can follow along with the video, or follow the steps below.</p>
+<ol style="list-style-type: decimal">
+<li>Open <a href="https://www.sciserver.org/">sciserver.org</a> in a web browser and log in to your account.</li>
+<li>Click “Groups”</li>
+<li>On the left, you should see a list of all the groups you have joined or been invited to. Click on the name of the group for this course, then click “Accept invitation”.
+<ol style="list-style-type: lower-alpha">
+<li>Your instructor must have your username to invite you to the group. If you do not see an invitation, contact your instructor with your SciServer username.</li>
+</ol></li>
+<li>Confirm that you can access course data
+<ol style="list-style-type: lower-alpha">
+<li>On the top menu bar, click “Files”</li>
+<li>On the left-hand menu, click “Data Volumes”</li>
+<li>Confirm that you see “C-MOOR-Data”</li>
+</ol></li>
+<li>Confirm that you can access course computing resources
+<ol style="list-style-type: lower-alpha">
+<li>Click “Home” in the top menu to return to the home page.</li>
+<li>Scroll down to the second set of boxes and click “Compute”</li>
+<li>Click “Create container”</li>
+<li>In the “Compute Image” drop-down menu, confirm that you can see “C-MOOR LearnR” and “C-MOOR R-Studio”</li>
+<li>Under “Data Volumes”, confirm that you can see “C-MOOR Data”</li>
+<li>You can close the Create Container dialog box (by clicking the “X” in the top right) once you’ve confirmed that you can see the C-MOOR content</li>
+</ol></li>
+</ol>
+<div id="resources-1" class="section level5" number="0.2.4.1.1">
+<h5><span class="header-section-number">0.2.4.1.1</span> Resources</h5>
 <ul>
-<li>Learn about model organisms</li>
-<li>Explore high-throughput sequencing datasets</li>
-<li>Practice the <a href="https://www.biointeractive.org/classroom-resources/how-science-works">scientific process</a></li>
+<li><a href="https://www.sciserver.org/">sciserver.org</a></li>
+<li><a href="https://help.c-moor.org/c/help/">Get help with SciServer on the C-MOOR Discourse</a></li>
 </ul>
-<h1>
-C-MOOR Collection
-</h1>
-<p>More coming soon!</p>
+</div>
+</div>
+<div id="start-up-a-c-moor-learnr-compute-container" class="section level4" number="0.2.4.2">
+<h4><span class="header-section-number">0.2.4.2</span> Start up a “C-MOOR LearnR” compute container</h4>
+<p>This video (<a href="https://link.c-moor.org/video-sciserver-create-learnr-container">video</a>)(<a href="https://docs.google.com/presentation/d/1Oaq8RzhaDANxkNh-tTKwme7e095pGgoiq5iZHbt7PLg">slides</a>) shows you how to create and start up a C-MOOR LearnR compute container. You can follow along with the video, or follow the steps below.</p>
+<ol style="list-style-type: decimal">
+<li>Open <a href="https://www.sciserver.org/">sciserver.org</a> in a web browser and log in to your account.
+<ol style="list-style-type: lower-alpha">
+<li>If you are already logged in, click “Home” in the top menu to return to the home page.</li>
+</ol></li>
+<li>Scroll down to the second set of boxes and click “Compute”</li>
+<li>Click “Create container”
+<ol style="list-style-type: lower-alpha">
+<li>Give your container a name. This can be anything you like, but it’s useful if it says something about the purpose of the container so you can tell your containers apart. You could name this container “Tutorials”, since you’ll be using it to access tutorials.</li>
+<li>In the “<strong>Compute Image</strong>” drop-down menu, select “<strong>C-MOOR LearnR</strong>”</li>
+<li>Under “<strong>Data Volumes</strong>”, check the box next to “<strong>C-MOOR Data</strong>”</li>
+<li>Click “Create”. This may take a moment.</li>
+</ol></li>
+<li>You should now see a new entry in your list of containers
+<ol style="list-style-type: lower-alpha">
+<li>“Created At” should be a few moments ago.</li>
+<li>“Name” should be the name you chose</li>
+<li>“Image” should be “C-MOOR LearnR”</li>
+</ol></li>
+<li>Start your C-MOOR LearnR container by clicking on its name (whatever name you chose when you created it). This will open in a new tab.
+<ol style="list-style-type: lower-alpha">
+<li>You should see a list of tutorials, organized by date.
+<img src="onboarding_files/figure-html/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f83ffdfb86_0_19.png" width="480" /></li>
+<li>If instead you see an error message, you most likely forgot to check the box next to “C-MOOR Data” when you created the container.
+<img src="onboarding_files/figure-html/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f83ffdfb86_0_25.png" width="480" /></li>
+<li>If you see something else, you may have picked the wrong “Compute Image” from the drop-down menu.</li>
+</ol></li>
+</ol>
+<p><strong>If anything goes wrong, you can always delete your container by clicking the red “X” in the last column, and create a new container.</strong></p>
+<div id="resources-2" class="section level5" number="0.2.4.2.1">
+<h5><span class="header-section-number">0.2.4.2.1</span> Resources</h5>
+<ul>
+<li><a href="https://www.sciserver.org/">sciserver.org</a></li>
+<li><a href="https://help.c-moor.org/c/help/">Get help with SciServer on the C-MOOR Discourse</a></li>
+</ul>
+</div>
+</div>
+<div id="complete-your-first-learnr-tutorial" class="section level4" number="0.2.4.3">
+<h4><span class="header-section-number">0.2.4.3</span> Complete your first LearnR tutorial</h4>
+<ol style="list-style-type: decimal">
+<li>If you’re not there already, go to the SciServer compute page and start up the C-MOOR LearnR container.
+<ol style="list-style-type: lower-alpha">
+<li>Open <a href="https://www.sciserver.org/">sciserver.org</a> in a web browser and log in to your account.</li>
+<li>If you are already logged in, click “Home” in the top menu to return to the home page.</li>
+<li>Scroll down to the second set of boxes and click “Compute”.</li>
+<li>Start your C-MOOR LearnR container by clicking on its name.</li>
+</ol></li>
+<li>Click on “Biological Databases”. The tutorial will open in a new tab.</li>
+<li>Complete the tutorial.</li>
+</ol>
+<div id="resources-3" class="section level5" number="0.2.4.3.1">
+<h5><span class="header-section-number">0.2.4.3.1</span> Resources</h5>
+<ul>
+<li><a href="https://www.sciserver.org/">sciserver.org</a></li>
+<li><a href="https://help.c-moor.org/c/help/">Get help with SciServer on the C-MOOR Discourse</a></li>
+</ul>
+</div>
+</div>
+<div id="delete-your-c-moor-learnr-compute-container" class="section level4" number="0.2.4.4">
+<h4><span class="header-section-number">0.2.4.4</span> Delete your C-MOOR LearnR compute container</h4>
+<p>Compute containers are meant to be temporary, and you can only have 3 containers total on SciServer. So it’s generally a good idea to clean up after yourself and delete your containers when you’re done using them. Also, in this course, we will be updating the tutorials on the C-MOOR LearnR container, and <strong>you will need to create a new container to get the latest updates.</strong></p>
+<p><strong>Deleting your container will delete your progress in a tutorial</strong>, so don’t delete the container until you have completed the tutorial and submitted any required items to your instructor. Later on in the course you will learn how to save things permanently on SciServer.</p>
+<p>To delete a container:</p>
+<ol style="list-style-type: decimal">
+<li>If you’re not there already, go to the SciServer compute page.
+<ol style="list-style-type: lower-alpha">
+<li>Open <a href="https://www.sciserver.org/">sciserver.org</a> in a web browser and log in to your account.</li>
+<li>If you are already logged in, click “Home” in the top menu to return to the home page.</li>
+<li>Scroll down to the second set of boxes and click “Compute”.</li>
+<li>Start your C-MOOR LearnR container by clicking on its name.</li>
+</ol></li>
+<li>Find the container you want to delete.</li>
+<li>Click on the red “X” in the last column.</li>
+</ol>
+</div>
+</div>
+<div id="footnotes-1" class="section level3" number="0.2.5">
+<h3><span class="header-section-number">0.2.5</span> Footnotes</h3>
+<div id="contributions-and-affiliations-1" class="section level4" number="0.2.5.1">
+<h4><span class="header-section-number">0.2.5.1</span> Contributions and Affiliations</h4>
+<ul>
+<li>Katherine Cox, Johns Hopkins University</li>
+<li>Frederick Tan, Carnegie Institution</li>
+</ul>
+<p>Last Revised: May 13, 2021</p>
 
 </div>
+</div>
+</div>
+<!-- </div> -->
+
+
+
 <hr>
 <center> 
   <div class="footer">
@@ -206,8 +328,8 @@ C-MOOR Collection
           </div>
         </div>
       </div>
-
-<a href="onboarding.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="0.1-join-sciserver.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="1-scientific-literature.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
