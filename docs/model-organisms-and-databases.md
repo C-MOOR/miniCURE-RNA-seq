@@ -102,7 +102,7 @@ Last Revised: February 2022
 
 [[slides](https://docs.google.com/presentation/d/1kt0lW4D8AWqQm1j6FMo0rRDGM_G3zkLmPy3EZNDg3s0)]
 
-## Lab Activities: Biological Databases
+## Lab Activity: Biological Databases
 
 ### Purpose
 
