@@ -1,3 +1,4 @@
+al
 Alcazar
 AnVIL
 arabidopsis
@@ -10,6 +11,7 @@ Datatrail
 DataTrail
 dropdown
 Drosophila
+et
 FlyBase
 fyi
 GDSCN
@@ -22,9 +24,11 @@ ITN
 Leanpub
 LearnR
 Markua
+Mech
 melanogaster
 mentorship
 miniCURE
+Musselman
 NCI
 NHGRI
 OMIM
