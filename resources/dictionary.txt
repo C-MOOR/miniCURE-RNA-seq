@@ -2,6 +2,7 @@ al
 Alcazar
 AnVIL
 arabidopsis
+baseMean
 Bioinformatics
 bioinformatics
 BIPOC
@@ -23,6 +24,7 @@ eLife
 et
 FBgn
 FlyBase
+FoldChange
 fyi
 GARD
 GDSCN
