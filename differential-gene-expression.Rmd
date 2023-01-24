@@ -3,7 +3,7 @@
 ## Lab Slides
 
 ```{r, echo=FALSE, fig.alt=''}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1qVh8Rb52aB_Xq5WpKSOqLyB-GrLum-Y910gaITw5OVw/edit#slide=id.gcd1b5d364d_0_35")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1qVh8Rb52aB_Xq5WpKSOqLyB-GrLum-Y910gaITw5OVw/edit#slide=id.g35f391192_00")
 ```
 
 [[slides](https://docs.google.com/presentation/d/1qVh8Rb52aB_Xq5WpKSOqLyB-GrLum-Y910gaITw5OVw)]
