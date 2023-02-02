@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Differential Gene Expression | RNA-seq miniCURE</title>
+  <title>Chapter 5 Project Work | RNA-seq miniCURE</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Differential Gene Expression | RNA-seq miniCURE" />
+  <meta property="og:title" content="Chapter 5 Project Work | RNA-seq miniCURE" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Differential Gene Expression | RNA-seq miniCURE" />
+  <meta name="twitter:title" content="Chapter 5 Project Work | RNA-seq miniCURE" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="lab-activity-rna-seq-analysis.html"/>
-<link rel="next" href="lab-slides-differential-gene-expression.html"/>
+<link rel="prev" href="lab-activity-differential-gene-expression.html"/>
+<link rel="next" href="scientific-communication.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -234,8 +234,223 @@
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/jhudsl/OTTR_Template/raw/main/assets/dasl_thin_main_image.png">
 </div>
-<div id="differential-gene-expression" class="section level1" number="4">
-<h1><span class="header-section-number">Chapter 4</span> Differential Gene Expression</h1>
+<div id="project-work" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Project Work</h1>
+<h2>
+Purpose
+</h2>
+<p>The purpose of this lab is to gain practice in scientific communication, project exploration and work on your scientific poster!</p>
+<h2>
+Learning Objectives
+</h2>
+<ol style="list-style-type: decimal">
+<li>Engage with the Scientific Process</li>
+<li>Communicate your findings</li>
+<li>Create an outline for further exploratory research</li>
+<li>Develop your plot images using R code</li>
+</ol>
+<h2>
+Introduction
+</h2>
+<p>In today’s lab we will learn to develop a scientific idea and convert it into a scientific hypothesis. Remember that a hypothesis needs to be testable and falsifiable. Since your project is <em>in silico</em>, your experiments will be <em>in silico</em>. You might look at a gene, do some background research on that gene, wonder about the gene function and its relationship to gene expression. Then use this information to develop a hypothesis about its expression and test your hypothesis by analyzing gene expression. The most difficult part of your research will be identifying a gene that is differentially expressed and interesting enough to build a narrative around it.</p>
+<p>A few ideas to get you started:</p>
+<ul>
+<li>Research a disease – For example: Look up genes involved in digestive diseases at <a href="https://www.niddk.nih.gov/health-information/digestive-diseases">NIDDK</a> or <a href="https://rarediseases.info.nih.gov/diseases/diseases-by-category/6/digestive-diseases">GARD</a></li>
+<li>Research a gene or gene family – For example: Trypsin, how many different trypsins are in flies?</li>
+<li>Research a gene pathway – For example: How many other genes work with trypsin to digest protein?</li>
+</ul>
+<p>Another interesting area may be due to other absorption problems in the gut besides glucose, like issues in lipid or protein metabolism. We read a paper about how flies can be used as a model for diabetes, could it be used as a model for other diseases? Use data to support your conclusions. This is just scratching the surface of the types of projects that can be developed or begun with the information you now have at your fingertips. All good research begins with an observation or question but the best ones have to do with the follow up research.</p>
+<h2>
+Instructions
+</h2>
+<div id="activity-1---search-for-an-interesting-differentially-expressed-gene" class="section level3" number="5.0.1">
+<h3><span class="header-section-number">5.0.1</span> Activity 1 - Search for an interesting differentially expressed gene</h3>
+<p><em>Estimated time: 45 min (this is at a minimum to find an interesting gene to pursue)</em></p>
+<ol style="list-style-type: decimal">
+<li>Log into SciServer, click on compute and open your “C-MOOR LearnR” container.</li>
+<li>Start the “Differential Gene Expression” tutorial. Visit <a href="https://help.c-moor.org/t/sciserver-guides-and-faqs/22">SciServer Guides and FAQs</a>. if you need to jog your memory on how to do this.</li>
+<li>This tutorial has small boxes in which you can enter and run short lines of code to analyze the data. Since we are not working directly in RStudio but in a LearnR tutorial environment, you don’t need to know more than a few lines of code to be able to ask some very interesting questions.</li>
+<li><strong>Use the Notes section below to copy and paste important blocks of code that you can refer back to later.</strong></li>
+<li>We will go through an example and you can use this to get other ideas for your project.</li>
+</ol>
+<div id="questions-12" class="section level4" number="5.0.1.1">
+<h4><span class="header-section-number">5.0.1.1</span> Questions</h4>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Here is an example and therefore this is not available for your project as we want different projects. Look up the gene trypsin. How many trypsin genes are in drosophila? What are their FBgn IDs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Use the code to find the expression of trypsin across all regions. What can you conclude? What do you think it suggests about the function of the genes and the regions?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Compare the expression between the two highest regions. Record your observations and write two short paragraphs.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">I was surprised by …</td>
+</tr>
+<tr class="even">
+<td align="left"><br></td>
+</tr>
+<tr class="odd">
+<td align="left">I’m curious about …</td>
+</tr>
+<tr class="even">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-2---explore-your-gene-further" class="section level3" number="5.0.2">
+<h3><span class="header-section-number">5.0.2</span> Activity 2 - Explore your gene further</h3>
+<p><em>Estimated time: 45 min</em></p>
+<ol style="list-style-type: decimal">
+<li>Work with a partner to complete the following analysis using the Try it Out section of the tutorial.</li>
+</ol>
+<div id="questions-13" class="section level4" number="5.0.2.1">
+<h4><span class="header-section-number">5.0.2.1</span> Questions</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Graph your gene of interest across all the regions of the gut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>INSERT YOUR GRAPH</strong></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Create a clusterProfiler graph comparing two regions. If the number of pathways are too many, increase the stringency of your adjusted p-value to reduce the clusters. Pick a cluster to explore, copy and paste the image and write a description of what the image shows.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Compare two regions for your gene of interest. What does this suggest?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>INSERT YOUR GRAPH</strong></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Look up possible genes that might work with your gene of interest. Hint: what is in the clusterProfiler you performed?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-3---begin-developing-your-poster" class="section level3" number="5.0.3">
+<h3><span class="header-section-number">5.0.3</span> Activity 3 - Begin developing your poster!</h3>
+<p><em>Estimated time: 30 min</em></p>
+<ol style="list-style-type: decimal">
+<li>Turn in at least one graph that you can use in your poster and include a legend for your figure. Your legend should describe in prose what the figure is showing.</li>
+<li>Post your tentative title and project idea on the class padlet, include the names of everyone in your group.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<h2>
+Footnotes
+</h2>
+</div>
+<div id="resources-10" class="section level3" number="5.0.4">
+<h3><span class="header-section-number">5.0.4</span> Resources</h3>
+<ul>
+<li><a href="https://docs.google.com/document/d/17nQ6OYVCHeLCeXrDYcNjZvj7-fdAGPZQ">Google Doc</a></li>
+</ul>
+</div>
+<div id="contributions-and-affiliations-8" class="section level3" number="5.0.5">
+<h3><span class="header-section-number">5.0.5</span> Contributions and Affiliations</h3>
+<ul>
+<li>Rosa Alcazar, Ph.D., Clovis Community College</li>
+<li>Stephanie Coffman, Ph.D., Clovis Community College</li>
+</ul>
+<p>Last Revised: March 29, 2022</p>
+
+</div>
 </div>
 <hr>
 <center> 
@@ -250,8 +465,8 @@
           </div>
         </div>
       </div>
-<a href="lab-activity-rna-seq-analysis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="lab-slides-differential-gene-expression.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="lab-activity-differential-gene-expression.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="scientific-communication.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

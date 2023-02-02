@@ -1,6 +1,6 @@
 # Differential Gene Expression
 
-## Lab Slides
+## Lab Slides {#lab-slides-differential-gene-expression}
 
 ![](differential-gene-expression_files/figure-docx//1qVh8Rb52aB_Xq5WpKSOqLyB-GrLum-Y910gaITw5OVw_g35f391192_00.png)
 

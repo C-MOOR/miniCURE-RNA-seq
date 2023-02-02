@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Differential Gene Expression | RNA-seq miniCURE</title>
+  <title>3.3 Lab Activity: RNA-seq Analysis | RNA-seq miniCURE</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Differential Gene Expression | RNA-seq miniCURE" />
+  <meta property="og:title" content="3.3 Lab Activity: RNA-seq Analysis | RNA-seq miniCURE" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Differential Gene Expression | RNA-seq miniCURE" />
+  <meta name="twitter:title" content="3.3 Lab Activity: RNA-seq Analysis | RNA-seq miniCURE" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="lab-activity-rna-seq-analysis.html"/>
-<link rel="next" href="lab-slides-differential-gene-expression.html"/>
+<link rel="prev" href="lab-slides-rna-seq-analysis.html"/>
+<link rel="next" href="differential-gene-expression.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -234,9 +234,220 @@
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/jhudsl/OTTR_Template/raw/main/assets/dasl_thin_main_image.png">
 </div>
-<div id="differential-gene-expression" class="section level1" number="4">
-<h1><span class="header-section-number">Chapter 4</span> Differential Gene Expression</h1>
+<div id="lab-activity-rna-seq-analysis" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Lab Activity: RNA-seq Analysis</h2>
+<div id="purpose-5" class="section level3" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Purpose</h3>
+<p>In this lab, students will complete a tutorial on RNA-seq data and learn how to analyze, graph and interpret the data. In the following lab, we will use these skills to compare two RNA-seq data sets to investigate gene expression patterns.</p>
 </div>
+<div id="learning-objectives-5" class="section level3" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Learning Objectives</h3>
+<ol style="list-style-type: decimal">
+<li>Use R to analyze HTSeq files</li>
+<li>Create and analyze histograms from HTSeq files</li>
+</ol>
+</div>
+<div id="introduction-4" class="section level3" number="3.3.3">
+<h3><span class="header-section-number">3.3.3</span> Introduction</h3>
+<p>Today’s lab will investigate how scientists use computer science to analyze RNA-seq data. In general, the sequences are first aligned to a reference genome. For RNA-seq, the sequences will align to exons of the expressed genes. The data you will look at today has already been processed using a program called HTSeq. This program aligns the sequences to the reference genome and counts how many sequences align to each gene, producing files known as HTSeq files. The more sequences that align to the gene, the higher the expression level of the gene. The following tutorial will walk you through how to analyze an HTSeq file using the programming language R.</p>
+<p>The RNA-seq libraries from today’s lab are from: <a href="https://elifesciences.org/articles/00886">eLife 2013;2:e00886 DOI: 10.7554/eLife.00886</a>. The paper analyzes genes expression in the drosophila midgut.</p>
+</div>
+<div id="activity-1---introduction-to-rna-seq-data-tutorial" class="section level3" number="3.3.4">
+<h3><span class="header-section-number">3.3.4</span> Activity 1 - Introduction to RNA-seq Data Tutorial</h3>
+<p><em>Estimated time: 20 min</em></p>
+<div id="instructions-13" class="section level4" number="3.3.4.1">
+<h4><span class="header-section-number">3.3.4.1</span> Instructions</h4>
+<ol style="list-style-type: decimal">
+<li>Log into SciServer, click on compute and open your C-MOOR LearnR” container.</li>
+<li>Start the “Introduction to RNA-seq Data” tutorial. Visit <a href="https://help.c-moor.org/t/sciserver-guides-and-faqs/22">SciServer Guides and FAQs</a>. if you need to jog your memory on how to do this.</li>
+<li>To move through the activities click “Continue” at the bottom of the screen. When you are done with a topic, click “Next Topic” to move on.</li>
+<li>This tutorial has small boxes in which you can enter and run short lines of code to analyze the data.</li>
+<li>As you work through the tutorial, answer the questions below. When you get to “Try it Out!” move on to Activity 2.</li>
+</ol>
+</div>
+<div id="questions-7" class="section level4" number="3.3.4.2">
+<h4><span class="header-section-number">3.3.4.2</span> Questions</h4>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">What are the two columns (V1 and V2) in an HT-seq file? What data is stored in each column?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Explain what is readCount and what is GeneID</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Share a screenshot of the row showing the readCount of the lab gene in the “Reproduce Results for a Single Gene” section and explain in your own words what the code in your screenshot is doing.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-2---analyze-an-ht-seq-file" class="section level3" number="3.3.5">
+<h3><span class="header-section-number">3.3.5</span> Activity 2 - Analyze an HT-seq file</h3>
+<p><em>Estimated time: 15-20 min</em></p>
+<div id="instructions-14" class="section level4" number="3.3.5.1">
+<h4><span class="header-section-number">3.3.5.1</span> Instructions</h4>
+<ol style="list-style-type: decimal">
+<li>In groups of two, analyze the HTSeq samples assigned to you.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="left">Assigned Sample</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Name</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Name</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<ol start="2" style="list-style-type: decimal">
+<li>Use the code blocks on the “Try it out!” page to analyze the data.
+<ol style="list-style-type: lower-alpha">
+<li>The codeblocks on the “Try it out!” page, has this code typed out for you:
+<ol style="list-style-type: lower-roman">
+<li><code>readCounts &lt;- read.table( "data/FILENAMEHERE.htseq")</code></li>
+</ol></li>
+<li>Change <code>FILENAMEHERE</code> to the filename for your file. Once you have done this, <strong>readCounts</strong> will have the new HTSeq file loaded into it
+<ol style="list-style-type: lower-roman">
+<li>Example: <code>readCounts &lt;- read.table( "data/SRR891602.htseq")</code></li>
+</ol></li>
+</ol></li>
+<li>The code above loads the data set into <code>readCounts</code>. If you run this code alone, nothing will happen. Try requesting some analysis to get a look at the data and answer the questions below.</li>
+<li>Answer the questions below as you analyze the data. Consult the “Cheat Sheet” to figure out which code to use.</li>
+</ol>
+</div>
+<div id="questions-8" class="section level4" number="3.3.5.2">
+<h4><span class="header-section-number">3.3.5.2</span> Questions</h4>
+<p>Determine the total reads across all genes, and the mean, median and max read counts for a single sample. Each student reports on one of the samples analyzed.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Assigned Sample</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Total Reads</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Mean Read Count</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Median Read Count</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Max Read Count</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>Look up the GeneID of the gene you presented on from the Biological Databases Lab. Use the filter command to find the readCount in both samples assigned to your group.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">How many reads does the gene have in your assigned dataset?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Share a screenshot.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">How many reads does the gene have in your partner’s dataset?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Share a screenshot.</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Compare this number to the mean; is it average, high or low?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="footnotes-6" class="section level3" number="3.3.6">
+<h3><span class="header-section-number">3.3.6</span> Footnotes</h3>
+<div id="resources-8" class="section level4" number="3.3.6.1">
+<h4><span class="header-section-number">3.3.6.1</span> Resources</h4>
+<ul>
+<li><a href="https://docs.google.com/document/d/1ABmBmDwDtxipxmlfWuVypjIVt2AmTZtY">Google Doc</a></li>
+</ul>
+</div>
+<div id="contributions-and-affiliations-6" class="section level4" number="3.3.6.2">
+<h4><span class="header-section-number">3.3.6.2</span> Contributions and Affiliations</h4>
+<ul>
+<li>Stephanie R. Coffman, Ph.D. Clovis Community College</li>
+<li>Rosa Alcazar, PH.D. Clovis Community College</li>
+<li>Katie Cox, Ph.D. Carnegie Institute at John Hopkins University</li>
+</ul>
+<p>Last Revised:
+March 2022</p>
+
+</div>
+</div>
+</div>
+<!-- </div> -->
 <hr>
 <center> 
   <div class="footer">
@@ -250,8 +461,8 @@
           </div>
         </div>
       </div>
-<a href="lab-activity-rna-seq-analysis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="lab-slides-differential-gene-expression.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="lab-slides-rna-seq-analysis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="differential-gene-expression.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

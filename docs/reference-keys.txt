@@ -24,8 +24,8 @@ delete-your-c-moor-learnr-compute-container
 footnotes-1
 contributions-and-affiliations-1
 scientific-literature
-pre-lab
-lab-slides
+pre-lab-scientific-literature
+lab-slides-scientific-literature
 lab-activity-scientific-literature
 instructions-2
 part-1.-overview-of-the-paper
@@ -50,7 +50,7 @@ questions-1
 footnotes-3
 resources-5
 contributions-and-affiliations-3
-lab-slides-1
+lab-slides-model-organisms-and-databases
 lab-activity-biological-databases
 purpose-3
 learning-objectives-3
@@ -86,8 +86,8 @@ questions-6
 footnotes-5
 resources-7
 contributions-and-affiliations-5
-lab-slides-and-demo
-lab-slides-2
+lab-slides-rna-seq-analysis
+lab-slides
 sort-gene-expression-data-using-spreadsheets
 lab-activity-rna-seq-analysis
 purpose-5
@@ -103,7 +103,7 @@ footnotes-6
 resources-8
 contributions-and-affiliations-6
 differential-gene-expression
-lab-slides-3
+lab-slides-differential-gene-expression
 lab-activity-differential-gene-expression
 purpose-6
 learning-objectives-6

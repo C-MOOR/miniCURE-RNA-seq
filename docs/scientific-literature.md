@@ -2,13 +2,13 @@
 
 # Scientific Literature
 
-## Pre-lab
+## Pre-lab {#pre-lab-scientific-literature}
 
 Familiarize yourself with the paper "[A high-sugar diet produces obesity and insulin resistance in wild-type Drosophila](https://pubmed.gov/21719444)" by  Musselman et al., 2011 Dis Model Mech
 
 ![](scientific-literature_files/figure-docx//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f83ffdfb86_0_52.png)
 
-## Lab Slides
+## Lab Slides {#lab-slides-scientific-literature}
 
 ![](scientific-literature_files/figure-docx//1uuuAbg_rcfCVohaVrrxfUfszwTDqigzg34qEWfTNeR0_g35f391192_00.png)
 

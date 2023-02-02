@@ -96,7 +96,7 @@ Estimated time: 15 min
 
 Last Revised: February 2022
 
-## Lab Slides
+## Lab Slides {#lab-slides-model-organisms-and-databases}
 
 ![](model-organisms-and-databases_files/figure-docx//1kt0lW4D8AWqQm1j6FMo0rRDGM_G3zkLmPy3EZNDg3s0_g35f391192_00.png)
 
