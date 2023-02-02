@@ -1,6 +1,6 @@
 bookdown::gitbook:
   css: assets/style.css
-  split_by: section+number
+  split_by: section
   includes:
     before_body: assets/big-image.html
     after_body: assets/footer.html
