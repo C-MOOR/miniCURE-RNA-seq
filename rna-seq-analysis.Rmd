@@ -88,7 +88,7 @@ Next-generation DNA sequencing has revolutionized biological research. This tuto
 
 Last Revised: March 2022
 
-## Lab Slides and Demo
+## Lab Slides and Demo {#lab-slides-rna-seq-analysis}
 
 ### Lab Slides
 

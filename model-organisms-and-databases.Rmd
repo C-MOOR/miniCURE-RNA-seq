@@ -96,7 +96,7 @@ Estimated time: 15 min
 
 Last Revised: February 2022
 
-## Lab Slides
+## Lab Slides {#lab-slides-model-organisms-and-databases}
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1kt0lW4D8AWqQm1j6FMo0rRDGM_G3zkLmPy3EZNDg3s0/edit#slide=id.g35f391192_00")
