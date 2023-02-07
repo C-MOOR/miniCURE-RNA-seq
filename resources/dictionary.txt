@@ -13,6 +13,7 @@ clusterProfiler
 codeblocks
 Coffman
 Coursera
+CoV
 Datatrail
 DataTrail
 DOI
