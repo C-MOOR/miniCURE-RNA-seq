@@ -1,4 +1,38 @@
-# Onboarding {-}
+# Introduction
+
+## C-MOOR miniCURE Overview
+
+### An Introduction to Data Science
+
+Data Science is an evolving career path for individuals (data scientists) in fields that need to manipulate large amounts of data. The job of a Data Scientist was called by the Harvard Business Review "[the sexiest job of the 21st century](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century)" Data Scientists are individuals with a curiosity to look through data, identify patterns and develop testable hypotheses.  In Biological Sciences, data scientists dig through data to answer questions about health, disease, evolution, ecology, drug development, and much more. A currently relevant example is compiling and looking at the similarities and differences between the different SARS-CoV-2 strains and identify differences between strains that may lead to differences in rates of infection.
+
+### Learning Goals
+
+1. Engage with real and current scientific data
+1. Explore available research resources online
+1. Recognize the interdisciplinary nature of biological sciences
+1. Synthesize findings from scientific literature
+1. Summarize findings and discuss results with your peers
+1. Collaborate with peers on a data exploration activity
+
+## The Scientific Process
+
+*Estimated time: 30 min*
+
+Watch this 10 min video and answer the questions below.
+
+![](https://img.youtube.com/vi/5kcAc20Bus8/0.jpg)
+
+[[video](https://www.youtube.com/watch?v=5kcAc20Bus8)][[slides](https://docs.google.com/presentation/d/1zWWdJcJUgp1mXoTE7d0V-7T9ft_Y1EmV0P3VEzWsAXs)]
+
+Describe the key aspects of each of the following elements of the scientific process:
+
+1. Exploration and Discovery
+1. Testing Ideas
+1. Community Analysis and Feedback
+1. Benefits and Outcomes
+
+Learn more at [Understanding Science 101](https://undsci.berkeley.edu/understanding-science-101/how-science-works/exploration-and-discovery)
 
 ## Join SciServer
 
