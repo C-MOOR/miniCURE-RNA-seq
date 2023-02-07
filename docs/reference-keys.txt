@@ -1,7 +1,12 @@
+introduction
+c-moor-minicure-overview
+an-introduction-to-data-science
+learning-goals
+the-scientific-process
 join-sciserver
 purpose
 learning-objectives
-introduction
+introduction-1
 instructions
 create-an-account-on-sciserver
 confirm-your-email-address
@@ -12,7 +17,7 @@ contributions-and-affiliations
 first-learnr
 purpose-1
 learning-objectives-1
-introduction-1
+introduction-2
 instructions-1
 accept-invitation-to-join-class-sciserver-group
 resources-1
@@ -40,7 +45,7 @@ model-organisms-and-databases
 pre-lab-model-organisms
 purpose-2
 learning-objectives-2
-introduction-2
+introduction-3
 activity-1---model-organisms
 instructions-3
 questions
@@ -76,7 +81,7 @@ rna-seq-analysis
 pre-lab-intro-to-rna-seq
 purpose-4
 learning-objectives-4
-introduction-3
+introduction-4
 activity-1---biotechnology-next-gen-sequencing
 instructions-11
 questions-5
@@ -92,7 +97,7 @@ sort-gene-expression-data-using-spreadsheets
 lab-activity-rna-seq-analysis
 purpose-5
 learning-objectives-5
-introduction-4
+introduction-5
 activity-1---introduction-to-rna-seq-data-tutorial
 instructions-13
 questions-7
@@ -107,7 +112,7 @@ lab-slides-differential-gene-expression
 lab-activity-differential-gene-expression
 purpose-6
 learning-objectives-6
-introduction-5
+introduction-6
 activity-1---differential-expression-tutorial
 instructions-15
 questions-9
@@ -130,12 +135,12 @@ resources-10
 contributions-and-affiliations-8
 scientific-communication
 group-poster
-introduction-6
+introduction-7
 part-1---choose-a-template
 part-2---make-an-academic-research-poster
 title-authors-and-affiliations
 abstract
-introduction-7
+introduction-8
 materials-and-methods
 results
 discussion
