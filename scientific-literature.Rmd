@@ -4,7 +4,9 @@
 
 ## Pre-lab {#pre-lab-scientific-literature}
 
-Familiarize yourself with the paper "[A high-sugar diet produces obesity and insulin resistance in wild-type Drosophila](https://pubmed.gov/21719444)" by  Musselman et al., 2011 Dis Model Mech
+*Estimated time: 30 min*
+
+Read the paper "[A high-sugar diet produces obesity and insulin resistance in wild-type Drosophila](https://pubmed.gov/21719444)" by  Musselman et al., 2011 Dis Model Mech
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g1f83ffdfb86_0_52")
