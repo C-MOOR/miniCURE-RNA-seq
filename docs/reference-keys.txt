@@ -1,6 +1,7 @@
 introduction
 c-moor-minicure-overview
 an-introduction-to-data-science
+what-is-c-moor
 learning-goals
 the-scientific-process
 join-sciserver
