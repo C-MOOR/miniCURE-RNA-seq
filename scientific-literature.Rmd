@@ -18,7 +18,7 @@ We've all heard the saying. The best way to learn is by doing. So, let's jump ri
 
 #### Instructions
 
-Read the paper "[A high-sugar diet produces obesity and insulin resistance in wild-type Drosophila](https://pubmed.gov/21719444)" by Musselman et al., 2011 Dis Model Mech and answer the following questions.
+Read the paper "[A high-sugar diet produces obesity and insulin resistance in wild-type Drosophila](https://pubmed.ncbi.nlm.nih.gov/21719444)" by Musselman et al., 2011 Dis Model Mech and answer the following questions.
 
 #### Questions
 
