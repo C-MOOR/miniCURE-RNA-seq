@@ -23,7 +23,7 @@ This miniCURE allows students to develop a project using RNA-seq datasets to int
 
 ::: {.notice}
 _Genetics_  
-**Novice**: Introduction to [central dogma of molecular biology](https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology)
+**Novice**: Introduction to [central dogma of molecular biology](https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code)
 
 _Programming skills_  
 **Novice**: No programming experience needed
@@ -33,7 +33,7 @@ _Programming skills_
 
 - Learn about model organisms
 - Explore high-throughput sequencing datasets
-- Practice the [scientific process](https://www.biointeractive.org/classroom-resources/how-science-works)
+- Practice the [scientific process](https://undsci.berkeley.edu/understanding-science-101/how-science-works/)
 
 <h1>C-MOOR Collection</h1>
 
