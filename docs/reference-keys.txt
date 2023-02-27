@@ -133,7 +133,7 @@ questions-12
 footnotes-8
 resources-10
 contributions-and-affiliations-8
-project-work
+kickstart-project-work
 activity-1---search-for-an-interesting-differentially-expressed-gene
 questions-13
 activity-2---explore-your-gene-further
@@ -141,6 +141,10 @@ questions-14
 activity-3---begin-developing-your-poster
 resources-11
 contributions-and-affiliations-9
+peer-review
+tutorial-center
+in-class-presentations
+research-symposium
 scientific-communication
 group-poster
 introduction-7
