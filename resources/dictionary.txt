@@ -37,6 +37,7 @@ impactful
 ITCR
 itcrtraining
 ITN
+Kickstart
 Leanpub
 LearnR
 Markua
