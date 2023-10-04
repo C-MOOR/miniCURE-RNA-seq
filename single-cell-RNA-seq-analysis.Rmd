@@ -11,15 +11,16 @@ In this pre-lab, students learn about single-cell RNA-sequencing so that we can 
 1. Compare and contrast single-cell and bulk RNA-seq
 1. Interpret a UMAP plot, using it to determine which cell types are similar to each other.
 
-**Coming soon!**
-
-<!--
-
 ### Introduction
 
-Next-generation DNA sequencing has revolutionized biological research. This tutorial will explain the basic process of next-gen sequencing and will discuss some of the ways it is used in research.
+While bulk RNA sequencing allows us examine gene expression in a tissue as a whole, newer technologies enable us to look at gene expression in individual cells, opening up new avenues for scientific research.  This tutorial will explain the basics of single-cell RNA sequencing and discuss how it compares to bulk RNA-seq.
 
-### Activity 1 - Biotechnology: Next-Gen Sequencing
+
+### Activity 1 - Biotechnology: scRNA-seq
+
+Coming soon!
+
+<!--
 
 *Estimated time: 20  min*
 
