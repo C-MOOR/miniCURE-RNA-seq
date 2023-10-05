@@ -13,47 +13,46 @@ In this pre-lab, students learn about single-cell RNA-sequencing so that we can 
 
 ### Introduction
 
-While bulk RNA sequencing allows us examine gene expression in a tissue as a whole, newer technologies enable us to look at gene expression in individual cells, opening up new avenues for scientific research.  This tutorial will explain the basics of single-cell RNA sequencing and discuss how it compares to bulk RNA-seq.
+While bulk RNA sequencing allows us examine gene expression in a tissue as a whole, newer technologies enable us to look at gene expression in individual cells, opening up new avenues for scientific research.  This tutorial will explain the basics of single-cell RNA sequencing and discuss how it compares to bulk RNA-seq.  It will also introduce you to UMAP plots - a common method for exploring single-cell sequencing data.
 
 
 ### Activity 1 - Biotechnology: scRNA-seq
 
-Coming soon!
-
-<!--
-
-*Estimated time: 20  min*
+*Estimated time: 10  min*
 
 #### Instructions
 
-1. Log into SciServer, click on compute and open your C-MOOR LearnR” container.
-1. Start the “Biotechnology: Next-Gen Sequencing” tutorial. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22). if you need to jog your memory on how to do this.
-1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
+1. Watch this [video] about single-cell RNA-seq.
 
 #### Questions
 
-| What is Bioinformatics? |
-|:-|
-| <br> |
+**Which of the following steps are involved in bulk vs. single-cell RNA-sequencing?**
+
+- **A) Dissect sample**
+- **B) Dissociate cells**
+- **C) Extract RNA**
+- **D) Select/amplify mRNA**
+
+**List the letters for the steps involved.**
+
+| | |
+|:-|:-|
+| Bulk RNA-seq | |
+| Single-cell RNA-seq | |
 
 <br>
 
-| Briefly describe each of the following steps of next-gen sequencing: | |
-|:-|:-|
-| in vivo | |
-| in vitro | |
-| in silico | |
+### Activity 2 - Plots: UMAP
 
-### Activity 2 - Biotechnology: RNA-Seq
-
-*Estimated time: 10 min*
+*Estimated time: 10  min*
 
 #### Instructions
 
-1. Start the “Biotechnology:RNA-Seq” tutorial.
-1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
+1. Watch this [video] about UMAP plots.
 
 #### Questions
+
+<!--
 
 | What is Differential Gene Expression? |
 |:-|
@@ -77,20 +76,29 @@ Coming soon!
 |:-|
 | <br> |
 
+-->
+
 ### Footnotes
 
 #### Resources
 
-- [Google Doc](https://docs.google.com/document/d/1zqTb5HacEqEVhFv4nmRsCB8FSCEMDkP_)
+- Google Doc
 
 #### Contributions and Affiliations
+
+- Javier Carpinteyro-Ponce Ph.D., Carnegie Institution for Science
+- Katherine Cox, Ph.D., Johns Hopkins University
+- Matthew McCoy, Ph.D., Stanford University
+- Frederick Tan, Ph.D., Carnegie Institution for Science
 
 - Stephanie R. Coffman, Ph.D. Clovis Community College
 - Katie Cox, Ph.D. Carnegie Institute at John Hopkins University
 
-Last Revised: March 2022
+Last Revised: October 2023
 
 ## Lab Slides and Demo {#lab-slides-rna-seq-analysis}
+
+<!--
 
 ### Lab Slides
 
@@ -108,7 +116,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1oNO9JFmC8itk3eq6
 
 [[slides](https://docs.google.com/presentation/d/1oNO9JFmC8itk3eq6amT95MWvOsr3zQb6LNwZsQ7-i-g)][[test-driveR.tsv](https://drive.google.com/file/d/1kMWQReRTg0FDZDA5abxmkgKxp-7o5IeM)]
 
-## Lab Activity: RNA-seq Analysis
+-->
+
+## Lab Activity: Single Cell RNA-seq
+
+<!--
 
 ### Purpose
 
