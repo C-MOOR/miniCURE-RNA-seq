@@ -66,7 +66,7 @@ While bulk RNA sequencing allows us examine gene expression in a tissue as a who
 
 #### Questions
 
-<!--
+<!-- (these are just placeholders, copied from a different lab)
 
 | What is Differential Gene Expression? |
 |:-|
@@ -105,14 +105,11 @@ While bulk RNA sequencing allows us examine gene expression in a tissue as a who
 - Matthew McCoy, Ph.D., Stanford University
 - Frederick Tan, Ph.D., Carnegie Institution for Science
 
-- Stephanie R. Coffman, Ph.D. Clovis Community College
-- Katie Cox, Ph.D. Carnegie Institute at John Hopkins University
-
 Last Revised: October 2023
 
-## Lab Slides and Demo {#lab-slides-scrna-seq-analysis}
+## Lab Slides {#lab-slides-scrna-seq-analysis}
 
-<!--
+<!-- (these are just placeholders, copied from a different lab)
 
 ### Lab Slides
 
@@ -122,25 +119,17 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-bQsuEIWO6e0ekb9
 
 [[slides](https://docs.google.com/presentation/d/1-bQsuEIWO6e0ekb98byMAHR8_l45pp_fsl7NxJIXkbM)]
 
-### Sort Gene Expression Data Using Spreadsheets
-
-```{r, echo=FALSE, fig.alt=''}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1oNO9JFmC8itk3eq6amT95MWvOsr3zQb6LNwZsQ7-i-g/edit#slide=id.gdf3f6e5285_0_0")
-```
-
-[[slides](https://docs.google.com/presentation/d/1oNO9JFmC8itk3eq6amT95MWvOsr3zQb6LNwZsQ7-i-g)][[test-driveR.tsv](https://drive.google.com/file/d/1kMWQReRTg0FDZDA5abxmkgKxp-7o5IeM)]
-
 -->
 
 ## Lab Activity: Single Cell RNA-seq
 
-<!--
-
 ### Purpose
 
-In this lab, students will complete a tutorial on RNA-seq data and learn how to analyze, graph and interpret the data. In the following lab, we will use these skills to compare two RNA-seq data sets to investigate gene expression patterns.
+In this lab, students will learn how to use the [Fly Cell Atlas](https://flycellatlas.org/) to explore single-cell RNA-seq data from fruit flies.
 
 ### Learning Objectives
+
+<!-- (these are just placeholders, copied from a different lab)
 
 1. Use R to analyze HTSeq files
 1. Create and analyze histograms from HTSeq files
@@ -233,19 +222,21 @@ Look up the GeneID of the gene you presented on from the Biological Databases La
 |:-|
 | <br> |
 
+-->
+
 ### Footnotes
 
 #### Resources
 
-- [Google Doc](https://docs.google.com/document/d/1ABmBmDwDtxipxmlfWuVypjIVt2AmTZtY)
+- Google Doc
 
 #### Contributions and Affiliations
 
-- Stephanie R. Coffman, Ph.D. Clovis Community College
-- Rosa Alcazar, PH.D. Clovis Community College
-- Katie Cox, Ph.D. Carnegie Institute at John Hopkins University
+- Javier Carpinteyro-Ponce Ph.D., Carnegie Institution for Science
+- Katherine Cox, Ph.D., Johns Hopkins University
+- Matthew McCoy, Ph.D., Stanford University
+- Frederick Tan, Ph.D., Carnegie Institution for Science
 
-Last Revised:
-March 2022
+Last Revised: October 2023
 
--->
+
