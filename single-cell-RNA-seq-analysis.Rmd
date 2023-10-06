@@ -96,7 +96,7 @@ While bulk RNA sequencing allows us examine gene expression in a tissue as a who
 
 Last Revised: October 2023
 
-## Lab Slides and Demo {#lab-slides-rna-seq-analysis}
+## Lab Slides and Demo {#lab-slides-scrna-seq-analysis}
 
 <!--
 
