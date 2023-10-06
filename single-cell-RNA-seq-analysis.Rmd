@@ -66,31 +66,14 @@ While bulk RNA sequencing allows us examine gene expression in a tissue as a who
 
 #### Questions
 
-<!-- (these are just placeholders, copied from a different lab)
+```{r, echo=FALSE, fig.alt="UMAP plot of single-cell RNA-seq data from mouse brain samples. https://bioconductor.org/books/3.15/OSCA.basic/dimensionality-reduction.html#non-linear-methods-for-visualization License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"}
 
-| What is Differential Gene Expression? |
+knitr::include_graphics("assets/osca-umap-brain-1.png")
+```
+
+| Looking at the UMAP plot above, which cell types are most similar to endothelial-mural cells? |
 |:-|
 | <br> |
-
-<br>
-
-| What feature  of mRNA allows scientists to specifically isolate mRNA for RNA-seq? |
-|:-|
-| <br> |
-
-<br>
-
-| Describe the steps in making cDNA from an mRNA. |
-|:-|
-| <br> |
-
-<br>
-
-| Explain how the number of reads related to gene expression. |
-|:-|
-| <br> |
-
--->
 
 ### Footnotes
 
