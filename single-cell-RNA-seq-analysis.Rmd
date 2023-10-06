@@ -18,7 +18,7 @@ While bulk RNA sequencing allows us examine gene expression in a tissue as a who
 
 ### Activity 1 - Biotechnology: scRNA-seq
 
-*Estimated time: 10  min*
+*Estimated time: 15  min*
 
 #### Instructions
 
@@ -33,7 +33,7 @@ While bulk RNA sequencing allows us examine gene expression in a tissue as a who
 - **C) Extract RNA**
 - **D) Select/amplify mRNA**
 
-**List the letters for the steps involved.**
+**List the steps involved in each technique.**
 
 | | |
 |:-|:-|
@@ -41,6 +41,20 @@ While bulk RNA sequencing allows us examine gene expression in a tissue as a who
 | Single-cell RNA-seq | |
 
 <br>
+
+**Which of the following scientific questions can be investigated using bulk vs. single-cell RNA-sequencing?**
+
+- **Compare gene expression between healthy and diseased samples**
+- **Investigate gene expression changes as an embryo develops**
+- **Compare gene expression between different cell types within a tissue**
+
+**For each study, state whether it can be investigated with bulk, single-cell, or both, and briefly explain your answer.**
+
+| | |
+|:-|:-|
+| Healthy vs diseased | |
+| Embryo development | |
+| Compare cell types | |
 
 ### Activity 2 - Plots: UMAP
 
