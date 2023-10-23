@@ -56,22 +56,17 @@ While bulk RNA sequencing allows us to examine gene expression in a tissue as a 
 | Embryo development | |
 | Compare cells | |
 
-### Activity 2 - Plots: UMAP
+### Activity 2 - Introduction to UMAP plots
 
 *Estimated time: 10  min*
 
 #### Instructions
 
-1. Watch this [video] about UMAP plots.
+1. Watch this video (video - coming soon)([slides](https://docs.google.com/presentation/u/0/d/1QequxyKSeXFAeon2NIkOwi51pXqZgKnXg6trAipNDKk/)), which explains what a UMAP plot is and why it’s useful for single-cell RNA-seq.
 
 #### Questions
 
-```{r, echo=FALSE, fig.alt="UMAP plot of single-cell RNA-seq data from mouse brain samples. https://bioconductor.org/books/3.15/OSCA.basic/dimensionality-reduction.html#non-linear-methods-for-visualization License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"}
-
-knitr::include_graphics("assets/osca-umap-brain-1.png")
-```
-
-| Looking at the UMAP plot above, which cell types are most similar to endothelial-mural cells? |
+| Explain why UMAP plots are useful for looking at single-cell RNA-seq data |
 |:-|
 | <br> |
 
@@ -79,12 +74,12 @@ knitr::include_graphics("assets/osca-umap-brain-1.png")
 
 #### Resources
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/1sKqNfe9iFLlGcuL0OHQ_aGARwC_Sqb8IQjIfwzP629Y/)
 
 #### Contributions and Affiliations
 
-- Javier Carpinteyro-Ponce Ph.D., Carnegie Institution for Science
 - Katherine Cox, Ph.D., Johns Hopkins University
+- Javier Carpinteyro-Ponce Ph.D., Carnegie Institution for Science
 - Matthew McCoy, Ph.D., Stanford University
 - Frederick Tan, Ph.D., Carnegie Institution for Science
 
@@ -198,7 +193,7 @@ Look up the GeneID of the gene you presented on from the Biological Databases La
 
 #### Resources
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/1sKqNfe9iFLlGcuL0OHQ_aGARwC_Sqb8IQjIfwzP629Y/)
 
 #### Contributions and Affiliations
 
