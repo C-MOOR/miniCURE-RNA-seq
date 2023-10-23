@@ -1,19 +1,19 @@
 # Single-cell RNA-seq Analysis
 
-## Pre-lab: Intro to scRNA-seq
+## Background: Single-cell RNA sequencing
 
 ### Purpose
 
-In this pre-lab, students learn about single-cell RNA-sequencing so that we can explore additional datasets and use them to investigate scientific questions.
+The purpose of this lab is to introduce single-cell RNA sequencing, how it works, and how it is different from bulk RNA sequencing.
 
 ### Learning Objectives
 
 1. Compare and contrast single-cell and bulk RNA-seq
-1. Interpret a UMAP plot, using it to determine which cell types are similar to each other.
+1. Explain what a UMAP plot is and why it is useful for single-cell RNA-seq
 
 ### Introduction
 
-While bulk RNA sequencing allows us examine gene expression in a tissue as a whole, newer technologies enable us to look at gene expression in individual cells, opening up new avenues for scientific research.  This tutorial will explain the basics of single-cell RNA sequencing and discuss how it compares to bulk RNA-seq.  It will also introduce you to UMAP plots - a common method for exploring single-cell sequencing data.
+While bulk RNA sequencing allows us to examine gene expression in a tissue as a whole, newer technologies enable us to look at gene expression in individual cells, opening up new avenues for scientific research. This tutorial will explain the basics of single-cell RNA sequencing and discuss how it compares to bulk RNA-seq. It will also introduce you to UMAP plots - a common method for exploring single-cell sequencing data.
 
 
 ### Activity 1 - Biotechnology: scRNA-seq
@@ -22,16 +22,16 @@ While bulk RNA sequencing allows us examine gene expression in a tissue as a who
 
 #### Instructions
 
-1. Watch this [video] about single-cell RNA-seq.
+1. Watch this video (video - coming soon)([slides](https://docs.google.com/presentation/d/1axiRC66t6HYkCPzmxNdHXWqR5OpwPfiZxOkocrxji54/)) introducing single-cell RNA-seq.
 
 #### Questions
 
-**Which of the following steps are involved in bulk vs. single-cell RNA-sequencing?**
+**Which of the following steps are typically involved in bulk vs. single-cell RNA-sequencing?**
 
-- **A) Dissect sample**
-- **B) Dissociate cells**
-- **C) Extract RNA**
-- **D) Select/amplify mRNA**
+- **A) Obtain/dissect sample**
+- **B) Separate cells**
+- **C) Select for mRNA**
+- **D) Convert to cDNA**
 
 **List the steps involved in each technique.**
 
@@ -46,15 +46,15 @@ While bulk RNA sequencing allows us examine gene expression in a tissue as a who
 
 - **Compare gene expression between healthy and diseased samples**
 - **Investigate gene expression changes as an embryo develops**
-- **Compare gene expression between different cell types within a tissue**
+- **Compare gene expression between different cells within a tissue**
 
-**For each study, state whether it can be investigated with bulk, single-cell, or both, and briefly explain your answer.**
+**For each scientific question, state whether it can be investigated with bulk, single-cell, or both, and briefly explain your answer.**
 
 | | |
 |:-|:-|
-| Healthy vs diseased | |
+| Healthy vs. diseased | |
 | Embryo development | |
-| Compare cell types | |
+| Compare cells | |
 
 ### Activity 2 - Plots: UMAP
 
@@ -90,19 +90,6 @@ knitr::include_graphics("assets/osca-umap-brain-1.png")
 
 Last Revised: October 2023
 
-## Lab Slides {#lab-slides-scrna-seq-analysis}
-
-<!-- (these are just placeholders, copied from a different lab)
-
-### Lab Slides
-
-```{r, echo=FALSE, fig.alt=''}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1-bQsuEIWO6e0ekb98byMAHR8_l45pp_fsl7NxJIXkbM/edit#slide=id.g35f391192_00")
-```
-
-[[slides](https://docs.google.com/presentation/d/1-bQsuEIWO6e0ekb98byMAHR8_l45pp_fsl7NxJIXkbM)]
-
--->
 
 ## Lab Activity: Single Cell RNA-seq
 
