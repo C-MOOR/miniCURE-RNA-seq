@@ -86,24 +86,27 @@ While bulk RNA sequencing allows us to examine gene expression in a tissue as a 
 Last Revised: October 2023
 
 
-## Lab Activity: Single Cell RNA-seq
+## Lab Activity: Single-Cell RNA-seq
 
 ### Purpose
 
-In this lab, students will learn how to use the [Fly Cell Atlas](https://flycellatlas.org/) to explore single-cell RNA-seq data from fruit flies.
+This lab will teach students how to explore single-cell RNA-seq data.  This will enable them to use scRNA-seq data to investigate their scientific questions.
 
 ### Learning Objectives
 
-<!-- (these are just placeholders, copied from a different lab)
-
-1. Use R to analyze HTSeq files
-1. Create and analyze histograms from HTSeq files
+1. Launch cellxgene on SciServer.
+1. Use cellxgene to determine which cell types express a gene.
+1. Compare expression of different genes across cell types.
 
 ### Introduction
 
-Today’s lab will investigate how scientists use computer science to analyze RNA-seq data. In general, the sequences are first aligned to a reference genome. For RNA-seq, the sequences will align to exons of the expressed genes. The data you will look at today has already been processed using a program called HTSeq. This program aligns the sequences to the reference genome and counts how many sequences align to each gene, producing files known as HTSeq files. The more sequences that align to the gene, the higher the expression level of the gene. The following tutorial will walk you through how to analyze an HTSeq file using the programming language R.
+In this lab, students will explore single-cell RNA-seq data from the *Drosophila* gut, using data from the Fly Cell Atlas.  The Fly Cell Atlas is a large collection of single-cell sequencing data from *Drosophila* (fruit flies), with the goal of creating a map of all the cell types in a fruit fly.  Many scientists have contributed to the Fly Cell Atlas, and it is an incredible resource for anybody working with fruit flies.  
 
-The RNA-seq libraries from today’s lab are from: [eLife 2013;2:e00886 DOI: 10.7554/eLife.00886](https://elifesciences.org/articles/00886).  The paper analyzes genes expression in the drosophila midgut.
+Analyzing single-cell sequencing data is difficult, because there is just so much data!  The **cellxgene** (pronounced “cell-by-gene”) tool provides an interactive visualization of the data, giving investigators a big-picture overview of the data and also enabling them to select specific cell types or genes for further investigation.  The Fly Cell Atlas has made cellxgene available on its website ([flycellatlas.org](https://flycellatlas.org/)), but for this lab we will use cellxgene on SciServer as it offers more functionality (e.g. ability to identify differentially expressed genes).  Learning how to use cellxgene will give students a valuable tool for investigating scientific questions.
+
+Watch this video (video - coming soon)([slides](https://docs.google.com/presentation/d/1VpdaBbZ04qUa2A_W9UwWEF_FVKfhImIt0703z4X1Vqo/edit#slide=id.g28a33aed8b2_0_253)) to learn more about Fly Cell Atlas and cellxgene.
+
+<!-- (these are just placeholders, copied from a different lab)
 
 ### Activity 1 - Introduction to RNA-seq Data Tutorial
 
