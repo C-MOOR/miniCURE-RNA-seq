@@ -62,7 +62,7 @@ While bulk RNA sequencing allows us to examine gene expression in a tissue as a 
 
 #### Instructions
 
-1. Watch this video (video - coming soon)([slides](https://docs.google.com/presentation/u/0/d/1QequxyKSeXFAeon2NIkOwi51pXqZgKnXg6trAipNDKk/)), which explains what a UMAP plot is and why it’s useful for single-cell RNA-seq.
+1. Watch this video ([video](https://drive.google.com/file/d/1okkFjNhcvY_Xp_wdDalhb422dW1tz2Yj))([slides](https://docs.google.com/presentation/u/0/d/1QequxyKSeXFAeon2NIkOwi51pXqZgKnXg6trAipNDKk/)), which explains what a UMAP plot is and why it’s useful for single-cell RNA-seq.
 
 #### Questions
 
