@@ -22,7 +22,7 @@ While bulk RNA sequencing allows us to examine gene expression in a tissue as a 
 
 #### Instructions
 
-1. Watch this video (video - coming soon)([slides](https://docs.google.com/presentation/d/1axiRC66t6HYkCPzmxNdHXWqR5OpwPfiZxOkocrxji54/)) introducing single-cell RNA-seq.
+1. Watch this video ([video](https://drive.google.com/file/d/1E9WqaYNs_hc4W8phFtkmcfTBQd8SatA5/))([slides](https://docs.google.com/presentation/d/1axiRC66t6HYkCPzmxNdHXWqR5OpwPfiZxOkocrxji54/)) introducing single-cell RNA-seq.
 
 #### Questions
 
@@ -147,38 +147,27 @@ Watch this video (video - coming soon)([slides](https://docs.google.com/presenta
 |:-|
 | <br> |
 
-<!-- (these are just placeholders, copied from a different lab)
 
-Determine the total reads across all genes, and the mean, median and max read counts for a single sample. Each student reports on one of the samples analyzed.
+### Activity 3 - Differential expression and gene marker identification
 
-| Assigned Sample | |
-|:-|:-|
-| Total Reads | |
-| Mean Read Count  | |
-| Median Read Count  | |
-| Max Read Count  | |
+*Estimated time: 15 min*
 
-<br>
+#### Instructions
 
-Look up the GeneID of the gene you presented on from the Biological Databases Lab. Use the filter command to find the readCount in both samples assigned to your group.
+1. Launch cellxgene on SciServer.
+1. Follow the instructions in this video ([video](https://drive.google.com/file/d/1xAM2llmKqMjUhOs_XEVv9NgunZ7Gp8DF/view?usp=drive_link)) ([slides](https://docs.google.com/presentation/u/0/d/1kVLH-n04mZh4KzUaGj0E2pUpiwu51IACGzvkznLT1FM/edit)) to learn how to perform differential gene expression and explore genes of interest using cellxgene.
 
-| How many reads does the gene have in your assigned dataset? |
-|:-|
-| Share a screenshot. |
+"Gene markers" are genes that are expressed in one cell type and not in any others.  We call them "markers" because we can use them to tell cell types apart.
 
-<br>
-
-| How many reads does the gene have in your partner's dataset? |
-|:-|
-| Share a screenshot. |
-
-<br>
-
-| Compare this number to the mean; is it average, high or low? |
+| Looking at the UMAP plots above, which gene (dpy or ect) is a better gene marker for the adult pylorus cells? |
 |:-|
 | <br> |
 
--->
+<br>
+
+| Explain your answer to the previous question. |
+|:-|
+| <br> |
 
 ### Footnotes
 
