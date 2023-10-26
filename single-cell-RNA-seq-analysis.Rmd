@@ -123,30 +123,31 @@ Watch this video (video - coming soon)([slides](https://docs.google.com/presenta
 |:-|
 | <br> |
 
-<!-- (these are just placeholders, copied from a different lab)
 
-### Activity 2 - Analyze an HT-seq file
+### Activity 2 - Explore genes of interest identified by differential expression analyses
 
-*Estimated time: 15-20 min*
+*Estimated time: 15 min*
 
 #### Instructions
 
-1. In groups of two, analyze the HTSeq samples assigned to you.
-
-| | Assigned Sample |
-|:-|:-|
-| Name | |
-| Name | |
-
-2. Use the code blocks on the "Try it out!" page to analyze the data.
-    a. The codeblocks on the "Try it out!" page, has this code typed out for you:
-        i. `readCounts <- read.table( "data/FILENAMEHERE.htseq")`
-    a. Change `FILENAMEHERE` to the filename for your file. Once you have done this, **readCounts** will have the new HTSeq file loaded into it
-        i. Example: `readCounts <- read.table( "data/SRR891602.htseq")`
-1. The code above loads the data set into `readCounts`. If you run this code alone, nothing will happen. Try requesting some analysis to get a look at the data and answer the questions below.
-1. Answer the questions below as you analyze the data. Consult the “Cheat Sheet” to figure out which code to use.
+1. Launch cellxgene on SciServer.
+1. Follow the instructions in this video ([video](https://drive.google.com/file/d/11PFYc2K4qYYvFYc05TCIyarliuWOmQ5x/view?usp=drive_link)) ([slides](https://docs.google.com/presentation/u/0/d/1b9OqXaqUGo0gAnsfbKD6PuLSqbpdREh241UkN_WwQIc/edit)) to learn how to explore the expression of genes of interest 
+1. Set cellxgene to show the expression of the gene Cht8, and answer the question below.  (You can refer back to the video for how to view expression of a specific gene.)
 
 #### Questions
+
+**In which of the following cell types is the gene Cht8 expressed the most?**
+
+- **A) Crop**
+- **B) Cardia**
+- **C) Posterior midgut**
+- **D) Anterior midgut**
+
+| |
+|:-|
+| <br> |
+
+<!-- (these are just placeholders, copied from a different lab)
 
 Determine the total reads across all genes, and the mean, median and max read counts for a single sample. Each student reports on one of the samples analyzed.
 
