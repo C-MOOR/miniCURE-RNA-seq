@@ -106,37 +106,24 @@ Analyzing single-cell sequencing data is difficult, because there is just so muc
 
 Watch this video (video - coming soon)([slides](https://docs.google.com/presentation/d/1VpdaBbZ04qUa2A_W9UwWEF_FVKfhImIt0703z4X1Vqo/edit#slide=id.g28a33aed8b2_0_253)) to learn more about Fly Cell Atlas and cellxgene.
 
-<!-- (these are just placeholders, copied from a different lab)
 
-### Activity 1 - Introduction to RNA-seq Data Tutorial
+### Activity 1 - Launch cellxgene on SciServer
 
-*Estimated time: 20 min*
+*Estimated time: 15 min*
 
 #### Instructions
 
-1. Log into SciServer, click on compute and open your C-MOOR LearnR” container.
-1. Start the “Introduction to RNA-seq Data” tutorial. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22). if you need to jog your memory on how to do this.
-1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
-1. This tutorial has small boxes in which you can enter and run short lines of code to analyze the data.
-1. As you work through the tutorial, answer the questions below. When you get to “Try it Out!” move on to Activity 2.
+1. Log into SciServer.
+1. Follow the instructions in this video ([video](https://drive.google.com/file/d/11ZUswWj3MCaikhWIbEjK8LZ6i-Lum04I))([slides](https://docs.google.com/presentation/u/0/d/1NIUcSVoMlcVNphcLfS15jouG3_AYYYTrKwgcTrHr0zU/edit)) to launch cellxgene on SciServer with the *Drosophila* gut data.
+1. Look at the data on SciServer and answer the question below.
 
 #### Questions
 
-| What are the two columns (V1 and V2) in an HT-seq file? What data is stored in each column? |
+| How many cell types are annotated in the *Drosophila* gut dataset? |
 |:-|
 | <br> |
 
-<br>
-
-| Explain what is readCount and what is GeneID |
-|:-|
-| <br> |
-
-<br>
-
-| Share a screenshot of the row showing the readCount of the lab gene in the “Reproduce Results for a Single Gene” section and explain in your own words what the code in your screenshot is doing. |
-|:-|
-| <br> |
+<!-- (these are just placeholders, copied from a different lab)
 
 ### Activity 2 - Analyze an HT-seq file
 
