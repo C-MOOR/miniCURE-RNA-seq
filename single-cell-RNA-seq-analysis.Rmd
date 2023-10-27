@@ -74,7 +74,7 @@ While bulk RNA sequencing allows us to examine gene expression in a tissue as a 
 
 #### Resources
 
-- [Google Doc](https://docs.google.com/document/d/1sKqNfe9iFLlGcuL0OHQ_aGARwC_Sqb8IQjIfwzP629Y/)
+- [Google Doc](https://docs.google.com/document/d/1LY30hkP8hY2_I5h45pJLgOXGInxfK6v7M7I3JDV6_pA/)
 
 #### Contributions and Affiliations
 
@@ -104,7 +104,7 @@ In this lab, students will explore single-cell RNA-seq data from the *Drosophila
 
 Analyzing single-cell sequencing data is difficult, because there is just so much data!  The **cellxgene** (pronounced “cell-by-gene”) tool provides an interactive visualization of the data, giving investigators a big-picture overview of the data and also enabling them to select specific cell types or genes for further investigation.  The Fly Cell Atlas has made cellxgene available on its website ([flycellatlas.org](https://flycellatlas.org/)), but for this lab we will use cellxgene on SciServer as it offers more functionality (e.g. ability to identify differentially expressed genes).  Learning how to use cellxgene will give students a valuable tool for investigating scientific questions.
 
-Watch this video (video - coming soon)([slides](https://docs.google.com/presentation/d/1VpdaBbZ04qUa2A_W9UwWEF_FVKfhImIt0703z4X1Vqo/edit#slide=id.g28a33aed8b2_0_253)) to learn more about Fly Cell Atlas and cellxgene.
+Watch this video ([video](https://drive.google.com/file/d/1lBrN1ul5PEg6MDoYkGZ_MOCHHzYZydDF/))([slides](https://docs.google.com/presentation/d/1VpdaBbZ04qUa2A_W9UwWEF_FVKfhImIt0703z4X1Vqo/edit#slide=id.g28a33aed8b2_0_253)) to learn more about Fly Cell Atlas and cellxgene.
 
 
 ### Activity 1 - Launch cellxgene on SciServer
@@ -159,7 +159,7 @@ Watch this video (video - coming soon)([slides](https://docs.google.com/presenta
 
 #### Questions
 
-```{r, echo=FALSE, fig.alt="UMAP plot of single-cell RNA-seq data from the fruit fly gut. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"}
+```{r, echo=FALSE, fig.alt="UMAP plot of single-cell RNA-seq data from the fruit fly gut. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)", out.width = '100%'}
 
 knitr::include_graphics("assets/cellxgene_marker_genes.png")
 ```
