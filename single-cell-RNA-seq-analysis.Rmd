@@ -159,7 +159,7 @@ Watch this video ([video](https://drive.google.com/file/d/1lBrN1ul5PEg6MDoYkGZ_M
 
 #### Questions
 
-```{r, echo=FALSE, fig.alt="UMAP plot of single-cell RNA-seq data from the fruit fly gut. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)", out.width = '100%'}
+```{r, echo=FALSE, fig.alt="UMAP plot of single-cell RNA-seq data from the fruit fly gut. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)", out.width = '80%'}
 
 knitr::include_graphics("assets/cellxgene_marker_genes.png")
 ```
