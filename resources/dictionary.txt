@@ -8,7 +8,11 @@ bioinformatics
 BIPOC
 Bloomberg
 Bookdown
+Cardia
+Carpinteyro
+cellxgene
 cDNA
+Cht
 clusterProfiler
 codeblocks
 Coffman
@@ -21,10 +25,13 @@ driveR
 dropdown
 Drosophila
 drosophila
+dpy
+ect
 eLife
 et
 FBgn
 FlyBase
+flycellatlas
 FoldChange
 fyi
 GARD
@@ -66,6 +73,7 @@ reproducibility
 RStudio
 SciServer
 sciserver
+scRNA
 silico
 transcriptome
 Trypsin
@@ -74,6 +82,7 @@ trypsins
 tsv
 UE
 UE5
+UMAP
 underserved
 vitro
 vivo
