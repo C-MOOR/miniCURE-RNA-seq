@@ -31,7 +31,18 @@ _Programming skills_
 **Novice**: No programming experience needed
 :::
 
-### Learning Objectives {-}
+### Format {- .unlisted}
+
+- **Class Type:** Lab (computer based)
+- **Lesson Length:** Multiple class periods (5 lab periods)
+    - Scientific Literature
+    - Model Organisms and Databases
+    - RNA-seq Analysis
+    - Differential Gene Expression
+    - Kickstart Project Work
+    
+    
+### Learning Goals {-}
 
 - Learn about model organisms
 - Explore high-throughput sequencing datasets
