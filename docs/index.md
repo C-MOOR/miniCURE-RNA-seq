@@ -1,6 +1,6 @@
 ---
 title: "RNA-seq miniCURE"
-date: "October, 2023"
+date: "December, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -19,7 +19,7 @@ This miniCURE allows students to develop a project using RNA-seq datasets to int
 
 ![](index_files/figure-docx//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f734f625ef_0_30.png)
 
-<h1>Skills Level</h1>
+### Skills Level {- .unlisted}
 
 ::: {.notice}
 _Genetics_  
@@ -29,12 +29,13 @@ _Programming skills_
 **Novice**: No programming experience needed
 :::
 
-<h1>Learning Objectives</h1>
+### Learning Objectives {-}
 
 - Learn about model organisms
 - Explore high-throughput sequencing datasets
 - Practice the [scientific process](https://undsci.berkeley.edu/understanding-science-101/how-science-works/)
 
-<h1>C-MOOR Collection</h1>
+### C-MOOR Collection {- .unlisted}
 
-More coming soon!
+
+This content is part of a collection of teaching resources developed by C-MOOR.  C-MOOR works to break down barriers to scientific participation and build pathways for the next generation of data scientists through authentic research experiences.  Learn more about C-MOOR by [viewing our projects](https://github.com/c-moor), or read about how C-MOOR is [integrating research experience into undergraduate biology courses](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html) at Clovis Community College.

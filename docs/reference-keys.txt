@@ -6,7 +6,7 @@ learning-goals
 the-scientific-process
 join-sciserver
 purpose
-learning-objectives
+learning-objectives-1
 introduction-1
 instructions
 create-an-account-on-sciserver
@@ -17,7 +17,7 @@ footnotes
 contributions-and-affiliations
 first-learnr
 purpose-1
-learning-objectives-1
+learning-objectives-2
 introduction-2
 instructions-1
 accept-invitation-to-join-class-sciserver-group
@@ -52,7 +52,7 @@ contributions-and-affiliations-3
 model-organisms-and-databases
 pre-lab-model-organisms
 purpose-3
-learning-objectives-2
+learning-objectives-3
 introduction-3
 activity-1---model-organisms
 instructions-4
@@ -66,7 +66,7 @@ contributions-and-affiliations-4
 lab-slides-model-organisms-and-databases
 lab-activity-biological-databases
 purpose-4
-learning-objectives-3
+learning-objectives-4
 activity-1---databases
 instructions-6
 questions-3
@@ -88,7 +88,7 @@ contributions-and-affiliations-5
 rna-seq-analysis
 pre-lab-intro-to-rna-seq
 purpose-5
-learning-objectives-4
+learning-objectives-5
 introduction-4
 activity-1---biotechnology-next-gen-sequencing
 instructions-12
@@ -104,7 +104,7 @@ lab-slides
 sort-gene-expression-data-using-spreadsheets
 lab-activity-rna-seq-analysis
 purpose-6
-learning-objectives-5
+learning-objectives-6
 introduction-5
 activity-1---introduction-to-rna-seq-data-tutorial
 instructions-14
@@ -119,7 +119,7 @@ differential-gene-expression
 lab-slides-differential-gene-expression
 lab-activity-differential-gene-expression
 purpose-7
-learning-objectives-6
+learning-objectives-7
 introduction-6
 activity-1---differential-expression-tutorial
 instructions-16
@@ -136,7 +136,7 @@ contributions-and-affiliations-8
 single-cell-rna-seq-analysis
 background-single-cell-rna-sequencing
 purpose-8
-learning-objectives-7
+learning-objectives-8
 introduction-7
 activity-1---biotechnology-scrna-seq
 instructions-19
@@ -149,7 +149,7 @@ resources-11
 contributions-and-affiliations-9
 lab-activity-single-cell-rna-seq
 purpose-9
-learning-objectives-8
+learning-objectives-9
 introduction-8
 activity-1---launch-cellxgene-on-sciserver
 instructions-21
