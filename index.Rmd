@@ -53,7 +53,7 @@ competencies <- tibble::tribble(
                               # "- **4**: PATHWAYS AND TRANSFORMATIONS OF ENERGY AND MATTER: Biological systems grow and change by processes based upon chemical transformation pathways and are governed by the laws of thermodynamics",
                               # "- **5**: SYSTEMS: Living systems are interconnected and interacting.",
                               
-                              "Competencies\n",
+                              "\nCompetencies\n",
                               "- **1**: Ability to apply the process of science",
                               "- **2**: Ability to use quantitative reasoning",
                               # "- **3**: Ability to use modeling and simulation",
@@ -63,7 +63,7 @@ competencies <- tibble::tribble(
                             sep="\n"),
 
      "**Genetics**",         paste(
-                              "Concepts\n",
+                              "\nConcepts\n",
                               # "- How is DNA organized?",
                               # "- What are the molecular components and mechanisms necessary to preserve and duplicate an organism’s genome?",
                               # "- What are the mechanisms by which an organism’s genome is passed on to the next generation?",
