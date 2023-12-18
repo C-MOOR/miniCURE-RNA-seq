@@ -1,3 +1,24 @@
 # Instructor Guide {-}
 
-Sample schedules
+## Sample schedules
+
+| SP23 | | Clovis Community College | miniCURE | Optional |
+| :---: | :---: | :---: | :---: | :---: |
+| Jan 11 | Lab 1 | Micropipetting           | Overview / Scientific Process |          |
+| Jan 18 | Lab 2 | Quantitative Data Analysis | | |
+| Jan 25 | Lab 3 | Microscopes and Cells | | |
+| Feb 1 | Lab 4 | Diffusion and Osmosis | | |
+| Feb 8 | Lab 5 | Enzymes | | |
+| Feb 15 | Lab 6 | Cellular Response and Photosyntesis | Assign Onboarding | Pre-test |
+| Feb 22 | Lab 7 | | #1: Scientific Literature | |
+| Mar 1 | Lab 8 | Bacterial Transformation and Exam 1 | | |
+| Mar 8 | Lab 9 | | #2: Model Organisms and Databases | |
+| Mar 15 | Lab 10 | | #3: RNA-seq Analysis | |
+| Mar 22 | Lab 11 | | #4: Differential Gene Expression | |
+| Mar 29 | Lab 12 | DNA Extractions and PCR | #5: Kickstart Project Work | |
+| Apr 12 | Lab 13 | Mendelian Genetics | | Tutorial Center |
+| Apr 19 | | | Project Check-in | |
+| Apr 26 | Lab 14 | Mitosis and Meiosis | Project Due | |
+| May 3 | Lab 15 | Population Genetics | | Submit for Printing |
+| May 10 | | Exam 2 | | Post-test |
+| May 12 | | | | Poster Presentation |
