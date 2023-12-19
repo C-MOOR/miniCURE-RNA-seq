@@ -1,6 +1,8 @@
 # Instructor Guide {-}
 
-#### Sample schedules {-}
+### Sample schedules {-}
+
+Here is an example of how this RNA-seq miniCURE was incorporated into the BIOL11A "Biology for Science Majors" lab at Clovis Community College.
 
 | **Spring 2023** | **Lab #** | **Lab Topic** | **miniCURE** | **Optional** |
 | :---: | :---: | :---: | :---: | :---: |
