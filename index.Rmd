@@ -50,7 +50,7 @@ competencies <- tibble::tribble(
                               "<ul>",
                               # "<li>**1**: EVOLUTION: The diversity of life evolved over time by processes of mutation, selection, and genetic change.</li>",
                               # "<li>**2**: STRUCTURE AND FUNCTION: Basic units of structure define the function of all living things.</li>",
-                              "<li>**3**: INFORMATION FLOW, EXCHANGE, AND STORAGE: The growth and behavior of organisms are activated through the expression of genetic information in context.</li>",
+                              "<li>**3**: INFORMATION FLOW, EXCHANGE, AND STORAGE</li>",
                               # "<li>**4**: PATHWAYS AND TRANSFORMATIONS OF ENERGY AND MATTER: Biological systems grow and change by processes based upon chemical transformation pathways and are governed by the laws of thermodynamics.</li>",
                               # "<li>**5**: SYSTEMS: Living systems are interconnected and interacting.</li>",
                               "</ul>",
