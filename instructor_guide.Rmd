@@ -8,7 +8,7 @@ C-MOOR miniCURE content overview.
 | :--- | :---: | :---: |
 | [Overview / Scientific Process](https://www.c-moor.org/miniCURE-RNA-seq/introduction.html) | 1 hr | |
 | [#1: Scientific Literature](https://www.c-moor.org/miniCURE-RNA-seq/scientific-literature.html) | Full lab | Pre-lab: Scientific Literature |
-| [#2: Model Organisms](https://www.c-moor.org/miniCURE-RNA-seq/model-organisms-and-databases.html) | Full lab | Pre-lab: Model Organisms |
+| [#2: Model Organisms and Databases](https://www.c-moor.org/miniCURE-RNA-seq/model-organisms-and-databases.html) | Full lab | Pre-lab: Model Organisms |
 | [#3: RNA-seq Analysis](https://www.c-moor.org/miniCURE-RNA-seq/rna-seq-analysis.html) | Full lab | Pre-lab: Intro to RNA-seq |
 | [#4: Differential Gene Expression](https://www.c-moor.org/miniCURE-RNA-seq/differential-gene-expression.html) | Full lab | |
 | [#5: Kickstart Project Work](https://www.c-moor.org/miniCURE-RNA-seq/kickstart-project-work.html) | Flexible | |
