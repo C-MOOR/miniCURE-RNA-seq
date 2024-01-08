@@ -4,7 +4,7 @@ C-MOOR miniCURE content overview.
 
 ### Content overview {-}
 
-| **Name** | **Lenght** | **Notes** |
+| **Name** | **Length** | **Notes** |
 | :---: | :---: | :---: |
 | [Overview / Scientific Process](https://www.c-moor.org/miniCURE-RNA-seq/introduction.html) | 1 hr | |
 | [#1: Scientific Literature](https://www.c-moor.org/miniCURE-RNA-seq/scientific-literature.html) | Full lab | Pre-lab: Scientific Literature |
