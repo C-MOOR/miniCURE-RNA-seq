@@ -18,7 +18,7 @@ C-MOOR miniCURE content overview.
 
 ### Sample schedules {-}
 
-Here is an example of how this RNA-seq miniCURE was incorporated into the BIOL11A "Biology for Science Majors" lab at Clovis Community College and into the BIO239 "Course Name" lab at Notre Dame of Maryland University.
+Here is an example of how this RNA-seq miniCURE was incorporated into the BIOL11A "Biology for Science Majors" lab at Clovis Community College and into the BIO239 "Genetics" lab at Notre Dame of Maryland University.
 
 "Optional" refers to activities related to the mini-CURE that are not part of the core curriculum (a pre- and post- test surveying student experiences, a visit to the on-campus "tutorial center" where students can receive help and advice, and the printing and presenting of posters).
 
