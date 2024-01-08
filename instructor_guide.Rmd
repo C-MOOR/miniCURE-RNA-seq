@@ -13,7 +13,7 @@ C-MOOR miniCURE content overview.
 | [#4: Differential Gene Expression](https://www.c-moor.org/miniCURE-RNA-seq/differential-gene-expression.html) | Full lab | |
 | [#5: Kickstart Project Work](https://www.c-moor.org/miniCURE-RNA-seq/kickstart-project-work.html) | Flexible | |
 | [Tutorial Center](https://www.c-moor.org/miniCURE-RNA-seq/tutorial-center.html) | Flexible? | Optional |
-| [Poster presentation](https://www.cloviscollege.edu/landing/stem-research-symposium-2023.html) | Full lab | Optional |
+| [Poster presentation](https://www.cloviscollege.edu/landing/stem-research-symposium-2023.html) | Flexible | Optional |
 
 "Optional" refers to activities related to the mini-CURE that are not part of the core curriculum (a pre- and post- test surveying student experiences, a visit to the on-campus "tutorial center" where students can receive help and advice, and the printing and presenting of posters).
 
