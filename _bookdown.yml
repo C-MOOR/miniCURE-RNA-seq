@@ -2,6 +2,7 @@ book_filename: "Course_Name"
 chapter_name: "Chapter "
 repo: https://github.com/jhudsl/OTTR_Template/
 rmd_files: ["index.Rmd",
+            "instructor_guide.Rmd",
             "introduction.Rmd",
             "scientific-literature.Rmd",
             "model-organisms-and-databases.Rmd",
