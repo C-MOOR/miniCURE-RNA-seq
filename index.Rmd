@@ -31,11 +31,12 @@ _Programming skills_
 **Novice**: No programming experience needed
 :::
 
-### Learning Objectives {-}
+### Learning Goals {-}
 
-- Learn about model organisms
-- Explore high-throughput sequencing datasets
-- Practice the [scientific process](https://undsci.berkeley.edu/understanding-science-101/how-science-works/)
+- **Navigate biological databases** to access the wealth of available scientific knowledge and data.
+- **Analyze data (i.e. create and interpret plots)** to generate novel conclusions.
+- **Cultivate an “-omics” perspective**, integrating multiple sources of information and wielding computational tools to enable a holistic approach
+- **Practice the scientific process**, identifying avenues for research, designing experiments, analyzing data, and integrating results into the broader scientific discourse.
 
 ### Core Competencies {- .unlisted}
 
