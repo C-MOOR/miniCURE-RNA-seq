@@ -1,6 +1,6 @@
 ---
 title: "RNA-seq miniCURE"
-date: "December, 2023"
+date: "January, 2024"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -42,7 +42,7 @@ _Programming skills_
 *Kickstart Project Work is flexible - it is enormously helpful for students to to have some guided lab time to work on the project, but this can be overlapped with a wet-lab protocol with a lot of downtime, such as PCR.
     
     
-### Learning Goals {-}
+### Learning Objectives {-}
 
 - Learn about model organisms
 - Explore high-throughput sequencing datasets
