@@ -37,7 +37,7 @@ This miniCURE is intended to fit into various undergraduate biology lab courses;
 
 This miniCURE helps solidify several key concepts of introductory biology, molecular biology, and genetics by providing an opportunity for practical application - investigating genes and their functions.  The miniCURE is intended to be offered in concert with lectures that delve deeper into at least some of these topics:
 
-**Co-requisites**
+**Corequisite knowledge**
 
 - **Genes** - What is a gene? (and why do we care about them?)
 - **Gene expression and the central dogma** - Why measure RNA?
