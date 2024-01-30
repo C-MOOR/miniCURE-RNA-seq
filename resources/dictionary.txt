@@ -27,6 +27,7 @@ Drosophila
 drosophila
 dpy
 ect
+Electrophoresis
 eLife
 et
 FBgn
@@ -51,6 +52,7 @@ Markua
 Mech
 melanogaster
 mentorship
+Micropipetting
 midgut
 miniCURE
 mRNA
@@ -58,6 +60,7 @@ Musselman
 NCI
 NHGRI
 NIDDK
+Notre
 OMIM
 Onboarding
 ortholog
@@ -66,6 +69,8 @@ ottrpal
 padlet
 PDB
 Ph
+Photosyntesis
+Plasmids
 pre
 readCount
 readCounts
