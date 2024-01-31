@@ -31,7 +31,7 @@ Here is an example of how this RNA-seq miniCURE was incorporated into the BIOL11
 | Jan 25 | 3 | Microscopes and Cells | | |
 | Feb 1 | 4 | Diffusion and Osmosis | | |
 | Feb 8 | 5 | Enzymes | | |
-| Feb 15 | 6 | Cellular Response and Photosyntesis | Assign Onboarding | Pre-test |
+| Feb 15 | 6 | Cellular Response and Photosynthesis | Assign Onboarding | Pre-test |
 | Feb 22 | 7 | | [#1: Scientific Literature](https://www.c-moor.org/miniCURE-RNA-seq/scientific-literature.html) | |
 | Mar 1 | 8 | Bacterial Transformation and Exam 1 | | |
 | Mar 8 | 9 | | [#2: Model Organisms and Databases](https://www.c-moor.org/miniCURE-RNA-seq/model-organisms-and-databases.html) | |
