@@ -1,7 +1,7 @@
 # Core Competencies {#competencies-table}
 
 Core concepts and competencies are taken from the following sources:
-
+<br>
 <br>
 
   - [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
