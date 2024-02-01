@@ -1,4 +1,4 @@
-# Core Competencies
+# Core Competencies {#competencies-table}
 
 Core concepts and competencies are taken from the following sources:
 
