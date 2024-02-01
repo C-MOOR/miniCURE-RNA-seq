@@ -12,12 +12,12 @@ rmd_files: ["index.Rmd",
             "kickstart-project-work.Rmd",
             "peer-review.Rmd",
             "scientific-communication.Rmd",
-            "example-minicure-projects.Rmd",
-            "c-moor-scholars.Rmd",
-            "online-community.Rmd",
             
             ### PART Appendix ###
             "appendix.Rmd",
+            "example-minicure-projects.Rmd",
+            "c-moor-scholars.Rmd",
+            "online-community.Rmd",
             "core-competencies.Rmd",
             "About.Rmd"]
 new_session: yes
