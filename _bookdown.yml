@@ -1,6 +1,6 @@
 book_filename: "Course_Name"
 chapter_name: "Chapter "
-repo: https://github.com/jhudsl/OTTR_Template/
+repo: https://github.com/C-MOOR/miniCURE-RNA-seq
 rmd_files: ["index.Rmd",
             "instructor_guide.Rmd",
             "introduction.Rmd",
@@ -15,6 +15,10 @@ rmd_files: ["index.Rmd",
             "example-minicure-projects.Rmd",
             "c-moor-scholars.Rmd",
             "online-community.Rmd",
+            
+            ### PART Appendix ###
+            "appendix.Rmd",
+            "core-competencies.Rmd",
             "About.Rmd"]
 new_session: yes
 bibliography: [book.bib]
