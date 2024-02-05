@@ -2,7 +2,7 @@ bookdown::gitbook:
   css: assets/style.css
   split_by: section
   includes:
-    before_body: assets/big-image.html
+    before_body: assets/C-MOOR_Template/big-image-c-moor.html
     after_body: assets/footer.html
   highlight: tango
   config:
