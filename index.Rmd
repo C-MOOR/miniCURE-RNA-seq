@@ -130,6 +130,7 @@ Core concepts and competencies are taken from the following sources:
 
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "about_c-moor.Rmd"
+  doc_path = "about_c-moor.Rmd",
+  repo_name = "C-MOOR/miniCURE-RNA-seq"
 )
 ```
