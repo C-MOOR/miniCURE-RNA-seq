@@ -9,6 +9,8 @@ link-citations: yes
 description: "Description about Course/Book."
 favicon: assets/dasl_favicon.ico
 output:
+    bookdown::gitbook:
+      split_by: section
     bookdown::word_document2:
       toc: true
 ---
@@ -131,6 +133,6 @@ Core concepts and competencies are taken from the following sources:
 ```{r, echo = FALSE, results='asis'}
 cow::borrow_chapter(
   doc_path = "about_c-moor.Rmd",
-  repo_name = "C-MOOR/C-MOOR_Template"
+  repo_name = "C-MOOR/miniCURE-RNA-seq"
 )
 ```
