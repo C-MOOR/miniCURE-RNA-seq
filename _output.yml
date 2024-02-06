@@ -1,5 +1,5 @@
 bookdown::gitbook:
-  css: [assets/style.css, assets/C-MOOR_Template/c-moor-ottr.css]
+  css: assets/C-MOOR_Template/c-moor-ottr.css
   split_by: section
   includes:
     before_body: assets/C-MOOR_Template/big-image-c-moor.html
