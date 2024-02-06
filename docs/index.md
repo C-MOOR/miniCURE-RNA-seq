@@ -9,6 +9,8 @@ link-citations: yes
 description: "Description about Course/Book."
 favicon: assets/dasl_favicon.ico
 output:
+    bookdown::gitbook:
+      split_by: section
     bookdown::word_document2:
       toc: true
 ---
