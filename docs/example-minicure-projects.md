@@ -1,5 +1,3 @@
-# (PART\*) Appendix {-}
-
 # Example miniCURE Projects
 
 Read more about what these students did and how you can help

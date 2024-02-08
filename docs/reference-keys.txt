@@ -198,3 +198,4 @@ poster-template
 example-minicure-projects
 c-moor-scholars
 online-community
+competencies-table
