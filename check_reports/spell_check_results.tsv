@@ -1,0 +1,7 @@
+word	file	lines
+AAAS	core-competencies.Rmd	7
+AAAS	index.Rmd	62
+Corequisite	index.Rmd	40
+NIBLSE	core-competencies.Rmd	9
+NIBLSE	index.Rmd	64
+omics	index.Rmd	55
