@@ -1,6 +1,6 @@
 ---
-title: "Course Name"
-date: "February, 2022"
+title: "RNA-seq miniCURE"
+date: "February, 2024"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -9,8 +9,62 @@ link-citations: yes
 description: "Description about Course/Book."
 favicon: assets/dasl_favicon.ico
 output:
+    bookdown::gitbook:
+      split_by: section
     bookdown::word_document2:
       toc: true
 ---
 
 # About this Course {-}
+
+This multi-week miniCURE enables novice biology students to participate meaningfully in genomics research by using RNA-seq analysis and biological databases to develop and pursue their own scientific questions. Through this project, students experience how model organisms, high-throughput sequencing, data analysis, and the scientific process can be used in both basic and clinical research.
+
+<img src="index_files/figure-html//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f734f625ef_0_30.png" width="480" />
+
+The overarching goals of the miniCURE are to
+
+1. **Excite students about genomic data science**, showing them
+    1. The wealth of data freely available
+    1. The "magic" of analyzing data to produce new knowledge
+    1. This is something they can do!
+1. **Teach students to "think like a scientist"** - walking them through the messy process of exploring real data, identifying interesting patterns, pursuing multiple leads (some of which will not pan out), and integrating multiple sources of information to draw conclusions.
+
+### Audience and Context {- .unlisted}
+
+This miniCURE is intended to fit into various undergraduate biology lab courses; we have used it in an introductory *Biology for Science Majors* lab as well as an upper level *Genetics* lab.
+
+This miniCURE helps solidify several key concepts of introductory biology, molecular biology, and genetics by providing an opportunity for practical application - investigating genes and their functions.  The miniCURE is intended to be offered in concert with lectures that delve deeper into at least some of these topics:
+
+**Corequisite knowledge**
+
+- **Genes** - What is a gene? (and why do we care about them?)
+- **Gene expression and the central dogma** - Why measure RNA?
+- **Biotechnology** - What is next-gen sequencing?
+- **Homology** - Why study similar genes across different organisms?
+- **Pathways** - How do collections of genes work together?
+
+Pre-labs provide a very basic introduction/reminder of key terms and concepts, to offer some flexibility for how and when instructors integrate the miniCURE into their courses. Students with stronger backgrounds in the above topics will be able to ask more sophisticated questions when exploring the data and databases.
+
+
+### Learning Goals {-}
+
+- **Navigate biological databases** to access the wealth of available scientific knowledge and data.
+- **Analyze data (i.e. create and interpret plots)** to generate novel conclusions.
+- **Cultivate an “-omics” perspective**, integrating multiple sources of information and wielding computational tools to enable a holistic approach
+- **Practice the scientific process**, identifying avenues for research, designing experiments, analyzing data, and integrating results into the broader scientific discourse.
+
+### Core Competencies {- .unlisted}
+
+This activity addresses several core concepts and competencies from the following sources:
+
+  - [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
+  - [Genetics Learning Framework](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
+  - [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
+
+See [Appendix](#competencies-table) for details.
+
+
+### C-MOOR Collection {- .unlisted}
+
+
+This content is part of a collection of teaching resources developed by C-MOOR.  C-MOOR works to break down barriers to scientific participation and build pathways for the next generation of data scientists through authentic research experiences.  Learn more about C-MOOR by [viewing our projects](https://github.com/c-moor), or read about how C-MOOR is [integrating research experience into undergraduate biology courses](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html) at Clovis Community College.
