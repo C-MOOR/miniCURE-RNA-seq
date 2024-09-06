@@ -1,6 +1,6 @@
 ---
 title: "RNA-seq miniCURE"
-date: "`r format(Sys.time(), '%B, %Y')`"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -59,3 +59,4 @@ cow::borrow_chapter(
   repo_name = "C-MOOR/miniCURE-RNA-seq"
 )
 ```
+

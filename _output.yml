@@ -1,5 +1,5 @@
 bookdown::gitbook:
-  css: assets/style.css
+  css: [assets/style.css, assets/C-MOOR_Template/c-moor-ottr.css]
   includes:
     before_body: assets/C-MOOR_Template/big-image-c-moor.html
     after_body: footer.html
@@ -8,7 +8,7 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-       <a href="https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html"><img src="assets/C-MOOR_Template/c-moor-logo-vertical.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+       <a href="https://www.c-moor.org/" target="_blank"><img src="assets/C-MOOR_Template/c-moor-logo-vertical.png" style="width: 70%; padding-left: 10px;"</a>
       after: |
        <p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by:</a> </p>
        <p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
