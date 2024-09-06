@@ -1,6 +1,6 @@
 ---
 title: "RNA-seq miniCURE"
-date: "May, 2024"
+date: "September 06, 2024"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -53,3 +53,4 @@ See [Appendix](#competencies-table) for details.
 
 
 This content is part of a collection of teaching resources developed by C-MOOR.  C-MOOR works to break down barriers to scientific participation and build pathways for the next generation of data scientists through authentic research experiences.  Learn more about C-MOOR by [viewing our projects](https://github.com/c-moor), or read about how C-MOOR is [integrating research experience into undergraduate biology courses](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html) at Clovis Community College.
+
