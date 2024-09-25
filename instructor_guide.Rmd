@@ -17,6 +17,20 @@ C-MOOR miniCURE content overview.
 
 Some examples of how we have incorporated the labs into a course can be seen in [Sample schedules](#sample-schedules)
 
+### Teaching Suggestions
+
+Here are some practical suggestions for teaching the miniCURE that we have found to work well in our classrooms.
+
+#### Google Docs
+
+We have found Google Docs to be the easiest way for collaborators from multiple different institutions to share documents and files. We maintain Google Doc versions of our assignments so that instructors from different institutions can easily access and customize them. They can then be downloaded from the Google Doc in a variety of formats depending on what is most convenient for the instructor (Word, PDF, Open Document, etc.)
+
+Google Docs can be convenient for students as well, particularly for group work. Many students are comfortable with Google Docs and already have Google accounts. We typically give students a link for read-only access to the assignment, then have them make a copy of it for themself (or have one member make a copy for the group and invite other members). Students can fill in answers directly in their copy of the assignment, and submit a link to their (or their group’s) completed assignment.
+
+One common problem when having students submit Google Doc links is that they forget to also “share” their document with the instructor. This means the instructor is unable to view their document. When assignments are due, it can be helpful to quickly go through the submitted links and confirm that you can access the documents, even if you don’t have time to grade them right away. This gives you a chance to request access for any problematic documents.
+
+
+
 ### Sample schedules {- #sample-schedules}
 
 Here is an example of how this RNA-seq miniCURE was incorporated into the BIOL11A "Biology for Science Majors" lab at Clovis Community College and into the BIO239 "Genetics" lab at Notre Dame of Maryland University.
