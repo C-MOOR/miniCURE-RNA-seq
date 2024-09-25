@@ -17,13 +17,13 @@ C-MOOR miniCURE content overview.
 
 Some examples of how we have incorporated the labs into a course can be seen in [Sample schedules](#sample-schedules)
 
-### Teaching Suggestions
+### Teaching Suggestions {-}
 
 Here are some practical suggestions for teaching the miniCURE that we have found to work well in our classrooms.
 
-#### Google Docs
+#### Google Doc Assignments {-}
 
-We have found Google Docs to be the easiest way for collaborators from multiple different institutions to share documents and files. We maintain Google Doc versions of our assignments so that instructors from different institutions can easily access and customize them. They can then be downloaded from the Google Doc in a variety of formats depending on what is most convenient for the instructor (Word, PDF, Open Document, etc.)
+Our assignments are provided as both a webpage and a Google Doc, so that instructors can use whichever format is most convenient for their course. We have found Google Docs to be the easiest way for collaborators from multiple different institutions to share documents and files. We maintain Google Doc versions of our assignments so that instructors from different institutions can easily customize them if desired. They can be downloaded from the Google Doc in a variety of formats depending on what is most convenient for the instructor (Word, PDF, Open Document, etc.)
 
 Google Docs can be convenient for students as well, particularly for group work. Many students are comfortable with Google Docs and already have Google accounts. We typically give students a link for read-only access to the assignment, then have them make a copy of it for themself (or have one member make a copy for the group and invite other members). Students can fill in answers directly in their copy of the assignment, and submit a link to their (or their group’s) completed assignment.
 
