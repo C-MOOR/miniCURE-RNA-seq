@@ -17,7 +17,7 @@ C-MOOR miniCURE content overview.
 
 Some examples of how we have incorporated the labs into a course can be seen in [Sample schedules](#sample-schedules)
 
-### Sample schedules {#onboard -}
+### Sample schedules {- #onboard}
 
 Here is an example of how this RNA-seq miniCURE was incorporated into the BIOL11A "Biology for Science Majors" lab at Clovis Community College and into the BIO239 "Genetics" lab at Notre Dame of Maryland University.
 
