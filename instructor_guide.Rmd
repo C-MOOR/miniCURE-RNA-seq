@@ -21,6 +21,10 @@ Some examples of how we have incorporated the labs into a course can be seen in 
 
 Here are some practical suggestions for teaching the miniCURE that we have found to work well in our classrooms.
 
+#### External Feedback {-}
+
+When developing their projects and posters, in addition to receiving feedback from their instructor, it can be helpful for students to receive feedback through available institutional resources. For example, at Clovis Community College we have encouraged students to visit the campus “Tutorial Center”. Advisors do not need to be experts in *Drosophila* biology or R coding to help students with their projects. For most students, the hard part is not the coding or the details about specific genes. Instead, students need guidance in thinking through their project - pulling information together to generate a question or hypothesis, drawing useful insights from plots, connecting multiple pieces of information to generate conclusions, synthesizing a coherent story about their results, and creating a compelling poster. We encourage instructors to make use of campus resources. TAs and STEM help centers can assist with developing projects, or you may have library services that can assist with crafting posters. This lightens the load of the instructor and connects students with institutional resources available to them.
+
 #### Google Doc Assignments {-}
 
 Our assignments are provided as both a webpage and a Google Doc, so that instructors can use whichever format is most convenient for their course. We have found Google Docs to be the easiest way for collaborators from multiple different institutions to share documents and files. We maintain Google Doc versions of our assignments so that instructors from different institutions can easily customize them if desired. They can be downloaded from the Google Doc in a variety of formats depending on what is most convenient for the instructor (Word, PDF, Open Document, etc.)
