@@ -166,7 +166,7 @@ This video ([video](https://link.c-moor.org/video-sciserver-create-learnr-contai
     a. “Name” should be the name you chose
     a. “Image” should be “C-MOOR LearnR”
 1. Start your C-MOOR LearnR container by clicking on its name (whatever name you chose when you created it).  This will open in a new tab.
-    a. You should see a list of tutorials, organized by date.
+    a. You should see a list of tutorials, organized by topic.
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g1f83ffdfb86_0_19")
 ```
@@ -200,9 +200,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9
 
 #### Delete your C-MOOR LearnR compute container
 
-Compute containers are meant to be temporary, and you can only have 3 containers total on SciServer.  So it’s generally a good idea to clean up after yourself and delete your containers when you’re done using them.  Also, in this course, we will be updating the tutorials on the C-MOOR LearnR container, and **you will need to create a new container to get the latest updates.**
+Compute containers are meant to be temporary, and you can only have 3 containers total on SciServer.  So it’s generally a good idea to clean up after yourself and delete your containers when you’re done using them.  Also, in this course, we may be updating the tutorials on the C-MOOR LearnR container, and **you will need to create a new container to get the latest updates.**
 
-**Deleting your container will delete your progress in a tutorial**, so don’t delete the container until you have completed the tutorial and submitted any required items to your instructor.  Later on in the course you will learn how to save things permanently on SciServer.
+**Deleting your container will delete your progress in a tutorial**, so don’t delete the container until you have completed the tutorial and submitted any required items to your instructor.
 
 To delete a container:
 
@@ -210,7 +210,6 @@ To delete a container:
     a. Open [sciserver.org](https://www.sciserver.org/) in a web browser and log in to your account.
     a. If you are already logged in, click “Home” in the top menu to return to the home page.
     a. Scroll down to the second set of boxes and click “Compute”.
-    a. Start your C-MOOR LearnR container by clicking on its name.
 1. Find the container you want to delete.
 1. Click on the red “X” in the last column.
 
