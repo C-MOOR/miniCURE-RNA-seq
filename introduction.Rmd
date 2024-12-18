@@ -200,7 +200,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9
 
 #### Delete your C-MOOR LearnR compute container
 
-Compute containers are meant to be temporary, and you can only have 3 containers total on SciServer.  So it’s generally a good idea to clean up after yourself and delete your containers when you’re done using them.  Also, in this course, we may be updating the tutorials on the C-MOOR LearnR container, and **you will need to create a new container to get the latest updates.**
+Compute containers are meant to be temporary, and you can only have 3 containers total on SciServer.  So it’s generally a good idea to clean up after yourself and delete your containers when you’re done using them.  Also, if any updates are made to the C-MOOR LearnR container, **you will need to create a new container to get the latest updates.**
 
 **Deleting your container will delete your progress in a tutorial**, so don’t delete the container until you have completed the tutorial and submitted any required items to your instructor.
 
