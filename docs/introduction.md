@@ -116,7 +116,7 @@ The purpose of this assignment is to (1) join the class SciServer group so you c
 
 ### Introduction
 
-Before beginning this assignment, you should have already created a SciServer account and submitted your SciServer username to your instructor.  In this assignment you will learn how to set up a “compute container” on SciServer.  Compute containers are how you use programs on SciServer.  In this course you will use two compute containers: “C-MOOR LearnR” has tutorials that will teach you how to run data analyses, and “C-MOOR R-Studio” is where you will work on your own data analysis projects.  This assignment shows you how to set up the C-MOOR LearnR compute container and start up your first tutorial.
+Before beginning this assignment, you should have already created a SciServer account and submitted your SciServer username to your instructor.  In this assignment you will learn how to set up a “compute container” on SciServer.  Compute containers are how you use programs on SciServer.  There are two C-MOOR compute containers on SciServer: “C-MOOR LearnR” has tutorials that will teach you how to run data analyses, and “C-MOOR R-Studio” is where you can work on your own data analysis projects.  This assignment shows you how to set up the C-MOOR LearnR compute container and start up your first tutorial.
 
 ### Instructions
 
@@ -162,7 +162,7 @@ This video ([video](https://link.c-moor.org/video-sciserver-create-learnr-contai
     a. “Name” should be the name you chose
     a. “Image” should be “C-MOOR LearnR”
 1. Start your C-MOOR LearnR container by clicking on its name (whatever name you chose when you created it).  This will open in a new tab.
-    a. You should see a list of tutorials, organized by date.
+    a. You should see a list of tutorials, organized by topic.
 ![](introduction_files/figure-docx//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f83ffdfb86_0_19.png)
     a. If instead you see an error message, you most likely forgot to check the box next to “C-MOOR Data” when you created the container.
 ![](introduction_files/figure-docx//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f83ffdfb86_0_25.png)
@@ -192,9 +192,9 @@ This video ([video](https://link.c-moor.org/video-sciserver-create-learnr-contai
 
 #### Delete your C-MOOR LearnR compute container
 
-Compute containers are meant to be temporary, and you can only have 3 containers total on SciServer.  So it’s generally a good idea to clean up after yourself and delete your containers when you’re done using them.  Also, in this course, we will be updating the tutorials on the C-MOOR LearnR container, and **you will need to create a new container to get the latest updates.**
+Compute containers are meant to be temporary, and you can only have 3 containers total on SciServer.  So it’s generally a good idea to clean up after yourself and delete your containers when you’re done using them.  Also, if any updates are made to the C-MOOR LearnR container, **you will need to create a new container to get the latest updates.**
 
-**Deleting your container will delete your progress in a tutorial**, so don’t delete the container until you have completed the tutorial and submitted any required items to your instructor.  Later on in the course you will learn how to save things permanently on SciServer.
+**Deleting your container will delete your progress in a tutorial**, so don’t delete the container until you have completed the tutorial and submitted any required items to your instructor.
 
 To delete a container:
 
@@ -202,7 +202,6 @@ To delete a container:
     a. Open [sciserver.org](https://www.sciserver.org/) in a web browser and log in to your account.
     a. If you are already logged in, click “Home” in the top menu to return to the home page.
     a. Scroll down to the second set of boxes and click “Compute”.
-    a. Start your C-MOOR LearnR container by clicking on its name.
 1. Find the container you want to delete.
 1. Click on the red “X” in the last column.
 

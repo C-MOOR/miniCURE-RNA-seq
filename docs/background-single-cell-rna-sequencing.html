@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>6.1 Background: Single-cell RNA sequencing | RNA-seq miniCURE</title>
   <meta name="description" content="Description about Course/Book." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="6.1 Background: Single-cell RNA sequencing | RNA-seq miniCURE" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Description about Course/Book." />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-09-06" />
+<meta name="date" content="2025-01-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="single-cell-rna-seq-analysis.html"/>
 <link rel="next" href="lab-activity-single-cell-rna-seq.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,11 +48,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="assets/style.css" type="text/css" />
 <link rel="stylesheet" href="assets/C-MOOR_Template/c-moor-ottr.css" type="text/css" />
@@ -284,34 +287,34 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="background-single-cell-rna-sequencing" class="section level2" number="6.1">
-<h2><span class="header-section-number">6.1</span> Background: Single-cell RNA sequencing</h2>
-<div id="purpose-8" class="section level3" number="6.1.1">
-<h3><span class="header-section-number">6.1.1</span> Purpose</h3>
+<div id="background-single-cell-rna-sequencing" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> Background: Single-cell RNA sequencing<a href="background-single-cell-rna-sequencing.html#background-single-cell-rna-sequencing" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-8" class="section level3 hasAnchor" number="6.1.1">
+<h3><span class="header-section-number">6.1.1</span> Purpose<a href="background-single-cell-rna-sequencing.html#purpose-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The purpose of this lab is to introduce single-cell RNA sequencing, how it works, and how it is different from bulk RNA sequencing.</p>
 </div>
-<div id="learning-objectives-7" class="section level3" number="6.1.2">
-<h3><span class="header-section-number">6.1.2</span> Learning Objectives</h3>
+<div id="learning-objectives-7" class="section level3 hasAnchor" number="6.1.2">
+<h3><span class="header-section-number">6.1.2</span> Learning Objectives<a href="background-single-cell-rna-sequencing.html#learning-objectives-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
 <li>Compare and contrast single-cell and bulk RNA-seq</li>
 <li>Explain what a UMAP plot is and why it is useful for single-cell RNA-seq</li>
 </ol>
 </div>
-<div id="introduction-7" class="section level3" number="6.1.3">
-<h3><span class="header-section-number">6.1.3</span> Introduction</h3>
+<div id="introduction-7" class="section level3 hasAnchor" number="6.1.3">
+<h3><span class="header-section-number">6.1.3</span> Introduction<a href="background-single-cell-rna-sequencing.html#introduction-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>While bulk RNA sequencing allows us to examine gene expression in a tissue as a whole, newer technologies enable us to look at gene expression in individual cells, opening up new avenues for scientific research. This tutorial will explain the basics of single-cell RNA sequencing and discuss how it compares to bulk RNA-seq. It will also introduce you to UMAP plots - a common method for exploring single-cell sequencing data.</p>
 </div>
-<div id="activity-1---biotechnology-scrna-seq" class="section level3" number="6.1.4">
-<h3><span class="header-section-number">6.1.4</span> Activity 1 - Biotechnology: scRNA-seq</h3>
+<div id="activity-1---biotechnology-scrna-seq" class="section level3 hasAnchor" number="6.1.4">
+<h3><span class="header-section-number">6.1.4</span> Activity 1 - Biotechnology: scRNA-seq<a href="background-single-cell-rna-sequencing.html#activity-1---biotechnology-scrna-seq" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 15 min</em></p>
-<div id="instructions-19" class="section level4" number="6.1.4.1">
-<h4><span class="header-section-number">6.1.4.1</span> Instructions</h4>
+<div id="instructions-19" class="section level4 hasAnchor" number="6.1.4.1">
+<h4><span class="header-section-number">6.1.4.1</span> Instructions<a href="background-single-cell-rna-sequencing.html#instructions-19" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Watch this video (<a href="https://drive.google.com/file/d/1E9WqaYNs_hc4W8phFtkmcfTBQd8SatA5/">video</a>)(<a href="https://docs.google.com/presentation/d/1axiRC66t6HYkCPzmxNdHXWqR5OpwPfiZxOkocrxji54/">slides</a>) introducing single-cell RNA-seq.</li>
 </ol>
 </div>
-<div id="questions-13" class="section level4" number="6.1.4.2">
-<h4><span class="header-section-number">6.1.4.2</span> Questions</h4>
+<div id="questions-13" class="section level4 hasAnchor" number="6.1.4.2">
+<h4><span class="header-section-number">6.1.4.2</span> Questions<a href="background-single-cell-rna-sequencing.html#questions-13" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><strong>Which of the following steps are typically involved in bulk vs. single-cell RNA-sequencing?</strong></p>
 <ul>
 <li><strong>A) Obtain/dissect sample</strong></li>
@@ -358,17 +361,17 @@
 </table>
 </div>
 </div>
-<div id="activity-2---introduction-to-umap-plots" class="section level3" number="6.1.5">
-<h3><span class="header-section-number">6.1.5</span> Activity 2 - Introduction to UMAP plots</h3>
+<div id="activity-2---introduction-to-umap-plots" class="section level3 hasAnchor" number="6.1.5">
+<h3><span class="header-section-number">6.1.5</span> Activity 2 - Introduction to UMAP plots<a href="background-single-cell-rna-sequencing.html#activity-2---introduction-to-umap-plots" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 10 min</em></p>
-<div id="instructions-20" class="section level4" number="6.1.5.1">
-<h4><span class="header-section-number">6.1.5.1</span> Instructions</h4>
+<div id="instructions-20" class="section level4 hasAnchor" number="6.1.5.1">
+<h4><span class="header-section-number">6.1.5.1</span> Instructions<a href="background-single-cell-rna-sequencing.html#instructions-20" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Watch this video (<a href="https://drive.google.com/file/d/1okkFjNhcvY_Xp_wdDalhb422dW1tz2Yj">video</a>)(<a href="https://docs.google.com/presentation/u/0/d/1QequxyKSeXFAeon2NIkOwi51pXqZgKnXg6trAipNDKk/">slides</a>), which explains what a UMAP plot is and why it’s useful for single-cell RNA-seq.</li>
 </ol>
 </div>
-<div id="questions-14" class="section level4" number="6.1.5.2">
-<h4><span class="header-section-number">6.1.5.2</span> Questions</h4>
+<div id="questions-14" class="section level4 hasAnchor" number="6.1.5.2">
+<h4><span class="header-section-number">6.1.5.2</span> Questions<a href="background-single-cell-rna-sequencing.html#questions-14" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <colgroup>
 <col width="100%" />
@@ -386,16 +389,16 @@
 </table>
 </div>
 </div>
-<div id="footnotes-9" class="section level3" number="6.1.6">
-<h3><span class="header-section-number">6.1.6</span> Footnotes</h3>
-<div id="resources-11" class="section level4" number="6.1.6.1">
-<h4><span class="header-section-number">6.1.6.1</span> Resources</h4>
+<div id="footnotes-9" class="section level3 hasAnchor" number="6.1.6">
+<h3><span class="header-section-number">6.1.6</span> Footnotes<a href="background-single-cell-rna-sequencing.html#footnotes-9" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="resources-11" class="section level4 hasAnchor" number="6.1.6.1">
+<h4><span class="header-section-number">6.1.6.1</span> Resources<a href="background-single-cell-rna-sequencing.html#resources-11" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
 <li><a href="https://docs.google.com/document/d/1LY30hkP8hY2_I5h45pJLgOXGInxfK6v7M7I3JDV6_pA/">Google Doc</a></li>
 </ul>
 </div>
-<div id="contributions-and-affiliations-9" class="section level4" number="6.1.6.2">
-<h4><span class="header-section-number">6.1.6.2</span> Contributions and Affiliations</h4>
+<div id="contributions-and-affiliations-9" class="section level4 hasAnchor" number="6.1.6.2">
+<h4><span class="header-section-number">6.1.6.2</span> Contributions and Affiliations<a href="background-single-cell-rna-sequencing.html#contributions-and-affiliations-9" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
 <li>Katherine Cox, Ph.D., Johns Hopkins University</li>
 <li>Javier Carpinteyro-Ponce Ph.D., Carnegie Institution for Science</li>

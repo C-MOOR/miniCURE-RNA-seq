@@ -8,7 +8,7 @@ Image credit: [Max Westby](http://cubocube.com/dashboard.php?a=1179&b=1228&c=10)
 
 ### Purpose
 
-The two tutorials in this pre-lab will familiarize you with the concepts of model organisms, with an emphasis on Drosophila. In Lab 8, this information will help you look up information about Drosophila genes.
+The two tutorials in this pre-lab will familiarize you with the concepts of model organisms, with an emphasis on *Drosophila*. This information will help you look up information about *Drosophila* genes and find human orthologs to *Drosophila* genes.
 
 
 ### Learning Objectives
@@ -20,7 +20,7 @@ The two tutorials in this pre-lab will familiarize you with the concepts of mode
 
 Scientists frequently use a few specific organisms, called “model organisms” for their experiments. This tutorial will introduce you to a few of the most popular model organisms and will discuss why these organisms were chosen and what they are useful for.
 
-The fruit fly (Drosophila melanogaster) is a popular model organism used to study a wide range of biological questions. The second tutorial will introduce you to some of the types of research being conducted with fruit flies, give a brief overview of Drosophila biology, and show you what it’s like to work with Drosophila in the lab.
+The fruit fly (*Drosophila melanogaster*) is a popular model organism used to study a wide range of biological questions. The second tutorial will introduce you to some of the types of research being conducted with fruit flies, give a brief overview of *Drosophila biology*, and show you what it’s like to work with *Drosophila* in the lab.
 
 ### Activity 1 - Model Organisms
 

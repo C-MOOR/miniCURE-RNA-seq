@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>6.2 Lab Activity: Single-Cell RNA-seq | RNA-seq miniCURE</title>
   <meta name="description" content="Description about Course/Book." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="6.2 Lab Activity: Single-Cell RNA-seq | RNA-seq miniCURE" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Description about Course/Book." />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-09-06" />
+<meta name="date" content="2025-01-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="background-single-cell-rna-sequencing.html"/>
 <link rel="next" href="kickstart-project-work.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,11 +48,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="assets/style.css" type="text/css" />
 <link rel="stylesheet" href="assets/C-MOOR_Template/c-moor-ottr.css" type="text/css" />
@@ -284,39 +287,39 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="lab-activity-single-cell-rna-seq" class="section level2" number="6.2">
-<h2><span class="header-section-number">6.2</span> Lab Activity: Single-Cell RNA-seq</h2>
-<div id="purpose-9" class="section level3" number="6.2.1">
-<h3><span class="header-section-number">6.2.1</span> Purpose</h3>
+<div id="lab-activity-single-cell-rna-seq" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> Lab Activity: Single-Cell RNA-seq<a href="lab-activity-single-cell-rna-seq.html#lab-activity-single-cell-rna-seq" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-9" class="section level3 hasAnchor" number="6.2.1">
+<h3><span class="header-section-number">6.2.1</span> Purpose<a href="lab-activity-single-cell-rna-seq.html#purpose-9" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This lab will teach students how to explore single-cell RNA-seq data. This will enable them to use scRNA-seq data to investigate their scientific questions.</p>
 </div>
-<div id="learning-objectives-8" class="section level3" number="6.2.2">
-<h3><span class="header-section-number">6.2.2</span> Learning Objectives</h3>
+<div id="learning-objectives-8" class="section level3 hasAnchor" number="6.2.2">
+<h3><span class="header-section-number">6.2.2</span> Learning Objectives<a href="lab-activity-single-cell-rna-seq.html#learning-objectives-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
 <li>Launch cellxgene on SciServer.</li>
 <li>Use cellxgene to determine which cell types express a gene.</li>
 <li>Compare expression of different genes across cell types.</li>
 </ol>
 </div>
-<div id="introduction-8" class="section level3" number="6.2.3">
-<h3><span class="header-section-number">6.2.3</span> Introduction</h3>
+<div id="introduction-8" class="section level3 hasAnchor" number="6.2.3">
+<h3><span class="header-section-number">6.2.3</span> Introduction<a href="lab-activity-single-cell-rna-seq.html#introduction-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In this lab, students will explore single-cell RNA-seq data from the <em>Drosophila</em> gut, using data from the Fly Cell Atlas. The Fly Cell Atlas is a large collection of single-cell sequencing data from <em>Drosophila</em> (fruit flies), with the goal of creating a map of all the cell types in a fruit fly. Many scientists have contributed to the Fly Cell Atlas, and it is an incredible resource for anybody working with fruit flies.</p>
 <p>Analyzing single-cell sequencing data is difficult, because there is just so much data! The <strong>cellxgene</strong> (pronounced “cell-by-gene”) tool provides an interactive visualization of the data, giving investigators a big-picture overview of the data and also enabling them to select specific cell types or genes for further investigation. The Fly Cell Atlas has made cellxgene available on its website (<a href="https://flycellatlas.org/">flycellatlas.org</a>), but for this lab we will use cellxgene on SciServer as it offers more functionality (e.g. ability to identify differentially expressed genes). Learning how to use cellxgene will give students a valuable tool for investigating scientific questions.</p>
 <p>Watch this video (<a href="https://drive.google.com/file/d/1lBrN1ul5PEg6MDoYkGZ_MOCHHzYZydDF/">video</a>)(<a href="https://docs.google.com/presentation/d/1VpdaBbZ04qUa2A_W9UwWEF_FVKfhImIt0703z4X1Vqo/edit#slide=id.g28a33aed8b2_0_253">slides</a>) to learn more about Fly Cell Atlas and cellxgene.</p>
 </div>
-<div id="activity-1---launch-cellxgene-on-sciserver" class="section level3" number="6.2.4">
-<h3><span class="header-section-number">6.2.4</span> Activity 1 - Launch cellxgene on SciServer</h3>
+<div id="activity-1---launch-cellxgene-on-sciserver" class="section level3 hasAnchor" number="6.2.4">
+<h3><span class="header-section-number">6.2.4</span> Activity 1 - Launch cellxgene on SciServer<a href="lab-activity-single-cell-rna-seq.html#activity-1---launch-cellxgene-on-sciserver" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 15 min</em></p>
-<div id="instructions-21" class="section level4" number="6.2.4.1">
-<h4><span class="header-section-number">6.2.4.1</span> Instructions</h4>
+<div id="instructions-21" class="section level4 hasAnchor" number="6.2.4.1">
+<h4><span class="header-section-number">6.2.4.1</span> Instructions<a href="lab-activity-single-cell-rna-seq.html#instructions-21" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Log into SciServer.</li>
 <li>Follow the instructions in this video (<a href="https://drive.google.com/file/d/11ZUswWj3MCaikhWIbEjK8LZ6i-Lum04I">video</a>)(<a href="https://docs.google.com/presentation/u/0/d/1NIUcSVoMlcVNphcLfS15jouG3_AYYYTrKwgcTrHr0zU/edit">slides</a>) to launch cellxgene on SciServer with the <em>Drosophila</em> gut data.</li>
 <li>Look at the data on SciServer and answer the question below.</li>
 </ol>
 </div>
-<div id="questions-15" class="section level4" number="6.2.4.2">
-<h4><span class="header-section-number">6.2.4.2</span> Questions</h4>
+<div id="questions-15" class="section level4 hasAnchor" number="6.2.4.2">
+<h4><span class="header-section-number">6.2.4.2</span> Questions<a href="lab-activity-single-cell-rna-seq.html#questions-15" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <thead>
 <tr class="header">
@@ -331,19 +334,19 @@
 </table>
 </div>
 </div>
-<div id="activity-2---explore-genes-of-interest-identified-by-differential-expression-analyses" class="section level3" number="6.2.5">
-<h3><span class="header-section-number">6.2.5</span> Activity 2 - Explore genes of interest identified by differential expression analyses</h3>
+<div id="activity-2---explore-genes-of-interest-identified-by-differential-expression-analyses" class="section level3 hasAnchor" number="6.2.5">
+<h3><span class="header-section-number">6.2.5</span> Activity 2 - Explore genes of interest identified by differential expression analyses<a href="lab-activity-single-cell-rna-seq.html#activity-2---explore-genes-of-interest-identified-by-differential-expression-analyses" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 15 min</em></p>
-<div id="instructions-22" class="section level4" number="6.2.5.1">
-<h4><span class="header-section-number">6.2.5.1</span> Instructions</h4>
+<div id="instructions-22" class="section level4 hasAnchor" number="6.2.5.1">
+<h4><span class="header-section-number">6.2.5.1</span> Instructions<a href="lab-activity-single-cell-rna-seq.html#instructions-22" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Launch cellxgene on SciServer.</li>
 <li>Follow the instructions in this video (<a href="https://drive.google.com/file/d/11PFYc2K4qYYvFYc05TCIyarliuWOmQ5x/view?usp=drive_link">video</a>) (<a href="https://docs.google.com/presentation/u/0/d/1b9OqXaqUGo0gAnsfbKD6PuLSqbpdREh241UkN_WwQIc/edit">slides</a>) to learn how to explore the expression of genes of interest</li>
 <li>Set cellxgene to show the expression of the gene Cht8, and answer the question below. (You can refer back to the video for how to view expression of a specific gene.)</li>
 </ol>
 </div>
-<div id="questions-16" class="section level4" number="6.2.5.2">
-<h4><span class="header-section-number">6.2.5.2</span> Questions</h4>
+<div id="questions-16" class="section level4 hasAnchor" number="6.2.5.2">
+<h4><span class="header-section-number">6.2.5.2</span> Questions<a href="lab-activity-single-cell-rna-seq.html#questions-16" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><strong>In which of the following cell types is the gene Cht8 expressed the most?</strong></p>
 <ul>
 <li><strong>A) Crop</strong></li>
@@ -360,19 +363,19 @@
 </table>
 </div>
 </div>
-<div id="activity-3---differential-expression-and-gene-marker-identification" class="section level3" number="6.2.6">
-<h3><span class="header-section-number">6.2.6</span> Activity 3 - Differential expression and gene marker identification</h3>
+<div id="activity-3---differential-expression-and-gene-marker-identification" class="section level3 hasAnchor" number="6.2.6">
+<h3><span class="header-section-number">6.2.6</span> Activity 3 - Differential expression and gene marker identification<a href="lab-activity-single-cell-rna-seq.html#activity-3---differential-expression-and-gene-marker-identification" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 15 min</em></p>
-<div id="instructions-23" class="section level4" number="6.2.6.1">
-<h4><span class="header-section-number">6.2.6.1</span> Instructions</h4>
+<div id="instructions-23" class="section level4 hasAnchor" number="6.2.6.1">
+<h4><span class="header-section-number">6.2.6.1</span> Instructions<a href="lab-activity-single-cell-rna-seq.html#instructions-23" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Launch cellxgene on SciServer.</li>
 <li>Follow the instructions in this video (<a href="https://drive.google.com/file/d/1xAM2llmKqMjUhOs_XEVv9NgunZ7Gp8DF/view?usp=drive_link">video</a>) (<a href="https://docs.google.com/presentation/u/0/d/1kVLH-n04mZh4KzUaGj0E2pUpiwu51IACGzvkznLT1FM/edit">slides</a>) to learn how to perform differential gene expression and explore genes of interest using cellxgene.</li>
 </ol>
 </div>
-<div id="questions-17" class="section level4" number="6.2.6.2">
-<h4><span class="header-section-number">6.2.6.2</span> Questions</h4>
-<p><img src="assets/cellxgene_marker_genes.png" title="UMAP plot of single-cell RNA-seq data from the fruit fly gut. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)" alt="UMAP plot of single-cell RNA-seq data from the fruit fly gut. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)" width="80%" /></p>
+<div id="questions-17" class="section level4 hasAnchor" number="6.2.6.2">
+<h4><span class="header-section-number">6.2.6.2</span> Questions<a href="lab-activity-single-cell-rna-seq.html#questions-17" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="assets/cellxgene_marker_genes.png" alt="UMAP plot of single-cell RNA-seq data from the fruit fly gut. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)" width="80%" /></p>
 <p>“Gene markers” are genes that are expressed in one cell type and not in any others. We call them “markers” because we can use them to tell cell types apart.</p>
 <table>
 <colgroup>
@@ -404,16 +407,16 @@
 </table>
 </div>
 </div>
-<div id="footnotes-10" class="section level3" number="6.2.7">
-<h3><span class="header-section-number">6.2.7</span> Footnotes</h3>
-<div id="resources-12" class="section level4" number="6.2.7.1">
-<h4><span class="header-section-number">6.2.7.1</span> Resources</h4>
+<div id="footnotes-10" class="section level3 hasAnchor" number="6.2.7">
+<h3><span class="header-section-number">6.2.7</span> Footnotes<a href="lab-activity-single-cell-rna-seq.html#footnotes-10" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="resources-12" class="section level4 hasAnchor" number="6.2.7.1">
+<h4><span class="header-section-number">6.2.7.1</span> Resources<a href="lab-activity-single-cell-rna-seq.html#resources-12" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
 <li><a href="https://docs.google.com/document/d/1sKqNfe9iFLlGcuL0OHQ_aGARwC_Sqb8IQjIfwzP629Y/">Google Doc</a></li>
 </ul>
 </div>
-<div id="contributions-and-affiliations-10" class="section level4" number="6.2.7.2">
-<h4><span class="header-section-number">6.2.7.2</span> Contributions and Affiliations</h4>
+<div id="contributions-and-affiliations-10" class="section level4 hasAnchor" number="6.2.7.2">
+<h4><span class="header-section-number">6.2.7.2</span> Contributions and Affiliations<a href="lab-activity-single-cell-rna-seq.html#contributions-and-affiliations-10" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
 <li>Javier Carpinteyro-Ponce Ph.D., Carnegie Institution for Science</li>
 <li>Katherine Cox, Ph.D., Johns Hopkins University</li>

@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>5.2 Lab Activity: Differential Gene Expression | RNA-seq miniCURE</title>
   <meta name="description" content="Description about Course/Book." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="5.2 Lab Activity: Differential Gene Expression | RNA-seq miniCURE" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Description about Course/Book." />
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2024-09-06" />
+<meta name="date" content="2025-01-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,6 @@
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="lab-slides-differential-gene-expression.html"/>
 <link rel="next" href="single-cell-rna-seq-analysis.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,11 +48,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="assets/style.css" type="text/css" />
 <link rel="stylesheet" href="assets/C-MOOR_Template/c-moor-ottr.css" type="text/css" />
@@ -284,14 +287,14 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="lab-activity-differential-gene-expression" class="section level2" number="5.2">
-<h2><span class="header-section-number">5.2</span> Lab Activity: Differential Gene Expression</h2>
-<div id="purpose-7" class="section level3" number="5.2.1">
-<h3><span class="header-section-number">5.2.1</span> Purpose</h3>
+<div id="lab-activity-differential-gene-expression" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Lab Activity: Differential Gene Expression<a href="lab-activity-differential-gene-expression.html#lab-activity-differential-gene-expression" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-7" class="section level3 hasAnchor" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> Purpose<a href="lab-activity-differential-gene-expression.html#purpose-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The purpose of this tutorial is to start asking questions about differential gene expression that you can turn into your project.</p>
 </div>
-<div id="learning-objectives-6" class="section level3" number="5.2.2">
-<h3><span class="header-section-number">5.2.2</span> Learning Objectives</h3>
+<div id="learning-objectives-6" class="section level3 hasAnchor" number="5.2.2">
+<h3><span class="header-section-number">5.2.2</span> Learning Objectives<a href="lab-activity-differential-gene-expression.html#learning-objectives-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
 <li>Use R to analyze Gene Sets</li>
 <li>Describe Differential Expression Analysis</li>
@@ -299,15 +302,15 @@
 <li>Calculate Differential Gene Expression in real scientific data</li>
 </ol>
 </div>
-<div id="introduction-6" class="section level3" number="5.2.3">
-<h3><span class="header-section-number">5.2.3</span> Introduction</h3>
+<div id="introduction-6" class="section level3 hasAnchor" number="5.2.3">
+<h3><span class="header-section-number">5.2.3</span> Introduction<a href="lab-activity-differential-gene-expression.html#introduction-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In today’s lab we will learn a hand-full of methods for looking at gene expression across the Drosophila midgut. As you work through the lab, think about scientific questions you could ask with the data, and what methods and samples would be useful for answering those questions.</p>
 </div>
-<div id="activity-1---differential-expression-tutorial" class="section level3" number="5.2.4">
-<h3><span class="header-section-number">5.2.4</span> Activity 1 - Differential Expression Tutorial</h3>
+<div id="activity-1---differential-expression-tutorial" class="section level3 hasAnchor" number="5.2.4">
+<h3><span class="header-section-number">5.2.4</span> Activity 1 - Differential Expression Tutorial<a href="lab-activity-differential-gene-expression.html#activity-1---differential-expression-tutorial" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 45 min</em></p>
-<div id="instructions-16" class="section level4" number="5.2.4.1">
-<h4><span class="header-section-number">5.2.4.1</span> Instructions</h4>
+<div id="instructions-16" class="section level4 hasAnchor" number="5.2.4.1">
+<h4><span class="header-section-number">5.2.4.1</span> Instructions<a href="lab-activity-differential-gene-expression.html#instructions-16" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Log into SciServer, click on compute and open your C-MOOR LearnR” container.</li>
 <li>Start the “Differential Gene Expression” tutorial. Visit <a href="https://help.c-moor.org/t/sciserver-guides-and-faqs/22">SciServer Guides and FAQs</a>. if you need to jog your memory on how to do this.</li>
@@ -317,9 +320,12 @@
 <li>As you work through the tutorial, answer the questions below.</li>
 </ol>
 </div>
-<div id="questions-10" class="section level4" number="5.2.4.2">
-<h4><span class="header-section-number">5.2.4.2</span> Questions</h4>
+<div id="questions-10" class="section level4 hasAnchor" number="5.2.4.2">
+<h4><span class="header-section-number">5.2.4.2</span> Questions<a href="lab-activity-differential-gene-expression.html#questions-10" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
+<colgroup>
+<col width="100%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">What is the difference between the “baseMean” and the “Log2FoldChange”?</th>
@@ -365,15 +371,15 @@
 </table>
 </div>
 </div>
-<div id="activity-2---try-it-out" class="section level3" number="5.2.5">
-<h3><span class="header-section-number">5.2.5</span> Activity 2 - Try it Out!</h3>
+<div id="activity-2---try-it-out" class="section level3 hasAnchor" number="5.2.5">
+<h3><span class="header-section-number">5.2.5</span> Activity 2 - Try it Out!<a href="lab-activity-differential-gene-expression.html#activity-2---try-it-out" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 45 min</em></p>
-<div id="instructions-17" class="section level4" number="5.2.5.1">
-<h4><span class="header-section-number">5.2.5.1</span> Instructions</h4>
+<div id="instructions-17" class="section level4 hasAnchor" number="5.2.5.1">
+<h4><span class="header-section-number">5.2.5.1</span> Instructions<a href="lab-activity-differential-gene-expression.html#instructions-17" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Work with a partner to complete the following analysis using the Try it Out section of the tutorial.</p>
 </div>
-<div id="questions-11" class="section level4" number="5.2.5.2">
-<h4><span class="header-section-number">5.2.5.2</span> Questions</h4>
+<div id="questions-11" class="section level4 hasAnchor" number="5.2.5.2">
+<h4><span class="header-section-number">5.2.5.2</span> Questions<a href="lab-activity-differential-gene-expression.html#questions-11" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <thead>
 <tr class="header">
@@ -433,11 +439,11 @@
 </table>
 </div>
 </div>
-<div id="activity-3---brainstorm-with-your-group" class="section level3" number="5.2.6">
-<h3><span class="header-section-number">5.2.6</span> Activity 3 - Brainstorm with Your Group</h3>
+<div id="activity-3---brainstorm-with-your-group" class="section level3 hasAnchor" number="5.2.6">
+<h3><span class="header-section-number">5.2.6</span> Activity 3 - Brainstorm with Your Group<a href="lab-activity-differential-gene-expression.html#activity-3---brainstorm-with-your-group" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 30 min</em></p>
-<div id="instructions-18" class="section level4" number="5.2.6.1">
-<h4><span class="header-section-number">5.2.6.1</span> Instructions</h4>
+<div id="instructions-18" class="section level4 hasAnchor" number="5.2.6.1">
+<h4><span class="header-section-number">5.2.6.1</span> Instructions<a href="lab-activity-differential-gene-expression.html#instructions-18" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Use this time to discuss possible research questions for your group project. Some idea might include:
 <ol style="list-style-type: lower-alpha">
@@ -448,8 +454,8 @@
 <li>Post your initial idea for a project on the class padlet, along with the names of everyone in your group.</li>
 </ol>
 </div>
-<div id="questions-12" class="section level4" number="5.2.6.2">
-<h4><span class="header-section-number">5.2.6.2</span> Questions</h4>
+<div id="questions-12" class="section level4 hasAnchor" number="5.2.6.2">
+<h4><span class="header-section-number">5.2.6.2</span> Questions<a href="lab-activity-differential-gene-expression.html#questions-12" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <thead>
 <tr class="header">
@@ -464,16 +470,16 @@
 </table>
 </div>
 </div>
-<div id="footnotes-8" class="section level3" number="5.2.7">
-<h3><span class="header-section-number">5.2.7</span> Footnotes</h3>
-<div id="resources-10" class="section level4" number="5.2.7.1">
-<h4><span class="header-section-number">5.2.7.1</span> Resources</h4>
+<div id="footnotes-8" class="section level3 hasAnchor" number="5.2.7">
+<h3><span class="header-section-number">5.2.7</span> Footnotes<a href="lab-activity-differential-gene-expression.html#footnotes-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="resources-10" class="section level4 hasAnchor" number="5.2.7.1">
+<h4><span class="header-section-number">5.2.7.1</span> Resources<a href="lab-activity-differential-gene-expression.html#resources-10" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
 <li><a href="https://docs.google.com/document/d/1szcQ9jDT-NzzOT_Xm80y4ulxkwkqC1ZX">Google Doc</a></li>
 </ul>
 </div>
-<div id="contributions-and-affiliations-8" class="section level4" number="5.2.7.2">
-<h4><span class="header-section-number">5.2.7.2</span> Contributions and Affiliations</h4>
+<div id="contributions-and-affiliations-8" class="section level4 hasAnchor" number="5.2.7.2">
+<h4><span class="header-section-number">5.2.7.2</span> Contributions and Affiliations<a href="lab-activity-differential-gene-expression.html#contributions-and-affiliations-8" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
 <li>Stephanie R. Coffman, Ph.D., Clovis Community College</li>
 </ul>
