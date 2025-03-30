@@ -33,6 +33,18 @@ _Programming skills_
 **Novice**: No programming experience needed
 :::
 
+### Format {- .unlisted}
+
+- **Class Type:** Lab (computer based)
+- **Lesson Length:** Multiple class periods (4-5 lab periods)
+    - Scientific Literature
+    - Model Organisms and Databases
+    - RNA-seq Analysis
+    - Differential Gene Expression
+    - *Kickstart Project Work
+
+*Kickstart Project Work is flexible - it is enormously helpful for students to to have some guided lab time to work on the project, but this can be overlapped with a wet-lab protocol with a lot of downtime, such as PCR.
+
 ### Learning Goals {-}
 
 - **Navigate biological databases** to access the wealth of available scientific knowledge and data.
