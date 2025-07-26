@@ -2,7 +2,7 @@
 
 # Scientific Literature
 
-## Pre-lab: Scientific Literature
+## Pre-lab - Scientific Literature
 
 ![](scientific-literature_files/figure-docx//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f83ffdfb86_0_52.png)
 
@@ -55,7 +55,7 @@ Last Revised: February 2023
 
 [[slides](https://docs.google.com/presentation/d/1uuuAbg_rcfCVohaVrrxfUfszwTDqigzg34qEWfTNeR0)]
 
-## Lab Activity: Scientific Literature
+## Lab Activity - Scientific Literature
 
 ### Instructions
 
@@ -63,7 +63,7 @@ Follow your instructor’s instructions  and answer the following questions with
 
 [Link to Musselman et al. 2011](https://journals.biologists.com/dmm/article/4/6/842/3157/A-high-sugar-diet-produces-obesity-and-insulin). You can also download a pdf from the website.
 
-### Part 1. Overview of the paper
+### Part 1 - Overview of the paper
 
 Determine the main objectives and purpose of the paper.  Re-read the Abstract (or Summary) and the introduction with your group.
 
@@ -83,7 +83,7 @@ Determine the main objectives and purpose of the paper.  Re-read the Abstract (o
 |:-|
 | <br> |
 
-### Part 2. Figure Analysis - Methods and Findings
+### Part 2 - Figure Analysis - Methods and Findings
 
 **Methods.** How did the researchers test their hypothesis? Explain in your own words the methods in each figure.
 
@@ -105,7 +105,7 @@ Determine the main objectives and purpose of the paper.  Re-read the Abstract (o
 | Fig. 3A-E | |
 | Fig. 4A-B | |
 
-### Part 3.  Your Conclusions
+### Part 3 - Your Conclusions
 
 | 1. Work with your group and write 3-4 sentences summarizing the main findings/conclusions of the paper based on what you came up with in Part 3. |
 |:-|
@@ -117,7 +117,7 @@ Determine the main objectives and purpose of the paper.  Re-read the Abstract (o
 |:-|
 | <br> |
 
-### Part 4. The Author’s Conclusions (Discussion Section)
+### Part 4 - The Author’s Conclusions (Discussion Section)
 
 | 1. Read the discussion section and compare it to what your group came up with in Part 4. How similar are the conclusions you came up with to the authors? Were there any differences in interpreting the data? Different conclusions based on those data? |
 |:-|
@@ -129,7 +129,7 @@ Determine the main objectives and purpose of the paper.  Re-read the Abstract (o
 |:-|
 | <br> |
 
-### Part 5. The Future
+### Part 5 - The Future
 
 | 1. Scientific work builds on previous studies. What do you believe could be the next step to further the work these researchers did? |
 |:-|

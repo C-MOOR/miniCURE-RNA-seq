@@ -2,7 +2,7 @@
 
 # RNA-seq Analysis
 
-## Pre-lab: Intro to RNA-seq
+## Pre-lab - Intro to RNA-seq
 
 ### Purpose
 
@@ -18,7 +18,7 @@ In this pre-lab, students learn about RNA-sequencing so that we can take a close
 
 Next-generation DNA sequencing has revolutionized biological research. This tutorial will explain the basic process of next-gen sequencing and will discuss some of the ways it is used in research.
 
-### Activity 1 - Biotechnology: Next-Gen Sequencing
+### Activity 1 - Biotechnology - Next-Gen Sequencing
 
 *Estimated time: 20  min*
 
@@ -42,7 +42,7 @@ Next-generation DNA sequencing has revolutionized biological research. This tuto
 | in vitro | |
 | in silico | |
 
-### Activity 2 - Biotechnology: RNA-Seq
+### Activity 2 - Biotechnology - RNA-Seq
 
 *Estimated time: 10 min*
 
@@ -102,7 +102,7 @@ Last Revised: March 2022
 
 [[slides](https://docs.google.com/presentation/d/1oNO9JFmC8itk3eq6amT95MWvOsr3zQb6LNwZsQ7-i-g)][[test-driveR.tsv](https://drive.google.com/file/d/1kMWQReRTg0FDZDA5abxmkgKxp-7o5IeM)]
 
-## Lab Activity: RNA-seq Analysis
+## Lab Activity - RNA-seq Analysis
 
 ### Purpose
 

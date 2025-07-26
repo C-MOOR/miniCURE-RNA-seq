@@ -1,6 +1,6 @@
 # Model Organisms and Databases
 
-## Pre-lab: Model Organisms
+## Pre-lab - Model Organisms
 
 ![](https://github.com/C-MOOR/clovis-biol11a/raw/master/tutorials/Model_Organisms_Intro/images/model_organism_collage.jpeg)
 
@@ -102,7 +102,7 @@ Last Revised: February 2022
 
 [[slides](https://docs.google.com/presentation/d/1kt0lW4D8AWqQm1j6FMo0rRDGM_G3zkLmPy3EZNDg3s0)]
 
-## Lab Activity: Biological Databases
+## Lab Activity - Biological Databases
 
 ### Purpose
 
@@ -175,7 +175,7 @@ Estimated time: 15 min
 |:-|
 | <br> |
 
-### Activity 4 - Research a Gene!
+### Activity 4 - Research a Gene
 
 Estimated time: 45  min
 

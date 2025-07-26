@@ -6,7 +6,7 @@
 
 [[slides](https://docs.google.com/presentation/d/1qVh8Rb52aB_Xq5WpKSOqLyB-GrLum-Y910gaITw5OVw)]
 
-## Lab Activity: Differential Gene Expression
+## Lab Activity - Differential Gene Expression
 
 ### Purpose
 
@@ -55,7 +55,7 @@ In today’s lab we will learn a hand-full of methods for looking at gene expres
 |:-|
 | <br> |
 
-### Activity 2 - Try it Out!
+### Activity 2 - Try it Out
 
 *Estimated time: 45 min*
 

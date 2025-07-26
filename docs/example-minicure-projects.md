@@ -8,6 +8,6 @@ Read more about what these students did and how you can help
 
 ![](example-minicure-projects_files/figure-docx//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g1f734f625ef_0_0.png)
 
-<h2>Look at This!</h2>
+<h2>Look at This</h2>
 
 Explore other miniCURE and CURE projects in our [Look at This!](https://help.c-moor.org/c/look-at-this/8) category
