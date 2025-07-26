@@ -1,6 +1,6 @@
 # Single-cell RNA-seq Analysis
 
-## Background: Single-cell RNA sequencing
+## Background - Single-cell RNA sequencing
 
 ### Purpose
 
@@ -16,7 +16,7 @@ The purpose of this lab is to introduce single-cell RNA sequencing, how it works
 While bulk RNA sequencing allows us to examine gene expression in a tissue as a whole, newer technologies enable us to look at gene expression in individual cells, opening up new avenues for scientific research. This tutorial will explain the basics of single-cell RNA sequencing and discuss how it compares to bulk RNA-seq. It will also introduce you to UMAP plots - a common method for exploring single-cell sequencing data.
 
 
-### Activity 1 - Biotechnology: scRNA-seq
+### Activity 1 - Biotechnology - scRNA-seq
 
 *Estimated time: 15  min*
 
@@ -86,7 +86,7 @@ While bulk RNA sequencing allows us to examine gene expression in a tissue as a 
 Last Revised: October 2023
 
 
-## Lab Activity: Single-Cell RNA-seq
+## Lab Activity - Single-Cell RNA-seq
 
 ### Purpose
 
