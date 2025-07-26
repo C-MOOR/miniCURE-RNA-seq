@@ -57,7 +57,7 @@ In today’s lab we will learn a hand-full of methods for looking at gene expres
 |:-|
 | <br> |
 
-### Activity 2 - Try it Out!
+### Activity 2 - Try it Out
 
 *Estimated time: 45 min*
 

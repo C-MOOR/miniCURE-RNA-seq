@@ -1,6 +1,6 @@
 # Single-cell RNA-seq Analysis
 
-## Background: Single-cell RNA sequencing
+## Background - Single-cell RNA sequencing
 
 ### Purpose
 
@@ -86,7 +86,7 @@ While bulk RNA sequencing allows us to examine gene expression in a tissue as a 
 Last Revised: October 2023
 
 
-## Lab Activity: Single-Cell RNA-seq
+## Lab Activity - Single-Cell RNA-seq
 
 ### Purpose
 

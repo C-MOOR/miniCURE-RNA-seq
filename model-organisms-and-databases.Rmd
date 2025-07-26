@@ -1,6 +1,6 @@
 # Model Organisms and Databases
 
-## Pre-lab: Model Organisms
+## Pre-lab - Model Organisms
 
 ![](https://github.com/C-MOOR/clovis-biol11a/raw/master/tutorials/Model_Organisms_Intro/images/model_organism_collage.jpeg)
 
