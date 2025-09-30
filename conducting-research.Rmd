@@ -2,9 +2,9 @@
 
 ### Developing a Topic
 
-
 ```{r, echo=FALSE, fig.alt=''}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1gOEsy18mags76Z8np30Mszhu9fsnKQ-Y/edit#slide=id.p1")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g384d275bf10_0_6")
 ```
 
 ### Check-ins
+
