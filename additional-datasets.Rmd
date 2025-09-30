@@ -1,6 +1,18 @@
-# Single-cell RNA-seq Analysis
+# Additional Datasets
 
-## Background: Single-cell RNA sequencing
+## Mouse Gut-Brain Axis
+
+### Purpose
+
+[Sharon et al.](https://pubmed.gov/31150625) transplanted gut microbiota from human donors with Autism spectrum disorder (ASD) into germ-free mice and found that their offspring had altered gene-expression in the prefrontal cortex and the striatum brain regions.
+Apply the skills you learned in earlier modules to calculate differential expression, explore genetic pathways, and plot across conditions to study brain structure and the gut-brain axis.
+This SharonGutbrainDataset is being developed as part of an ongoing collaboration with the [Genomics Education Modules](https://genomicseducation.org) (GEMs) Program to create accessible, research-focused genomics training modules.
+
+::: {.notice}
+Stay tuned for more details!
+:::
+
+## Single-cell RNA-seq Background
 
 ### Purpose
 
@@ -86,7 +98,7 @@ While bulk RNA sequencing allows us to examine gene expression in a tissue as a 
 Last Revised: October 2023
 
 
-## Lab Activity: Single-Cell RNA-seq
+## Single-cell RNA-seq Analysis
 
 ### Purpose
 
