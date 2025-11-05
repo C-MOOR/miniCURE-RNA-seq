@@ -11,8 +11,7 @@ rmd_files: ["index.Rmd",
             "kickstart-project-work.Rmd",
             "additional-datasets.Rmd",
             "conducting-research.Rmd",
-            "peer-review.Rmd",
-            "scientific-communication.Rmd",
+            "scientific-posters.Rmd",
             
             ### PART Appendix ###
             "appendix.Rmd",
