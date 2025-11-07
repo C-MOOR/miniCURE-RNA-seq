@@ -1,0 +1,12 @@
+# Conducting Research
+
+Coming up with a good research project idea can be an exciting but daunting challenge.
+We recommend reviewing the available datasets, choosing one to focus on, and trying one of the following approaches.
+
+- Approach 1. Identify a pathway that you are interested in researching that is highly expressed in a specific gut/brain region using clusterProfiler.
+
+- Approach 2. Start with a gene, group of genes, or pathway that you find interesting from a previous lab or you hypothesize has an important role (e.g. trypsin genes in the gut).
+
+- Approach 3. Jump into the literature! Pick a disease your are interested in (e.g. IBD for the gut dataset) and search the literature for human genes that are involved.
+
+<img src="conducting-research_files/figure-html//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g384d275bf10_0_6.png" width="480" />
