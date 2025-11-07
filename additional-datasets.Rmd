@@ -1,6 +1,31 @@
-# Single-cell RNA-seq Analysis
+# Additional Datasets
 
-## Background: Single-cell RNA sequencing
+## Mouse Brain Data
+
+Although drastically different in overall shape and size, the human and mouse brain are remarkably similar in structure and organization and show homology in neural pathways.
+Specific parts of the brain are known to be responsible for a specific function, such as the amygdala which control emotions.
+[Sharon et al.](https://pubmed.gov/31150625) provides an opportunity to explore gene-expression in two areas of the brain responsible for social behavior, the Prefrontal cortex (PFC) and the Striatum (STR).
+These two brain sections are in close proximity to each other and are hypothesized to have similar functions, though each region’s exact purpose and their relationship to each other are still being studied.
+
+```{r, echo=FALSE, fig.alt=''}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g3a094ef1421_0_5")
+```
+
+Launch the "RNA-seq Project Work" tutorial to apply the skills you learned in earlier modules to calculate differential expression, explore genetic pathways, and plot across conditions.
+Be sure to use the new functions including
+
+- `runClusterProfilerMouse()` and `getClusterProfilerGenesMouse()` for mouse datasets
+- `plotAcrossTissue()`, `plotAcrossHostDonor()`, and `plotAcrossMice()` for SharonBrainData samples
+
+We look forward to hearing about your research into each region and how they may connect to different disease states or developmental pathways.
+
+```{r, echo=FALSE, fig.alt=''}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g3a094ef1421_0_12")
+```
+
+This SharonBrainData module is being developed as part of an ongoing collaboration with the [Genomics Education Modules](https://genomicseducation.org) (GEMs) Program to create accessible, research-focused genomics training modules.
+
+## Single-cell RNA-seq Background
 
 ### Purpose
 
@@ -86,7 +111,7 @@ While bulk RNA sequencing allows us to examine gene expression in a tissue as a 
 Last Revised: October 2023
 
 
-## Lab Activity: Single-Cell RNA-seq
+## Single-cell RNA-seq Analysis
 
 ### Purpose
 

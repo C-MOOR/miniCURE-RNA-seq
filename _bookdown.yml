@@ -8,10 +8,10 @@ rmd_files: ["index.Rmd",
             "model-organisms-and-databases.Rmd",
             "rna-seq-analysis.Rmd",
             "differential-gene-expression.Rmd",
-            "single-cell-RNA-seq-analysis.Rmd",
             "kickstart-project-work.Rmd",
-            "peer-review.Rmd",
-            "scientific-communication.Rmd",
+            "additional-datasets.Rmd",
+            "conducting-research.Rmd",
+            "scientific-posters.Rmd",
             
             ### PART Appendix ###
             "appendix.Rmd",
