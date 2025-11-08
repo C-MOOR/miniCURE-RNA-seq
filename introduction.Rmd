@@ -38,11 +38,13 @@ Describe the key aspects of each of the following elements of the scientific pro
 
 Learn more at [Understanding Science 101](https://undsci.berkeley.edu/understanding-science-101/how-science-works/exploration-and-discovery)
 
-## Join SciServer
+## SciServer Onboarding
+
+### Join SciServer
 
 *Providing access to big data resources to researchers worldwide*
 
-### Purpose
+#### Purpose
 
 In this course we will use the online SciServer platform to do some data analysis for your research project.  The purpose of this assignment is to register for a SciServer account, and then to inform the instructor of your username so that you can be added to the SciServer group for this course and access course materials.
 
@@ -50,19 +52,17 @@ In this course we will use the online SciServer platform to do some data analysi
 ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g1f83ffdfb86_0_0")
 ```
 
-### Learning Objectives
+#### Learning Objectives
 
 1. Create an account on SciServer
 1. Confirm your email address
 1. Share your username with your instructor
 
-### Introduction
+#### Introduction
 
 SciServer is an online platform for doing scientific data analysis.  It is used by scientists studying astronomy, biology, oceanography, and more, and is free as long as you are using it for scientific research.  Using SciServer means you do not need a fancy computer or need to install any special programs on your computer, you can just log in with your internet browser to start doing research.  For this course, we have set up SciServer with customized collections of programs for RNA-seq analysis, as well as the data that we’ll be analyzing.  Once you sign up for SciServer and are added to the group for this course, you will be able to access these tools and begin your data analysis journey!
 
-### Instructions
-
-#### Create an account on SciServer
+#### Part 1 -- Create an account on SciServer
 
 This video ([video](https://link.c-moor.org/video-join-sciserver))([slides](https://docs.google.com/presentation/d/1kxbnBLoRsdPW4ZkjwNsAHS1XFPuJpQZ8I1aVqyZISW0)) shows you how to create a SciServer account.  You can follow along with the video, or follow the steps below.
 
@@ -73,7 +73,7 @@ This video ([video](https://link.c-moor.org/video-join-sciserver))([slides](http
 1. Enter a User name, Email, etc. and click “Create account”
     a. Note that you cannot change your username
 
-#### Confirm your email address
+#### Part 2 -- Confirm your email address
 
 1. **Important!**: Click the verification link in your email inbox.
     a. If you do not verify your account you will get locked out and will need to contact your instructor to unlock your account.
@@ -86,24 +86,24 @@ This video ([video](https://link.c-moor.org/video-join-sciserver))([slides](http
 - [How to add a bookmark in Chrome](https://support.google.com/chrome/answer/188842)
 - [SciServer help page](https://www.sciserver.org/support/how-to-use-sciserver/)
 
-#### Share your username with your instructor
+#### Part 3 -- Share your username with your instructor
 
 1. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdJva363KdHIVxI0jWBZzNdhz2M-u8Be3viKiy0Rboyzy4PPQ/viewform) with your SciServer username.
 
-### Footnotes
+#### Footnotes
 
-#### Contributions and Affiliations
+##### Contributions and Affiliations
 
 - Katherine Cox, Johns Hopkins University
 - Frederick Tan, Carnegie Institution
 
 Last Revised: January 25, 2022
 
-## First LearnR
+### First LearnR
 
 *Interactive tutorials introducing various data science concepts*
 
-### Purpose
+#### Purpose
 
 The purpose of this assignment is to (1) join the class SciServer group so you can access course materials, and (2) learn how to access the tutorials for this course on SciServer.
 
@@ -111,20 +111,18 @@ The purpose of this assignment is to (1) join the class SciServer group so you c
 ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g1f83ffdfb86_0_9")
 ```
 
-### Learning Objectives
+#### Learning Objectives
 
 1. Accept invitation to join class SciServer Group
 1. Start up a **C-MOOR LearnR** compute container
 1. Complete your first LearnR tutorial
 1. Delete your C-MOOR LearnR compute container
 
-### Introduction
+#### Introduction
 
 Before beginning this assignment, you should have already created a SciServer account and submitted your SciServer username to your instructor.  In this assignment you will learn how to set up a “compute container” on SciServer.  Compute containers are how you use programs on SciServer.  There are two C-MOOR compute containers on SciServer: “C-MOOR LearnR” has tutorials that will teach you how to run data analyses, and “C-MOOR R-Studio” is where you can work on your own data analysis projects.  This assignment shows you how to set up the C-MOOR LearnR compute container and start up your first tutorial.
 
-### Instructions
-
-#### Accept invitation to join class SciServer group
+#### Part 1 -- Accept invitation to join class SciServer group
 
 This video ([video](https://link.c-moor.org/video-join-sciserver-group))([slides](https://docs.google.com/presentation/d/1codot9UeUO7l0EDcEre7dJgyXurD_xyxpw6IJL_aEjM)) shows you how to join a SciServer group.  You can follow along with the video, or follow the steps below.
 
@@ -149,7 +147,7 @@ This video ([video](https://link.c-moor.org/video-join-sciserver-group))([slides
 - [sciserver.org](https://www.sciserver.org/)
 - [Get help with SciServer on the C-MOOR Discourse](https://help.c-moor.org/c/help/)
 
-#### Start up a “C-MOOR LearnR” compute container
+#### Part 2 -- Start up a “C-MOOR LearnR” compute container
 
 This video ([video](https://link.c-moor.org/video-sciserver-create-learnr-container))([slides](https://docs.google.com/presentation/d/1Oaq8RzhaDANxkNh-tTKwme7e095pGgoiq5iZHbt7PLg)) shows you how to create and start up a C-MOOR LearnR compute container.  You can follow along with the video, or follow the steps below.
 
@@ -183,7 +181,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9
 - [sciserver.org](https://www.sciserver.org/)
 - [Get help with SciServer on the C-MOOR Discourse](https://help.c-moor.org/c/help/)
 
-#### Complete your first LearnR tutorial
+#### Part 3 -- Complete your first LearnR tutorial
 
 1. If you’re not there already, go to the SciServer compute page and start up the C-MOOR LearnR container.
     a. Open [sciserver.org](https://www.sciserver.org/) in a web browser and log in to your account.
@@ -198,7 +196,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9
 - [sciserver.org](https://www.sciserver.org/)
 - [Get help with SciServer on the C-MOOR Discourse](https://help.c-moor.org/c/help/)
 
-#### Delete your C-MOOR LearnR compute container
+#### Part 4 -- Delete your C-MOOR LearnR compute container
 
 Compute containers are meant to be temporary, and you can only have 3 containers total on SciServer.  So it’s generally a good idea to clean up after yourself and delete your containers when you’re done using them.  Also, if any updates are made to the C-MOOR LearnR container, **you will need to create a new container to get the latest updates.**
 
@@ -213,11 +211,17 @@ To delete a container:
 1. Find the container you want to delete.
 1. Click on the red “X” in the last column.
 
-### Footnotes
+#### Footnotes
 
-#### Contributions and Affiliations
+##### Contributions and Affiliations
 
 - Katherine Cox, Johns Hopkins University
 - Frederick Tan, Carnegie Institution
 
 Last Revised: May 13, 2021
+
+## AnVIL Onboarding
+
+### Join AnVIL
+
+### First LearnR
