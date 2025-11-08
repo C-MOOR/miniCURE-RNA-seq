@@ -99,7 +99,7 @@ This video ([video](https://link.c-moor.org/video-join-sciserver))([slides](http
 
 Last Revised: January 25, 2022
 
-### First LearnR
+### First LearnR Tutorial
 
 *Interactive tutorials introducing various data science concepts*
 
@@ -224,4 +224,4 @@ Last Revised: May 13, 2021
 
 ### Join AnVIL
 
-### First LearnR
+### First LearnR Tutorial
