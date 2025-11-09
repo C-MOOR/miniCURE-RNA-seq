@@ -48,7 +48,7 @@ Learn more at [Understanding Science 101](https://undsci.berkeley.edu/understand
 
 In this course we will use the online SciServer platform to do some data analysis for your research project.  The purpose of this assignment is to register for a SciServer account, and then to inform the instructor of your username so that you can be added to the SciServer group for this course and access course materials.
 
-```{r, echo=FALSE, fig.alt=''}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt=""}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g1f83ffdfb86_0_0")
 ```
 
@@ -90,14 +90,6 @@ This video ([video](https://link.c-moor.org/video-join-sciserver))([slides](http
 
 1. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdJva363KdHIVxI0jWBZzNdhz2M-u8Be3viKiy0Rboyzy4PPQ/viewform) with your SciServer username.
 
-#### Footnotes
-
-##### Contributions and Affiliations
-
-- Katherine Cox, Johns Hopkins University
-- Frederick Tan, Carnegie Institution
-
-Last Revised: January 25, 2022
 
 ### First LearnR Tutorial
 
@@ -107,7 +99,7 @@ Last Revised: January 25, 2022
 
 The purpose of this assignment is to (1) join the class SciServer group so you can access course materials, and (2) learn how to access the tutorials for this course on SciServer.
 
-```{r, echo=FALSE, fig.alt=''}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt=""}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g1f83ffdfb86_0_9")
 ```
 
@@ -165,11 +157,11 @@ This video ([video](https://link.c-moor.org/video-sciserver-create-learnr-contai
     a. “Image” should be “C-MOOR LearnR”
 1. Start your C-MOOR LearnR container by clicking on its name (whatever name you chose when you created it).  This will open in a new tab.
     a. You should see a list of tutorials, organized by topic.
-```{r, echo=FALSE, fig.alt=''}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt=""}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g1f83ffdfb86_0_19")
 ```
     a. If instead you see an error message, you most likely forgot to check the box next to “C-MOOR Data” when you created the container.
-```{r, echo=FALSE, fig.alt=''}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt=""}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g1f83ffdfb86_0_25")
 ```
     a. If you see something else, you may have picked the wrong “Compute Image” from the drop-down menu.
@@ -224,4 +216,164 @@ Last Revised: May 13, 2021
 
 ### Join AnVIL
 
-### First LearnR Tutorial
+
+#### Purpose
+
+In this course we will use the online cloud platform, AnVIL, to do some data analysis for your research project. The purpose of this assignment is to register for an AnVIL account, and then to inform the instructor of your username so that you can be added to the AnVIL workspace for this course and access course materials.
+
+#### Learning Objectives
+
+1. Create an account on AnVIL
+1. Share the email you used to sign up for AnVIL with your instructor
+
+#### Introduction
+
+AnVIL (The Genomic Data Science **An**alysis, **V**isualization, and **I**nformatics **L**ab-space) is a platform created by the National Human Genome Research Institute (NHGRI) in collaboration with cloud computing platform providers like Google and Microsoft. Using AnVIL we you can access computing resources on the cloud through your browser without need for any fancy physical equipment. Through AnVIL you will also have access to all the software and data necessary to complete your research project. 
+
+<mark>Please note that Google Chrome is the only supported browser for AnVIL. If you choose a different browser, you may run into technical errors. Additionally, AnVIL works only on laptops. If you have a tablet, pair up with someone else or ask to borrow a laptop from your school.</mark>
+
+#### Part 1 -- Create an account on AnVIL
+
+Follow the written steps below or refer to the [slides](https://docs.google.com/presentation/d/1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM/edit?usp=sharing) or video guide.
+
+
+```{r, fig.align='center', out.width="100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM/edit#slide=id.g3709d9ac459_0_299")
+```
+
+
+1. Open [anvil.terra.bio](https://anvil.terra.bio/) in <mark> **Google Chrome** </mark>. Google Chrome is the only officially supported web browser for AnIVL. Because of this, while you can run AnVIL in other browsers you strongly suggest using Chrome.
+    a. It is a good idea to bookmark this page so that you can easily access it throughout the course.
+1. Click the hamburger icon (3 lines) in the top left corner of the screen 
+1. Click "Sign in"
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "'Test'"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1uwlG7uaTOnItdpd4Ll6nNQiBJKBivsvR-erupicAwJM/edit#slide=id.g36368ab83bf_0_2")
+```
+
+4. Click "Sign in with Google".
+5. Sign in with a <mark>**Google associated email address**</mark> such as an institutional email that uses Gmail or a personal Gmail account. You must use a Google associated email address to gain access to Google Cloud computing resources. 
+6. If you are a student, share the email you used to sign up for AnVIL with your instructor following their instructions.
+
+##### Resources
+
+- [AnVIL](https://anvil.terra.bio/) 
+- [How to add a bookmark in Chrome](https://support.google.com/chrome/answer/188842)
+- [AnVIL support home](https://support.terra.bio/hc/en-us)
+
+
+### First AnVIL Tutorial
+
+*Interactive tutorials introducing various data science concepts*
+
+#### Purpose
+
+The purpose of this assignment is to (1) confirm you have been added to the class AnVIL workspace so you can access course materials, and (2) learn how to access the tutorials for this course on AnVIL.
+
+#### Learning Objectives
+
+1. Confirm you have been added to the class workspace on AnVIL
+1. Start up an RStudio environment on AnVIL
+1. Complete your first LearnR tutorial
+1. Delete your RStudio environment
+
+#### Introduction
+
+Before beginning this assignment, you should have already created an AnVIL account and submitted the email you used to sign up for AnVIL to your instructor. In this assignment you will learn how to setup an RStudio environment on SciServer. This environment is analogous to preparing a lab space for a physical lab. You have to have the right equipment and reagents to be able to do the activity. 
+
+This assignment shows you how to set up the RStudio environment and start up your first C-MOOR tutorial.
+
+#### Part 1 -- Confirm you have access to your class workspace
+
+The workspace is the heart of AnVIL. To be able to run modules, you need to have access to the class workspace. 
+
+1. Open [AnVIL](https://anvil.terra.bio/)
+1. Click on the hamburger icon in the top left corner
+1. Login to your AnVIL account
+1. Click on the hamburger icon in the top left corner
+1. Click workspaces
+1. Confirm you see your class workspace
+1. Click on the workspace name to enter the workspace.
+
+##### Resources
+
+- [AnVIL](https://anvil.terra.bio/) 
+- [Get help with AnVIL on the C-MOOR Discourse](https://help.c-moor.org/c/help/)
+
+#### Part 2 -- Start up an RStudio environment
+
+When you open the workspace, you will be on the dashboard tab by default. The dashboard contains the instructions on how to use the workspace, links to C-MOOR websites, and the startup script. Let’s try running a module.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= ""}
+ottrpal::include_slide("https://docs.google.com/presentation/d/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo/edit#slide=id.g3709d9ac459_0_271")
+```
+
+1. Take note of the container image for the custom environment. We recommend copying this to a word document or notepad. Make sure there are no spaces before or after what you copy. You will need to input this URL soon.
+
+2. Take note of the startup script. Make sure there are no spaces before or after what you copy. This script is held in the original workspace everyone cloned. It does not have to be in your own workspace for it to work. You will need to input this URL soon.
+
+3. Click on the Environment Configuration button , the cloud with a thunderbolt.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= ""}
+ottrpal::include_slide("https://docs.google.com/presentation/d/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo/edit#slide=id.g3709d9ac459_0_275")
+```
+
+4. In the RStudio section, click Settings.
+
+5. <mark>Make sure you have the following settings matching these instructions. Under Application configuration, choose “Custom environment”. In the container image field that appears, paste the container image URL that we copied earlier from the workspace. The URL should end with Bioconductor 3.19.1. In the startup script field, paste the URL for the startup script. This URL contains the words C-MOOR Startup Script. Set the creation timeout limit to 15 minutes. </mark>
+
+6. Select 4 CPUs and 15 gigabytes of memory. 
+
+7. Confirm that the cloud compute cost is 20 cents per hour. If it is not 20 cents per hour, reselect CPUs and memory allocation in part 6. This is a known bug in AnVIL at the writing of this guide.
+
+8. Scroll to the bottom of the window and click “Create”. 
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= ""}
+ottrpal::include_slide("https://docs.google.com/presentation/d/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo/edit#slide=id.g3709d9ac459_0_279")
+```
+
+It will take some time for the RStudio Environment to be created. You can keep track of the status of the environment based on the colored dot next to the RStudio icon. The dot will turn green when the environment is ready. While it is loading (blue), you cannot interact with it.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= ""}
+ottrpal::include_slide("https://docs.google.com/presentation/d/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo/edit#slide=id.g3709d9ac459_0_283")
+```
+
+9. When the environment is ready, use the Open RStudio button that will pop up. You can also access RStudio through the Analyses tab. If you hold down Ctrl as you click, you can open RStudio in a new window.
+
+##### Resources
+
+- [AnVIL](https://anvil.terra.bio/) 
+- [Get help with AnVIL on the C-MOOR Discourse](https://help.c-moor.org/c/help/)
+
+#### Part 3 -- Complete your first LearnR tutorial
+
+1. Use the file explorer in RStudio to navigate to your module of choice. Go to rnaseq > 1-intro-model-org
+1. In the module’s directory, open the .Rmd file by double clicking its name.
+1. Click Run Document in the top left area in the open .Rmd file to run it. Note that the Run Document button is different from the Run button!
+
+##### Resources
+
+- [AnVIL](https://anvil.terra.bio/) 
+- [Get help with AnVIL on the C-MOOR Discourse](https://help.c-moor.org/c/help/)
+
+#### Part 4 -- Closing out a session on AnVIL
+
+You should be deleting your RStudio environment every time you run a module. Do not leave it running overnight as you will continue to run up charges on your class workspace (note that this is paid by your instructor or university)!
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "The status of the RStudio Environment."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo/edit#slide=id.g3709d9ac459_0_299")
+```
+
+1. On the right side of the screen, click the Cloud Environment button. This is the Cloud with the lighting symbol.
+1. Under the RStudio section, click settings.
+1. Scroll to the bottom of the new window and click delete environment.
+1. Check <mark>**Delete everything, including the persistent disk or your instructor's billing account will incur costs for storage**</mark>. 
+
+#### Footnotes
+
+##### Contributions and Affiliations
+
+- Sayumi York, Notre Dame of Maryland University
+
+Last Revised: November 9, 2025
+
