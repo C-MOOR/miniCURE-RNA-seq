@@ -90,6 +90,14 @@ This video ([video](https://link.c-moor.org/video-join-sciserver))([slides](http
 
 1. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdJva363KdHIVxI0jWBZzNdhz2M-u8Be3viKiy0Rboyzy4PPQ/viewform) with your SciServer username.
 
+#### Footnotes
+
+##### Contributions and Affiliations
+
+- Katherine Cox, Johns Hopkins University
+- Frederick Tan, Carnegie Institution
+
+Last Revised: January 25, 2022
 
 ### First LearnR Tutorial
 
