@@ -228,7 +228,7 @@ In this course we will use the online cloud platform, AnVIL, to do some data ana
 
 #### Introduction
 
-AnVIL (The Genomic Data Science **An**alysis, **V**isualization, and **I**nformatics **L**ab-space) is a platform created by the National Human Genome Research Institute (NHGRI) in collaboration with cloud computing platform providers like Google and Microsoft. Using AnVIL we you can access computing resources on the cloud through your browser without need for any fancy physical equipment. Through AnVIL you will also have access to all the software and data necessary to complete your research project. 
+AnVIL (The Genomic Data Science **An**alysis, **V**isualization, and **I**nformatics **L**ab-space) is a platform created by the National Human Genome Research Institute (NHGRI) in collaboration with cloud computing platform providers like Google and Microsoft. Using AnVIL we can access computing resources on the cloud through your browser without need for any fancy physical equipment. Through AnVIL you will also have access to all the software and data necessary to complete your research project. 
 
 <mark>Please note that Google Chrome is the only supported browser for AnVIL. If you choose a different browser, you may run into technical errors. Additionally, AnVIL works only on laptops. If you have a tablet, pair up with someone else or ask to borrow a laptop from your school.</mark>
 
@@ -242,8 +242,8 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1uwlG7uaTOnItdpd4
 ```
 
 
-1. Open [anvil.terra.bio](https://anvil.terra.bio/) in <mark> **Google Chrome** </mark>. Google Chrome is the only officially supported web browser for AnIVL. Because of this, while you can run AnVIL in other browsers you strongly suggest using Chrome.
-    a. It is a good idea to bookmark this page so that you can easily access it throughout the course.
+1. Open [anvil.terra.bio](https://anvil.terra.bio/) in <mark> **Google Chrome** </mark>. Google Chrome is the only officially supported web browser for AnVIL. Because of this, while you can run AnVIL in other browsers you strongly suggest using Chrome.
+    - Tip: bookmark this page so that you can easily access it throughout the course.
 1. Click the hamburger icon (3 lines) in the top left corner of the screen 
 1. Click "Sign in"
 
@@ -287,10 +287,10 @@ This assignment shows you how to set up the RStudio environment and start up you
 
 The workspace is the heart of AnVIL. To be able to run modules, you need to have access to the class workspace. 
 
-1. Open [AnVIL](https://anvil.terra.bio/)
+1. Open [AnVIL](https://anvil.terra.bio/) in Google Chrome
 1. Click on the hamburger icon in the top left corner
 1. Login to your AnVIL account
-1. Click on the hamburger icon in the top left corner
+1. Click on the hamburger icon in the top left corner again
 1. Click workspaces
 1. Confirm you see your class workspace
 1. Click on the workspace name to enter the workspace.
@@ -364,7 +364,7 @@ You should be deleting your RStudio environment every time you run a module. Do 
 ottrpal::include_slide("https://docs.google.com/presentation/d/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo/edit#slide=id.g3709d9ac459_0_299")
 ```
 
-1. On the right side of the screen, click the Cloud Environment button. This is the Cloud with the lighting symbol.
+1. On the right side of the screen, click the Cloud Environment button. This is the Cloud with the lightning symbol.
 1. Under the RStudio section, click settings.
 1. Scroll to the bottom of the new window and click delete environment.
 1. Check <mark>**Delete everything, including the persistent disk or your instructor's billing account will incur costs for storage**</mark>. 
