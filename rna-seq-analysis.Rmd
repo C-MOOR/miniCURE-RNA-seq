@@ -27,10 +27,10 @@ Next-generation DNA sequencing has revolutionized biological research. This tuto
 1. Access the C-MOOR Tutorials
 
     - If you are using SciServer, log into SciServer, click on compute and open your "C-MOOR LearnR" container. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22) if you need to jog your memory on how to do this.
-    - If you are using AnVIL, log into AnVIL, navigate to your class Workspace, and start up an RStudio Cloud Environment. See the instruction for starting up LeanrR on AnVIL if you need to jog your memory on how to do this.
+    - If you are using AnVIL, log into AnVIL, navigate to your class workspace, start up an RStudio cloud environment, and open RStudio. Visit the [AnVIL Guides and FAQs](https://help.c-moor.org/t/anvil-guides-and-faq/641) if you need to jog your memory on how to do this. The module can be found in the 6-biotech-ngs folder of the rnaseq curriculum.
     - If you are using an alternative setup, follow the instructions provided by your instructor.
 
-1. Start the "Biotechnology: Next-Gen Sequencing" tutorial
+1. Start the "Biotechnology: Next-Gen Sequencing" tutorial 
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 
 #### Questions
