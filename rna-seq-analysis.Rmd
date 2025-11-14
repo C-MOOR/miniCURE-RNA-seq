@@ -27,9 +27,9 @@ Next-generation DNA sequencing has revolutionized biological research. This tuto
 1. Access the C-MOOR Tutorials
 
     - If you are using SciServer, log into SciServer, click on compute and open your "C-MOOR LearnR" container. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22) if you need to jog your memory on how to do this.
-    - If you are using AnVIL, log into AnVIL, navigate to your class workspace, start up an RStudio cloud environment, and open RStudio. Visit the [AnVIL Guides and FAQs](https://help.c-moor.org/t/anvil-guides-and-faq/641) if you need to jog your memory on how to do this. The module can be found in the 6-biotech-ngs folder of the rnaseq curriculum.
+    - If you are using AnVIL, log into AnVIL, navigate to your class Workspace, start up an RStudio Cloud Environment, and open RStudio. Visit the [AnVIL Guides and FAQs](https://help.c-moor.org/t/anvil-guides-and-faq/641) if you need to jog your memory on how to do this. This module can be found in the "6-biotech-ngs" folder of the "rnaseq" curriculum folder.
     - If you are using an alternative setup, follow the instructions provided by your instructor.
-
+    
 1. Start the "Biotechnology: Next-Gen Sequencing" tutorial 
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 
@@ -53,7 +53,7 @@ Next-generation DNA sequencing has revolutionized biological research. This tuto
 
 #### Instructions
 
-1. Start the “Biotechnology:RNA-Seq” tutorial.
+1. Start the “Biotechnology: RNA-Seq” tutorial. On AnVIL, this module can be found in the "7-biotech-rnaseq" folder of the "rnaseq" curriculum folder.
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 
 #### Questions
@@ -90,8 +90,9 @@ Next-generation DNA sequencing has revolutionized biological research. This tuto
 
 - Stephanie R. Coffman, Ph.D. Clovis Community College
 - Katie Cox, Ph.D. Carnegie Institute at John Hopkins University
+- Sayumi York, Ph.D. Notre Dame of Maryland University
 
-Last Revised: March 2022
+Last Revised: November 2025
 
 ## Lab Slides and Demo {#lab-slides-rna-seq-analysis}
 
@@ -134,8 +135,13 @@ The RNA-seq libraries from today’s lab are from: [eLife 2013;2:e00886 DOI: 10.
 
 #### Instructions
 
-1. Log into SciServer, click on compute and open your C-MOOR LearnR” container.
-1. Start the “Introduction to RNA-seq Data” tutorial. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22). if you need to jog your memory on how to do this.
+1. Access the C-MOOR Tutorials
+
+    - If you are using SciServer, log into SciServer, click on compute and open your "C-MOOR LearnR" container. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22) if you need to jog your memory on how to do this.
+    - If you are using AnVIL, log into AnVIL, navigate to your class Workspace, start up an RStudio Cloud Environment, and open RStudio. Visit the [AnVIL Guides and FAQs](https://help.c-moor.org/t/anvil-guides-and-faq/641) if you need to jog your memory on how to do this. This module can be found in the "8-intro-rnaseq" folder of the "rnaseq" curriculum folder.
+    - If you are using an alternative setup, follow the instructions provided by your instructor.
+    
+1. Start the “Introduction to RNA-seq Data” tutorial. 
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 1. This tutorial has small boxes in which you can enter and run short lines of code to analyze the data.
 1. As you work through the tutorial, answer the questions below. When you get to “Try it Out!” move on to Activity 2.
@@ -173,10 +179,10 @@ The RNA-seq libraries from today’s lab are from: [eLife 2013;2:e00886 DOI: 10.
 
 2. Use the code blocks on the "Try it out!" page to analyze the data.
     a. The codeblocks on the "Try it out!" page, has this code typed out for you:
-        i. `readCounts <- read.table( "data/FILENAMEHERE.htseq")`
-    a. Change `FILENAMEHERE` to the filename for your file. Once you have done this, **readCounts** will have the new HTSeq file loaded into it
-        i. Example: `readCounts <- read.table( "data/SRR891602.htseq")`
-1. The code above loads the data set into `readCounts`. If you run this code alone, nothing will happen. Try requesting some analysis to get a look at the data and answer the questions below.
+        i. `FILENAMEHERE`
+    a. Change `FILENAMEHERE` to the filename for your file. 
+        i. Example: `SRR891602`
+1. Try requesting some analysis to get a look at the data and answer the questions below.
 1. Answer the questions below as you analyze the data. Consult the “Cheat Sheet” to figure out which code to use.
 
 #### Questions
@@ -221,6 +227,7 @@ Look up the GeneID of the gene you presented on from the Biological Databases La
 - Stephanie R. Coffman, Ph.D. Clovis Community College
 - Rosa Alcazar, PH.D. Clovis Community College
 - Katie Cox, Ph.D. Carnegie Institute at John Hopkins University
+- Sayumi York, Ph.D. Notre Dame of Maryland University
 
 Last Revised:
-March 2022
+November 2025
