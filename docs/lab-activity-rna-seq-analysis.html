@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2025-11-11" />
+<meta name="date" content="2025-11-14" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -302,11 +302,16 @@
 <div id="instructions-12" class="section level4 hasAnchor" number="4.3.4.1">
 <h4><span class="header-section-number">4.3.4.1</span> Instructions<a href="lab-activity-rna-seq-analysis.html#instructions-12" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Log into SciServer, click on compute and open your C-MOOR LearnR” container.</li>
-<li>Start the “Introduction to RNA-seq Data” tutorial. Visit <a href="https://help.c-moor.org/t/sciserver-guides-and-faqs/22">SciServer Guides and FAQs</a>. if you need to jog your memory on how to do this.</li>
-<li>To move through the activities click “Continue” at the bottom of the screen. When you are done with a topic, click “Next Topic” to move on.</li>
-<li>This tutorial has small boxes in which you can enter and run short lines of code to analyze the data.</li>
-<li>As you work through the tutorial, answer the questions below. When you get to “Try it Out!” move on to Activity 2.</li>
+<li><p>Access the C-MOOR Tutorials</p>
+<ul>
+<li>If you are using SciServer, log into SciServer, click on compute and open your “C-MOOR LearnR” container. Visit <a href="https://help.c-moor.org/t/sciserver-guides-and-faqs/22">SciServer Guides and FAQs</a> if you need to jog your memory on how to do this.</li>
+<li>If you are using AnVIL, log into AnVIL, navigate to your class Workspace, start up an RStudio Cloud Environment, and open RStudio. Visit the <a href="https://help.c-moor.org/t/anvil-guides-and-faq/641">AnVIL Guides and FAQs</a> if you need to jog your memory on how to do this. This module can be found in the “8-intro-rnaseq” folder of the “rnaseq” curriculum folder.</li>
+<li>If you are using an alternative setup, follow the instructions provided by your instructor.</li>
+</ul></li>
+<li><p>Start the “Introduction to RNA-seq Data” tutorial.</p></li>
+<li><p>To move through the activities click “Continue” at the bottom of the screen. When you are done with a topic, click “Next Topic” to move on.</p></li>
+<li><p>This tutorial has small boxes in which you can enter and run short lines of code to analyze the data.</p></li>
+<li><p>As you work through the tutorial, answer the questions below. When you get to “Try it Out!” move on to Activity 2.</p></li>
 </ol>
 </div>
 <div id="questions-8" class="section level4 hasAnchor" number="4.3.4.2">
@@ -388,14 +393,14 @@
 <ol style="list-style-type: lower-alpha">
 <li>The codeblocks on the “Try it out!” page, has this code typed out for you:
 <ol style="list-style-type: lower-roman">
-<li><code>readCounts &lt;- read.table( "data/FILENAMEHERE.htseq")</code></li>
+<li><code>FILENAMEHERE</code></li>
 </ol></li>
-<li>Change <code>FILENAMEHERE</code> to the filename for your file. Once you have done this, <strong>readCounts</strong> will have the new HTSeq file loaded into it
+<li>Change <code>FILENAMEHERE</code> to the filename for your file.
 <ol style="list-style-type: lower-roman">
-<li>Example: <code>readCounts &lt;- read.table( "data/SRR891602.htseq")</code></li>
+<li>Example: <code>SRR891602</code></li>
 </ol></li>
 </ol></li>
-<li>The code above loads the data set into <code>readCounts</code>. If you run this code alone, nothing will happen. Try requesting some analysis to get a look at the data and answer the questions below.</li>
+<li>Try requesting some analysis to get a look at the data and answer the questions below.</li>
 <li>Answer the questions below as you analyze the data. Consult the “Cheat Sheet” to figure out which code to use.</li>
 </ol>
 </div>
@@ -484,9 +489,10 @@
 <li>Stephanie R. Coffman, Ph.D. Clovis Community College</li>
 <li>Rosa Alcazar, PH.D. Clovis Community College</li>
 <li>Katie Cox, Ph.D. Carnegie Institute at John Hopkins University</li>
+<li>Sayumi York, Ph.D. Notre Dame of Maryland University</li>
 </ul>
 <p>Last Revised:
-March 2022</p>
+November 2025</p>
 
 </div>
 </div>
