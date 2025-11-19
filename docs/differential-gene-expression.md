@@ -29,8 +29,13 @@ In today’s lab we will learn a hand-full of methods for looking at gene expres
 
 #### Instructions
 
-1. Log into SciServer, click on compute and open your C-MOOR LearnR” container.
-1. Start the “Differential Gene Expression” tutorial. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22). if you need to jog your memory on how to do this.
+1. Access the C-MOOR Tutorials
+
+    - If you are using SciServer, log into SciServer, click on compute and open your "C-MOOR LearnR" container. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22) if you need to jog your memory on how to do this.
+    - If you are using AnVIL, log into AnVIL, navigate to your class Workspace, start up an RStudio Cloud Environment, and open RStudio. Visit the [AnVIL Guides and FAQs](https://help.c-moor.org/t/anvil-guides-and-faq/641) if you need to jog your memory on how to do this. This module can be found in the "9-diff-exp" folder of the "rnaseq" curriculum folder.
+    - If you are using an alternative setup, follow the instructions provided by your instructor.
+    
+1. Start the "Differential Expression in DESeq2" tutorial 
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 1. This tutorial has small boxes in which you can enter and run short lines of code to analyze the data.
 1. **Use the Notes section below to copy and paste important blocks of code that you can refer back to later.**

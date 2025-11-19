@@ -119,6 +119,15 @@ Estimated time: 15 min
 #### Instructions
 
 1. Follow [these directions](https://docs.google.com/document/d/1nQ-wd4hX0Xtd4mfloXcpbbtK_CqDzY874oqmBYql1M8){target="_blank"} to launch your first LearnR tutorial: Biological Databases Tutorial.
+
+
+1. Access the C-MOOR Tutorials
+
+    - If you are using SciServer, log into SciServer, click on compute and open your "C-MOOR LearnR" container. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22) if you need to jog your memory on how to do this.
+    - If you are using AnVIL, log into AnVIL, navigate to your class Workspace, start up an RStudio Cloud Environment, and open RStudio. Visit the [AnVIL Guides and FAQs](https://help.c-moor.org/t/anvil-guides-and-faq/641) if you need to jog your memory on how to do this. This module can be found in the "3-intro-db" folder of the "rnaseq" curriculum folder.
+    - If you are using an alternative setup, follow the instructions provided by your instructor.
+
+1. Start the "Introduction to Biological Databases" tutorial 
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 1. As you complete the tutorial, fill in the table below. This will help you know which database to go back to later on.
 
@@ -139,7 +148,7 @@ Estimated time: 15 min
 
 #### Instructions
 
-1. Work through the FlyBase Tutorial in SciServer.
+1. Start the “Biological Databases: FlyBase” tutorial. On AnVIL, this module can be found in the "4-db-flybase" folder of the "rnaseq" curriculum folder.
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 
 #### Questions
@@ -160,7 +169,7 @@ Estimated time: 15 min
 
 #### Instructions
 
-1. Work through the Human Protein Atlas in SciServer.
+1. Start the “Biological Databases: Human Protein Atlas” tutorial. On AnVIL, this module can be found in the "5-db-hpa" folder of the "rnaseq" curriculum folder.
 1. To move through the activities click "Continue" at the bottom of the screen. When you are done with a topic, click "Next Topic" to move on.
 
 #### Questions
@@ -242,7 +251,7 @@ Estimated time: 30 min
 1. Your presentation should have about four slides and be thorough:
     1. Slide 1: The GENE you picked to share with your group, your name and date
     1. Slide 2 - 4: Present the information you collected about the gene.  For full credit, include relevant images/ diagrams on your slides.
-1. One student in the group should post  your slides on Canvas to the discussion board. Make sure you mention everyone in your group by name so they also get credit for the presentation.
+1. One student in the group should post your slides on your learning management system (ex. Canvas, Blackboard, Google Classroom) as directed by your instructor to share your findings. Make sure you mention everyone in your group by name so they also get credit for the presentation.
 
 ### Footnotes
 
