@@ -31,8 +31,14 @@ Another interesting area may be due to other absorption problems in the gut besi
 
 *Estimated time: 45 min (this is at a minimum to find an interesting gene to pursue)*
 
-1. Log into SciServer, click on compute and open your “C-MOOR LearnR” container.
-1. Start the “Differential Gene Expression” tutorial. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22). if you need to jog your memory on how to do this.
+1. Access the C-MOOR Tutorials
+
+    - If you are using SciServer, log into SciServer, click on compute and open your "C-MOOR LearnR" container. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22) if you need to jog your memory on how to do this.
+    - If you are using AnVIL, log into AnVIL, navigate to your class Workspace, start up an RStudio Cloud Environment, and open RStudio. Visit the [AnVIL Guides and FAQs](https://help.c-moor.org/t/anvil-guides-and-faq/641) if you need to jog your memory on how to do this. This module can be found in the "9-diff-exp" folder of the "rnaseq" curriculum folder.
+    - If you are using an alternative setup, follow the instructions provided by your instructor.
+    
+1. Start the "Differential Expression in DESeq2" tutorial
+
 1. This tutorial has small boxes in which you can enter and run short lines of code to analyze the data. Since we are not working directly in RStudio but in a LearnR tutorial environment, you don’t need to know more than a few lines of code to be able to ask some very interesting questions.
 1. **Use the Notes section below to copy and paste important blocks of code that you can refer back to later.**
 1. We will go through an example and you can use this to get other ideas for your project.
