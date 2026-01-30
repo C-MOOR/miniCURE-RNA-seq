@@ -128,9 +128,6 @@ Estimated time: 15 min
 
 #### Instructions
 
-1. Follow [these directions](https://docs.google.com/document/d/1nQ-wd4hX0Xtd4mfloXcpbbtK_CqDzY874oqmBYql1M8){target="_blank"} to launch your first LearnR tutorial: Biological Databases Tutorial.
-
-
 1. Access the C-MOOR Tutorials
 
     - If you are using SciServer, log into SciServer, click on compute and open your "C-MOOR LearnR" container. Visit [SciServer Guides and FAQs](https://help.c-moor.org/t/sciserver-guides-and-faqs/22) if you need to jog your memory on how to do this.
