@@ -16,8 +16,8 @@ rmd_files: ["index.Rmd",
             ### PART Appendix ###
             "appendix.Rmd",
             "example-minicure-projects.Rmd",
-            "c-moor-scholars.Rmd",
-            "online-community.Rmd",
+            "troubleshooting.Rmd",
+            "additional-curricula.Rmd",
             "core-competencies.Rmd",
             "About.Rmd"]
 new_session: yes
