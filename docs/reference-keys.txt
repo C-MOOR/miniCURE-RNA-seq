@@ -213,6 +213,6 @@ resources-18
 contributions-and-affiliations-13
 poster-template
 example-minicure-projects
-c-moor-scholars
-online-community
+troubleshooting
+additional-curricula
 competencies-table

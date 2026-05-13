@@ -1,6 +1,6 @@
 ---
 title: "RNA-seq miniCURE"
-date: "November 14, 2025"
+date: "May 13, 2026"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
