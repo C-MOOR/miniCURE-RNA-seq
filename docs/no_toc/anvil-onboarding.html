@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2026-05-13" />
+<meta name="date" content="2026-07-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -235,7 +235,7 @@
 <li class="chapter" data-level="9.1.2" data-path="group-poster.html"><a href="group-poster.html#part-1---choose-a-template"><i class="fa fa-check"></i><b>9.1.2</b> Part 1 - Choose a Template</a></li>
 <li class="chapter" data-level="9.1.3" data-path="group-poster.html"><a href="group-poster.html#part-2---make-an-academic-research-poster"><i class="fa fa-check"></i><b>9.1.3</b> Part 2 - Make an Academic Research Poster</a></li>
 <li class="chapter" data-level="9.1.4" data-path="group-poster.html"><a href="group-poster.html#part-3---proofread-and-add-final-touches"><i class="fa fa-check"></i><b>9.1.4</b> Part 3 - Proofread and Add Final Touches</a></li>
-<li class="chapter" data-level="9.1.5" data-path="group-poster.html"><a href="group-poster.html#part-4---canvas-discussion"><i class="fa fa-check"></i><b>9.1.5</b> Part 4 - Canvas Discussion</a></li>
+<li class="chapter" data-level="9.1.5" data-path="group-poster.html"><a href="group-poster.html#part-4---poster-discussion"><i class="fa fa-check"></i><b>9.1.5</b> Part 4 - Poster Discussion</a></li>
 <li class="chapter" data-level="9.1.6" data-path="group-poster.html"><a href="group-poster.html#grading-criteria"><i class="fa fa-check"></i><b>9.1.6</b> Grading Criteria</a></li>
 <li class="chapter" data-level="9.1.7" data-path="group-poster.html"><a href="group-poster.html#footnotes-12"><i class="fa fa-check"></i><b>9.1.7</b> Footnotes</a></li>
 </ul></li>
@@ -378,25 +378,24 @@
 <div id="part-2-start-up-an-rstudio-environment" class="section level4 hasAnchor" number="1.4.2.5">
 <h4><span class="header-section-number">1.4.2.5</span> Part 2 – Start up an RStudio environment<a href="anvil-onboarding.html#part-2-start-up-an-rstudio-environment" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>When you open the workspace, you will be on the dashboard tab by default. The dashboard contains the instructions on how to use the workspace, links to C-MOOR websites, and the startup script. Let’s try running a module.</p>
-<p><img src="introduction_files/figure-html/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_271.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="introduction_files/figure-html/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_0.png" alt="An image titled Running modules on AnVIL showing a C-MOOR workspace alongside a red box and arrow showing start up script line and Environment Configuration button." width="100%" style="display: block; margin: auto;" /></p>
 <ol style="list-style-type: decimal">
-<li><p>Take note of the container image for the custom environment. We recommend copying this to a word document or notepad. Make sure there are no spaces before or after what you copy. You will need to input this URL soon.</p></li>
-<li><p>Take note of the startup script. Make sure there are no spaces before or after what you copy. This script is held in the original workspace everyone cloned. It does not have to be in your own workspace for it to work. You will need to input this URL soon.</p></li>
-<li><p>Click on the Environment Configuration button , the cloud with a thunderbolt.</p></li>
+<li><p>Copy the URL of the startup script. Make sure there are no spaces before or after what you copy. This script is held in the original workspace everyone cloned. You will need to input this URL soon.</p></li>
+<li><p>Click on the Environment Configuration button, the cloud with a thunderbolt.</p></li>
 </ol>
-<p><img src="introduction_files/figure-html/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_275.png" width="100%" style="display: block; margin: auto;" /></p>
-<ol start="4" style="list-style-type: decimal">
-<li><p>In the RStudio section, click Settings.</p></li>
-<li><p><mark>Make sure you have the following settings matching these instructions. Under Application configuration, choose “Custom environment”. In the container image field that appears, paste the container image URL that we copied earlier from the workspace. The URL should end with Bioconductor 3.19.1. In the startup script field, paste the URL for the startup script. This URL contains the words C-MOOR Startup Script. Set the creation timeout limit to 15 minutes. </mark></p></li>
+<p><img src="introduction_files/figure-html/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_13.png" alt="Image showing how to access the cloud environment and highlighting what settings with red boxes to adjust as per list below." width="100%" style="display: block; margin: auto;" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>In the RStudio section, click Settings</p></li>
+<li><p>In the startup script field, paste the URL for the startup script.</p></li>
 <li><p>Select 4 CPUs and 15 gigabytes of memory.</p></li>
-<li><p>Confirm that the cloud compute cost is 20 cents per hour. If it is not 20 cents per hour, reselect CPUs and memory allocation in part 6. This is a known bug in AnVIL at the writing of this guide.</p></li>
-<li><p>Scroll to the bottom of the window and click “Create”.</p></li>
+<li><p>Confirm that the cloud compute cost is 20 cents per hour. If it is not 20 cents per hour, reselect CPUs and memory allocation in step 5 This is a known bug in AnVIL at the writing of this guide.</p></li>
+<li><p>Scroll to the bottom of the window and click “Create”. It will take about 2 minutes for the environment to be created.</p></li>
 </ol>
-<p><img src="introduction_files/figure-html/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_279.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="introduction_files/figure-html/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_279.png" alt="Image showing the RStudio environment lifecycle at different stages. Blue for busy, green for ready, and orange for paused." width="100%" style="display: block; margin: auto;" /></p>
 <p>It will take some time for the RStudio Environment to be created. You can keep track of the status of the environment based on the colored dot next to the RStudio icon. The dot will turn green when the environment is ready. While it is loading (blue), you cannot interact with it.</p>
-<p><img src="introduction_files/figure-html/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3709d9ac459_0_283.png" width="100%" style="display: block; margin: auto;" /></p>
-<ol start="9" style="list-style-type: decimal">
-<li>When the environment is ready, use the Open RStudio button that will pop up. You can also access RStudio through the Analyses tab. If you hold down Ctrl as you click, you can open RStudio in a new window.</li>
+<p><img src="introduction_files/figure-html/11wb3b7i9SwrDX_WO3mWNAycd2mbY4Moy8SuT0X3XvXo_g3e8341b93fe_0_29.png" alt="Image with a red box around the pop-up that appears when the RStudio environment is ready" width="100%" style="display: block; margin: auto;" /></p>
+<ol start="8" style="list-style-type: decimal">
+<li>When the environment is ready, use the Open RStudio button that will pop up. If you hold down Ctrl as you click, you can open RStudio in a new window.</li>
 </ol>
 <div id="resources-6" class="section level5 hasAnchor" number="1.4.2.5.1">
 <h5><span class="header-section-number">1.4.2.5.1</span> Resources<a href="anvil-onboarding.html#resources-6" class="anchor-section" aria-label="Anchor link to header"></a></h5>
