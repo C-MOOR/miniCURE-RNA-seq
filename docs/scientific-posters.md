@@ -85,19 +85,19 @@ To save space on our posters, we will number our references 1 through 5 and use 
 1. Check the alignment of figures, text boxes, titles, etc.
 1. Add some finishing touches. You can play with the color, the font, add additional images if it’s relevant.
 
-### Part 4 - Canvas Discussion
+### Part 4 - Poster Discussion
 
 *Estimated time: 30 min*
 
-You will turn in your poster to be graded as a group in a Canvas Assignment and post it to a Canvas Discussion to be viewed by the class.
+You will turn in your poster to be graded as a group as an assignment and post it to your class discussion board (ex. Canvas, Blackboard, Google Classroom) as directed by your instructor to share your poster with the class.
 
 1. Convert your poster to a pdf.
-1. Have one member of your group turn in the pdf of your poster to the Graded Canvas Assignment. This assignment is already set up so that if one group member turns it in, it will show as submitted for all students in the group. This is where your instructor will grade you poster as a group.
-1. Have one member of your group post a pdf of your poster in the Canvas C-MOOR Poster Discussion.
-    a. With your poster, introduce your  group members and copy and paste your abstract into the post.
+1. Have one member of your group turn in the pdf of your poster to the class discussion board/learning management system (ex. Canvas, Blackboard, Google Classroom). This assignment should be set up so that if one group member turns it in, it will show as submitted for all students in the group. This is where your instructor will grade you poster as a group.
+1. Have one member of your group post a pdf of your poster in the [C-MOOR Academy Discussion Forum's Look at This!](https://help.c-moor.org/c/look-at-this/8) category.
+    a. With your poster, introduce your group members and copy and paste your abstract into the post.
     a. Insert your pdf into the post and edit the link so that it automatically shows the inline preview. This will make it easier for students to view your poster.
 1. As an individual, read through the other posters from different groups.
-1. Post comments
+1. Post a comment on at least one other poster or as many as your instructor chooses.
 
 ### Grading Criteria
 
