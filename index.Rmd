@@ -17,21 +17,36 @@ output:
 
 # About this Course {-}
 
-This miniCURE allows students to develop a project using RNA-seq datasets to introduce how model organisms, high-throughput sequencing, and the scientific process are used in both basic and clinical research.
+This multi-week miniCURE enables novice biology students to participate meaningfully in genomics research by using RNA-seq analysis and biological databases to develop and pursue their own scientific questions. Through this project, students experience how model organisms, high-throughput sequencing, data analysis, and the scientific process can be used in both basic and clinical research.
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w/edit#slide=id.g1f734f625ef_0_30")
 ```
 
-### Skills Level {- .unlisted}
+The overarching goals of the miniCURE are to
 
-::: {.notice}
-_Genetics_  
-**Novice**: Introduction to [central dogma of molecular biology](https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code)
+1. **Excite students about genomic data science**, showing them
+    1. The wealth of data freely available
+    1. The "magic" of analyzing data to produce new knowledge
+    1. This is something they can do!
+1. **Teach students to "think like a scientist"** - walking them through the messy process of exploring real data, identifying interesting patterns, pursuing multiple leads (some of which will not pan out), and integrating multiple sources of information to draw conclusions.
 
-_Programming skills_  
-**Novice**: No programming experience needed
-:::
+### Audience and Context {- .unlisted}
+
+This miniCURE is intended to fit into various undergraduate biology lab courses; we have used it in an introductory *Biology for Science Majors* lab as well as an upper level *Genetics* lab.
+
+This miniCURE helps solidify several key concepts of introductory biology, molecular biology, and genetics by providing an opportunity for practical application - investigating genes and their functions.  The miniCURE is intended to be offered in concert with lectures that delve deeper into at least some of these topics:
+
+**Corequisite knowledge**
+
+- **Genes** - What is a gene? (and why do we care about them?)
+- **Gene expression and the central dogma** - Why measure RNA?
+- **Biotechnology** - What is next-gen sequencing?
+- **Homology** - Why study similar genes across different organisms?
+- **Pathways** - How do collections of genes work together?
+
+Pre-labs provide a very basic introduction/reminder of key terms and concepts, to offer some flexibility for how and when instructors integrate the miniCURE into their courses. Students with stronger backgrounds in the above topics will be able to ask more sophisticated questions when exploring the data and databases.
+
 
 ### Learning Goals {-}
 
