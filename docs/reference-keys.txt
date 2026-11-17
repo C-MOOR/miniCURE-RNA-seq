@@ -161,7 +161,8 @@ activity-3---begin-developing-your-poster
 resources-15
 contributions-and-affiliations-10
 additional-datasets
-mouse-brain-data
+mouse-whole-organ-data
+mouse-brain-region-data
 single-cell-rna-seq-background
 purpose-10
 learning-objectives-9

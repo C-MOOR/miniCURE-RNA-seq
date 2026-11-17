@@ -1,6 +1,21 @@
 # Additional Datasets
 
-## Mouse Brain Data
+## Mouse Whole Organ Data
+
+As individuals grow and age, we can explore the development of their organ systems and how those systems may develop, differentiate, and decay throughout their lifetime. Understanding these processes can help us trace evolutionary history and lay foundations for new therapeutics. In this dataset, taken from [**Aging hallmarks exhibit organ-specific temporal signatures** by Schaum et al. 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7757734/), we have whole organ data from the brain, heart, and kidney of mice sampled every 3 months from 1 month to 27 months of age. 
+
+![](additional-datasets_files/figure-docx//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g3f0244a577b_0_0.png)
+
+Note that whole organ samples contain the gene expression from the entire organ. We cannot separate out individual sub-regions or cell types of each organ. The authors have also created their own [shinyapp](https://twc-stanford.shinyapps.io/maca/) that you can use to explore additional visualizations and analyses. 
+
+To access this dataset, open the RNA-seq project work module. Please note that the functions are not the same as the tutorial Drosophila midgut dataset:
+
+- `runClusterProfilerMouse()` and `getClusterProfilerGenesMouse()` for mouse datasets
+- `plotAcrossBrain()`, `plotAcrossHeart()`, and `plotAcrossHeart()` for plotting a single gene across samples from a given organ
+
+Please double check your code and make sure that you are using the right function and parameters for a given organ, as the mouse gene IDs are the same across all organs!
+
+## Mouse Brain Region Data
 
 Although drastically different in overall shape and size, the human and mouse brain are remarkably similar in structure and organization and show homology in neural pathways.
 Specific parts of the brain are known to be responsible for a specific function, such as the amygdala which control emotions.
@@ -19,7 +34,7 @@ We look forward to hearing about your research into each region and how they may
 
 ![](additional-datasets_files/figure-docx//1rWH7VTcPV1juH0E9NI-X6evMIKzgn1MQKlf_CRzT73w_g3a094ef1421_0_12.png)
 
-This SharonBrainData module is being developed as part of an ongoing collaboration with the [Genomics Education Modules](https://genomicseducation.org) (GEMs) Program to create accessible, research-focused genomics training modules.
+This SharonBrainData module was developed as part of an ongoing collaboration with the [Genomics Education Modules](https://genomicseducation.org) (GEMs) Program to create accessible, research-focused genomics training modules.
 
 ## Single-cell RNA-seq Background
 
